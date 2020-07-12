@@ -67,7 +67,7 @@ def faq_answer(input):
     nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
     load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx', data_only=True)
     load_ws = load_wb['Sheet']
-    time_and_input_output = [nowDatetime, result[i][0], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
+    time_and_input_output = [nowDatetime, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
     load_ws.append(time_and_input_output)
     load_wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx')
 
