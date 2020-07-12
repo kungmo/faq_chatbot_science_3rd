@@ -62,7 +62,8 @@ def faq_answer(input):
         #    #print(j)
         #    print("\t질문 {} | 답글순서 {} | 문장 번호: {} | {}".format(i + 1, j + 1, result[i][0], df2['답변'][result[i][0]][j]))
 
-    # 엑셀로 저장
+    # 시각과 입출력 데이터 엑셀로 저장
+    now = datetime.datetime.now()
     nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
     wb = openpyxl.Workbook()
     sheet = wb.active
