@@ -69,7 +69,7 @@ def faq_answer(input):
     sheet = wb.active
     time_and_input_output = [nowDatetime, result[i][0], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
     sheet.append(time_and_input_output)
-    wb.save('datalog.xlsx')
+    wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/datalog.xlsx')
 
     return '입력한 질문과의 유사도: {:0.1f}% | 질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '#####################################답변: ' + df2['답변'][result[i][0]]
 
