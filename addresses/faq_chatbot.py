@@ -7,14 +7,16 @@ import jpype
 import openpyxl
 import datetime
 
+# 모델 불러오기
 d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
 
 # 질문-답변 파일 불러오기
-df2 = pd.read_excel('./data/df2_20200705_edited.xlsx')
+df2 = pd.read_excel('./data/df2_20200712_edited.xlsx')
 df2.dropna(axis=0)
 
 qna_num = 0  # 질문답변 번호인 qna_num 초기화
 
+# Mecab 사용
 from konlpy.tag import Mecab
 
 mecab = Mecab()
@@ -68,7 +70,8 @@ def faq_answer(input):
     load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx', data_only=True)
     load_ws = load_wb['Sheet']
     time_and_input_output = [nowDatetime, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
-    load_ws.append(time_and_input_output)
+    # 질문이 입력된 시각, 유사도, 질문 내용, 가장 유사한 질문, 답변을 저장
+    load_ws.append(time_and_input_output) # 엑셀 파일에 차곡차곡 누가기록
     load_wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx')
 
     return '입력한 질문과의 유사도: {:0.1f}% | 질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '#####################################답변: ' + df2['답변'][result[i][0]]
