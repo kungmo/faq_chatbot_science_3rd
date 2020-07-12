@@ -4,6 +4,8 @@ from gensim.models import doc2vec
 from gensim.models.doc2vec import TaggedDocument
 import pandas as pd
 import jpype
+import openpyxl
+import datetime
 
 d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
 
@@ -60,6 +62,14 @@ def faq_answer(input):
         #    #print(j)
         #    print("\t질문 {} | 답글순서 {} | 문장 번호: {} | {}".format(i + 1, j + 1, result[i][0], df2['답변'][result[i][0]][j]))
 
-    return '유사도: {:0.1f}% 질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '#####################################답변: ' + df2['답변'][result[i][0]]
+    # 엑셀로 저장
+    nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
+    wb = openpyxl.Workbook()
+    sheet = wb.active
+    time_and_input_output = [nowDatetime, result[i][0], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
+    sheet.append(time_and_input_output)
+    wb.save('datalog.xlsx')
+
+    return '입력한 질문과의 유사도: {:0.1f}% | 질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '#####################################답변: ' + df2['답변'][result[i][0]]
 
 print('챗봇 불러오기 완료')
