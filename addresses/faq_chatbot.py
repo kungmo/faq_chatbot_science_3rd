@@ -63,13 +63,16 @@ def faq_answer(input):
         #    print("\t질문 {} | 답글순서 {} | 문장 번호: {} | {}".format(i + 1, j + 1, result[i][0], df2['답변'][result[i][0]][j]))
 
     # 시각과 입출력 데이터 엑셀로 저장
-    now = datetime.datetime.now()
-    nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
+    #now = datetime.datetime.now()
+    #nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
+    #wb = openpyxl.Workbook()
+    #sheet = wb.active
+    #time_and_input_output = [nowDatetime, result[i][0], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
+    #sheet.append(time_and_input_output)
+    #wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx')
+
     wb = openpyxl.Workbook()
-    sheet = wb.active
-    time_and_input_output = [nowDatetime, result[i][0], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
-    sheet.append(time_and_input_output)
-    wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/datalog.xlsx')
+    wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx')
 
     return '입력한 질문과의 유사도: {:0.1f}% | 질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '#####################################답변: ' + df2['답변'][result[i][0]]
 
