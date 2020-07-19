@@ -50,35 +50,31 @@ tagged_questions = [TaggedDocument(d, [int(c)]) for d, c in index_questions]
 # FAQ 답변
 def faq_answer(input):
 
-    if len(input) < 4:
-        return '질문의 길이가 너무 짧아서 유사한 답변이 없을 확률이 높아 답변을 생략합니다. 조금 더 구체적으로 질문하세요. 고마워요~ 시험기간 화이팅!'
+    # 테스트하는 문장도 같은 전처리를 해준다.
+    tokened_test_string = tokenize_mecab_noun(input)
 
-    else:
-        # 테스트하는 문장도 같은 전처리를 해준다.
-        tokened_test_string = tokenize_mecab_noun(input)
+    topn = 1  # 가장 유사한 질문 한 개까지만
+    test_vector = d2v_faqs.infer_vector(tokened_test_string)
+    result = d2v_faqs.docvecs.most_similar([test_vector], topn=topn)
 
-        topn = 1  # 가장 유사한 질문 한 개까지만
-        test_vector = d2v_faqs.infer_vector(tokened_test_string)
-        result = d2v_faqs.docvecs.most_similar([test_vector], topn=topn)
+    for i in range(topn):
+        print("유사질문 {}위 | 유사도: {:0.3f} | 문장 번호: {} | {}".format(i + 1, result[i][1], result[i][0], df2['질문'][result[i][0]]))
+        #print("\t질문 {} | 문장 번호: {} | {}".format(i + 1, result[i][0], df2['답변'][result[i][0]]))
+        #print(len(df2['답변'][result[i][0]]))
+        #for j in range(len(df2['답변'][result[i][0]])):
+        #    #print(j)
+        #    print("\t질문 {} | 답글순서 {} | 문장 번호: {} | {}".format(i + 1, j + 1, result[i][0], df2['답변'][result[i][0]][j]))
 
-        for i in range(topn):
-            print("유사질문 {}위 | 유사도: {:0.3f} | 문장 번호: {} | {}".format(i + 1, result[i][1], result[i][0], df2['질문'][result[i][0]]))
-            #print("\t질문 {} | 문장 번호: {} | {}".format(i + 1, result[i][0], df2['답변'][result[i][0]]))
-            #print(len(df2['답변'][result[i][0]]))
-            #for j in range(len(df2['답변'][result[i][0]])):
-            #    #print(j)
-            #    print("\t질문 {} | 답글순서 {} | 문장 번호: {} | {}".format(i + 1, j + 1, result[i][0], df2['답변'][result[i][0]][j]))
+    # 시각과 입출력 데이터 엑셀로 저장
+    now = datetime.datetime.now()
+    nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
+    load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx', data_only=True)
+    load_ws = load_wb['Sheet']
+    time_and_input_output = [nowDatetime, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
+    # 질문이 입력된 시각, 유사도, 질문 내용, 가장 유사한 질문, 답변을 저장
+    load_ws.append(time_and_input_output) # 엑셀 파일에 차곡차곡 누가기록
+    load_wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx')
 
-        # 시각과 입출력 데이터 엑셀로 저장
-        now = datetime.datetime.now()
-        nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
-        load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx', data_only=True)
-        load_ws = load_wb['Sheet']
-        time_and_input_output = [nowDatetime, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
-        # 질문이 입력된 시각, 유사도, 질문 내용, 가장 유사한 질문, 답변을 저장
-        load_ws.append(time_and_input_output) # 엑셀 파일에 차곡차곡 누가기록
-        load_wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx')
-
-        return '입력한 질문과의 유사도: {:0.1f}% | 질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '#####################################답변: ' + df2['답변'][result[i][0]]
+    return '입력한 질문과의 유사도: {:0.1f}% | 질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '#####################################답변: ' + df2['답변'][result[i][0]]
 
 print('챗봇 불러오기 완료')
