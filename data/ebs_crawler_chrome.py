@@ -7,11 +7,12 @@ import time
 driver = webdriver.Chrome('C:/WinPython37F/notebooks/faq_chatbot_science_3rd/data/chromedriver.exe')
 # Mac 경로: /Users/kungmo/Downloads/chromedriver
 #driver.implicitly_wait(10) # 5초 대기
-page_num = 17 # 10개 질문 모두 답변이 들어 있는 첫 번째 페이지 번호
+page_num = 6 # 10개 질문 모두 답변이 들어 있는 첫 번째 페이지 번호
+last_page_num = 256
 qna_num = 0 #질문답변 세트 번호인 qna_num 초기화
 df2 = pd.DataFrame(columns=['질문', '답변']) # qnas에서 질문에 해당하는 답변을 한 세트로 묶어 df2에 저장하려고 빈 데이터프레임을 만든다.
 
-for i in range(246-page_num):
+for i in range(last_page_num - page_num):
     url = 'https://mid.ebs.co.kr/course/view?courseId=10203440#qna/list/20001283/' + str(page_num + i) + '///0/titleContent//N//'
     driver.get(url)
     time.sleep(2) # 2초 대기
@@ -41,5 +42,5 @@ df2.dropna(axis=0)
 driver.quit()
 #print(df2)
 
-df2.to_excel('df2_20200712.xlsx')
+df2.to_excel('df2_20200719.xlsx')
 print('df2.xlsx로 저장함')
