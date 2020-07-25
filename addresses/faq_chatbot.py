@@ -11,7 +11,7 @@ import datetime
 d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
 
 # 질문-답변 파일 불러오기
-df2 = pd.read_excel('./data/df2_20200724_edited.xlsx')
+df2 = pd.read_excel('./data/df2_20200726_edited.xlsx')
 df2.dropna(axis=0)
 
 qna_num = 0  # 질문답변 번호인 qna_num 초기화
@@ -77,6 +77,9 @@ def faq_answer(input):
         load_ws.append(time_and_input_output) # 엑셀 파일에 차곡차곡 누가기록
         load_wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx')
 
-        return '입력한 질문과의 유사도: {:0.1f}% | 질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '#####################################답변: ' + df2['답변'][result[i][0]]
+        if result[i][1] < 0.6:
+            return '입력한 질문에 대한 가장 유사한 질문의 유사도가 {:0.1f}%라서 60% 미만이라 엉뚱한 소리를 할 것 같으니 결과를 출력하지 않을게요. 질문을 더 구체적으로 써 주세요.'.format(result[i][1] * 100)
+        else:
+            return '입력한 질문과의 유사도: {:0.1f}% | 질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '#####################################답변: ' + df2['답변'][result[i][0]]
 
 print('챗봇 불러오기 완료')
