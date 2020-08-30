@@ -6,6 +6,8 @@ import time
 # Chrome의 경우 | 아까 받은 chromedriver의 위치를 지정해준다.
 driver = webdriver.Chrome('C:/WinPython37F/notebooks/faq_chatbot_science_3rd/data/chromedriver.exe')
 # Mac 경로: /Users/kungmo/Downloads/chromedriver
+# Linux에서 Firefox 사용:
+# driver = webdriver.Firefox(executable_path='/home/kungmo/다운로드/geckodriver')
 #driver.implicitly_wait(10) # 5초 대기
 page_num = 6 # 10개 질문 모두 답변이 들어 있는 첫 번째 페이지 번호
 last_page_num = 256
