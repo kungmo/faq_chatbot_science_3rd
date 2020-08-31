@@ -27,8 +27,8 @@ print(nouns)
 filter_mecab = ['NNG',  # 보통명사
                 'NNP',  # 고유명사
                 'SL',  # 외국어
-                'VV',  # 동사 추가함(20200831)
-                'VA'  # 형용사 추가함(20200831)
+                'VV',  # 동사 추가함 (20200831)
+                'VA'  # 형용사 추가함 (20200831)
                 ]
 
 def tokenize_mecab(doc):
