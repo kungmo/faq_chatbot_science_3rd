@@ -3,5 +3,5 @@
 echo "git 업데이트"
 
 git add .
-git commit -m "챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200910)"
+git commit -m "챗봇 업데이트 11 (입출력 버그 수정 중 - 서버에서 20200916)"
 git push origin master
