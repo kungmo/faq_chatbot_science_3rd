@@ -44,8 +44,8 @@
         $("#divbox").scrollTop($("#divbox")[0].scrollHeight);
         console.log("serial"+$('form').serialize())
         $.ajax({
-            url:  'http://140.238.19.16:8000/chat_service/',
-            type: ' post',
+            url: 'http://140.238.19.16:8000/chat_service/',
+            type: 'post',
             dataType: 'json',
             data: $('form').serialize(),
             success: function(data) {
