@@ -8,7 +8,7 @@ import openpyxl
 import datetime
 
 # 모델 불러오기
-d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
+d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model(오류)'))
 
 # 질문-답변 파일 불러오기
 df2 = pd.read_excel('./data/df2_20200830_edited.xlsx')
