@@ -20,7 +20,7 @@ qna_num = 0  # 질문답변 번호인 qna_num 초기화
 from konlpy.tag import Mecab
 
 mecab = Mecab()
-text = u"""이제 구글 코랩에서 Mecab-ko라이브러리 사용이 가능합니다. 읽어주셔서 감사합니다."""
+text = u"""이제 구글 코랩에서 Mecab-ko 라이브러리 사용이 가능합니다. 읽어주셔서 감사합니다. 펭수"""
 nouns = mecab.nouns(text)
 print(nouns)
 
