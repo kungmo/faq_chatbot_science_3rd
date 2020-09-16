@@ -51,6 +51,7 @@ tagged_questions = [TaggedDocument(d, [int(c)]) for d, c in index_questions]
 
 # FAQ 답변
 def faq_answer(input):
+    print(input)
     if len(input) < 6:
         return '질문이 너무 짧아요. 좀 더 구체적으로 질문 부탁해요.'
     else:
