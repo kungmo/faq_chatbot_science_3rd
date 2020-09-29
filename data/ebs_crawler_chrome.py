@@ -9,8 +9,8 @@ driver = webdriver.Chrome('C:/WinPython37F/notebooks/faq_chatbot_science_3rd/dat
 # Linux에서 Firefox 사용:
 # driver = webdriver.Firefox(executable_path='/home/kungmo/다운로드/geckodriver')
 #driver.implicitly_wait(10) # 5초 대기
-page_num = 2 # 10개 질문 모두 답변이 들어 있는 첫 번째 페이지 번호
-last_page_num = 40 # EBS 데이터 모을 마지막 페이지 번호
+page_num = 4 # 10개 질문 모두 답변이 들어 있는 첫 번째 페이지 번호
+last_page_num = 80 # EBS 데이터 모을 마지막 페이지 번호
 qna_num = 0 #질문답변 세트 번호인 qna_num 초기화
 df2 = pd.DataFrame(columns=['질문', '답변']) # qnas에서 질문에 해당하는 답변을 한 세트로 묶어 df2에 저장하려고 빈 데이터프레임을 만든다.
 
@@ -44,6 +44,6 @@ df2.dropna(axis=0)
 driver.quit()
 #print(df2)
 
-file_name = 'df2_20200916_EBS_보충'
+file_name = 'df2_20200929_EBS_보충'
 df2.to_excel('{}.xlsx'.format(file_name))
 print('{}.xlsx'.format(file_name))
