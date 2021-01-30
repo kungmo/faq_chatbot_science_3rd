@@ -48,7 +48,7 @@
             dataType: 'json',
             data: $('form').serialize(),
             success: function(data) {
-                <!--$('#reponse').html(data.response);-->
+                <!--$('#response').html(data.response);-->
                 $('#divbox').append('<div class="msg_box receive"><span>'+ data.response +'<span></div>');
                 $("#divbox").scrollTop($("#divbox")[0].scrollHeight);
             }
