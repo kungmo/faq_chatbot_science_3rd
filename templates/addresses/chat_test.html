@@ -36,7 +36,9 @@
        send();
     });
     $('#close_chat_btn').on('click', function(){
-        $('#chat_wrap').hide().empty();
+        $('.chat_header').hide().empty();
+        // $('#chat_wrap').hide().empty();
+        // $('#chat_wrap').hide().empty();
     });
     function send(){
         $('#divbox').append('<div class="msg_box send"><span>'+$('#input1').val()+'<span></div>');
