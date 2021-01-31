@@ -53,7 +53,7 @@ for i in range(len(df2)):  # df2가 0부터 시작
 tagged_questions = [TaggedDocument(d, [int(c)]) for d, c in index_questions]
 
 # FAQ 답변
-def faq_answer(input, useragent):
+def faq_answer(input):
     if len(input) < 6:
         return '질문이 너무 짧아요. 좀 더 구체적으로 질문 부탁해요.'
     else:
@@ -77,7 +77,7 @@ def faq_answer(input, useragent):
         nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
         load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx', data_only=True)
         load_ws = load_wb['Sheet']
-        time_and_input_output = [nowDatetime, useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
+        time_and_input_output = [nowDatetime, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
         # 질문이 입력된 시각, 유사도, 질문 내용, 가장 유사한 질문, 답변을 저장
         load_ws.append(time_and_input_output) # 엑셀 파일에 차곡차곡 누가기록
         load_wb.save('/home/ubuntu/faq_chatbot_naver_physics_qna_mecab_django/data/datalog.xlsx')
