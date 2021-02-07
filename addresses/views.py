@@ -94,7 +94,8 @@ def app_login(request):
 def chat_service(request):
     if request.method == 'POST':
         input1 = request.POST['input1']
-        response = faq_answer(input1)
+        useragent1 = request.POST['useragent1']
+        response = faq_answer(input1, useragent1)
         try:
             output = dict()
             output['response'] = response
