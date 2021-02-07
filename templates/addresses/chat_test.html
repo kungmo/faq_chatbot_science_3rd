@@ -30,7 +30,6 @@
 </form>
 <script>
     var useragent1 = window.navigator.userAgent;
-    $('#useragent1').val(useragent1);
     $('#btn_submit').click(function() {
         send();
     });
@@ -43,6 +42,7 @@
     });
     function send(){
         $('#divbox').append('<div class="msg_box send"><span>'+$('#input1').val()+'<span></div>');
+        $('#useragent1').val('테스트');
         $("#divbox").scrollTop($("#divbox")[0].scrollHeight);
         console.log("serial"+$('form').serialize())
         $.ajax({
