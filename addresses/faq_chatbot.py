@@ -11,7 +11,7 @@ import datetime
 d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
 
 # 질문-답변 파일 불러오기
-df2 = pd.read_excel('./data/df2_20200917_edited.xlsx')
+df2 = pd.read_excel('./data/df2_20210207_edited.xlsx')
 df2.dropna(axis=0)
 
 qna_num = 0  # 질문답변 번호인 qna_num 초기화
