@@ -42,7 +42,7 @@
     });
     function send(){
         $('#divbox').append('<div class="msg_box send"><span>'+$('#input1').val()+'<span></div>');
-        document.getElementById('useragent1').value = useragent1
+        document.getElementById('useragent1').value = useragent1.toString()
         $("#divbox").scrollTop($("#divbox")[0].scrollHeight);
         console.log("serial"+$('form').serialize())
         $.ajax({
@@ -58,7 +58,7 @@
         });
         $('#input1').val('');
     }
-    document.write(useragent1);
+    document.write(useragent1.toString());
 </script>
 </body>
 </html>
