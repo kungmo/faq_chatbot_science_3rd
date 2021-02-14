@@ -9,3 +9,5 @@ openpyxl
 pandas
 scipy
 xlrd
+gunicorn
+nginx

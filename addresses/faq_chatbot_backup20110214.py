@@ -1,7 +1,9 @@
 import os
+#import warnings
 from gensim.models import doc2vec
 from gensim.models.doc2vec import TaggedDocument
 import pandas as pd
+#import jpype
 import openpyxl
 import datetime
 
