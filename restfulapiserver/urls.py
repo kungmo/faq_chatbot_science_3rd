@@ -14,5 +14,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('chat_service/', views.chat_service),
-    path('favicon.ico', RedirectView.as_view(url=staticfiles_storage.url('favicon.ico'))),
+    path('favicon.ico', RedirectView.as_view(url=staticfiles_storage.url('/favicon.ico'))),
 ]
