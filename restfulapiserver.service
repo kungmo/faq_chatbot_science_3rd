@@ -7,7 +7,7 @@ User = ubuntu
 Group = ubuntu
 WorkingDirectory = /home/ubuntu/faq_chatbot_science_3rd
 EnvironmentFile = /home/ubuntu/faq_chatbot_science_3rd/environment_gunicorn.env
-ExecStart = /usr/lib/python3/dist-packages/gunicorn --workers 2 --bind unix:/tmp/gunicorn/sock restfulapiserver.wsgi:application
+ExecStart = /usr/bin/gunicorn --workers 2 --bind unix:/tmp/gunicorn/sock restfulapiserver.wsgi:application
 
 [Install]
 WantedBy = multi-user.target
