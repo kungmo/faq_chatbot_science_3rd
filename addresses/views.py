@@ -91,7 +91,7 @@ def app_login(request):
 
 
 @csrf_exempt
-def chat_service(request):
+def chat_test(request):
     if request.method == 'POST':
         input1 = request.POST['input1']
         useragent1 = request.POST['useragent1']
@@ -106,3 +106,21 @@ def chat_service(request):
             return HttpResponse(json.dumps(output), status=200)
     else:
         return render(request, 'addresses/chat_test.html')
+
+
+@csrf_exempt
+def chat_service(request):
+    if request.method == 'POST':
+        input1 = request.POST['input1']
+        useragent1 = request.POST['useragent1']
+        response = faq_answer(input1, useragent1)
+        try:
+            output = dict()
+            output['response'] = response
+            return HttpResponse(json.dumps(output), status=200)
+        except:
+            output = dict()
+            output['response'] = '비슷한 질문에 대한 답변이 없습니다'
+            return HttpResponse(json.dumps(output), status=200)
+    else:
+        return render(request, 'addresses/chat_web.html')
