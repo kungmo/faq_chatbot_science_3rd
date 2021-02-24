@@ -86,7 +86,7 @@ def faq_answer(input, useragent):
         #load_wb.save('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx')
 
         # 데이터베이스에 저장
-        conn = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8')
+        conn = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4')
         cur = conn.cursor()
         sql = "INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES (%s, %f, %s, %s, %s)"
         #val = (useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
