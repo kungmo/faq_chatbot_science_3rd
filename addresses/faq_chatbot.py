@@ -88,8 +88,9 @@ def faq_answer(input, useragent):
         # 데이터베이스에 저장
         conn = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8')
         cur = conn.cursor()
-        sql = "INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES (%s, %f, %s,%s, %s)"
-        val = (useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
+        sql = "INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES (%s, %f, %s, %s, %s)"
+        #val = (useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
+        val = ('test', 'test', 0.444, 'test', 'test')
         cur.execute(sql, val)
         conn.commit()
         conn.close()
