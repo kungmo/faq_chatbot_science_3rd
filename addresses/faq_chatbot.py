@@ -4,6 +4,7 @@ from gensim.models.doc2vec import TaggedDocument
 import pandas as pd
 import openpyxl
 import datetime
+import pymysql
 
 # 모델 불러오기
 d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
@@ -75,14 +76,22 @@ def faq_answer(input, useragent):
             #    print("\t질문 {} | 답글순서 {} | 문장 번호: {} | {}".format(i + 1, j + 1, result[i][0], df2['답변'][result[i][0]][j]))
 
         # 시각과 사용 운영체제, 입출력 데이터 엑셀로 저장
-        now = datetime.datetime.now()
-        nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
-        load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx', data_only=True)
-        load_ws = load_wb['Sheet']
-        time_and_input_output = [nowDatetime, useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
+        #now = datetime.datetime.now()
+        #nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
+        #load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx', data_only=True)
+        #load_ws = load_wb['Sheet']
+        #time_and_input_output = [nowDatetime, useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
         # 질문이 입력된 시각, 유사도, 질문 내용, 가장 유사한 질문, 답변을 저장
-        load_ws.append(time_and_input_output)  # 엑셀 파일에 차곡차곡 누가기록
-        load_wb.save('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx')
+        #load_ws.append(time_and_input_output)  # 엑셀 파일에 차곡차곡 누가기록
+        #load_wb.save('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx')
+
+        # 데이터베이스에 저장
+        conn = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4')
+        cur = conn.cursor()
+        sql = "INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES ("useragent+","+result[i][1]+","+input+","+df2['질문'][result[i][0]]+","+df2['답변'][result[i][0]]+")"
+        cur.execute(sql)
+        conn.commit()
+        conn.close()
 
         if result[i][1] < 0.6:
             return '입력한 질문에 대한 가장 유사한 질문의 유사도가 {:0.1f}%라서 60% 미만이라 엉뚱한 소리를 할 것 같으니 결과를 출력하지 않을게요. 질문을 더 구체적으로 써 주세요.'.format(result[i][1] * 100)
