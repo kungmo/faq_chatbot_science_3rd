@@ -92,8 +92,10 @@ def faq_answer(input, useragent):
         #val = (useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
         #val = ('test', 0.444, 'test', 'test', 'test')
         #cur.execute(sql, val)
-        sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES ("테스트", 0.432, "테스트", "테스트", "테스트")"""
-        cur.execute(sql)
+        #sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES ("테스트", 0.432, "테스트", "테스트", "테스트")"""
+        sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES (%s, %f, %s, %s, %s)"""
+        val = (useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
+        cur.execute(sql, val)
         conn.commit()
         conn.close()
 
