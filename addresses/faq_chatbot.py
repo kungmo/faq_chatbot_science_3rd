@@ -4,7 +4,7 @@ from gensim.models.doc2vec import TaggedDocument
 import pandas as pd
 import openpyxl
 import datetime
-import mariadb
+import pymysql.cursors
 
 # 모델 불러오기
 d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
@@ -86,16 +86,13 @@ def faq_answer(input, useragent):
         #load_wb.save('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx')
 
         # 데이터베이스에 저장
-        conn = mariadb.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4')
-        cur = conn.cursor()
-        #sql = "INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES (%s, %f, %s, %s, %s)"
-        #val = (useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
-        #val = ('test', 0.444, 'test', 'test', 'test')
-        #cur.execute(sql, val)
-        #sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES ("테스트", 0.432, "테스트", "테스트", "테스트")"""
-        sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES ('test', 0.444, 'test', 'test', 'test')"""
-        cur.execute(sql)
-        conn.commit()
+        connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+        with connection:
+            with connection.cursor() as cursor:
+                # create new record
+                sql = "INSERT INTO 'datalog' ('useragent', 'similarity', 'student_question', 'dataset_question', 'answer') VALUES (%s, %f, %s, %s, %s)"
+                cursor.execute(sql, ('test', 0.444, 'test', 'test', 'test'))
+            connection.commit()
         conn.close()
 
         if result[i][1] < 0.6:
