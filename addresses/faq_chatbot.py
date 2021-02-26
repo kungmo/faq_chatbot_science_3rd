@@ -87,11 +87,14 @@ def faq_answer(input, useragent):
 
         # 데이터베이스에 저장
         connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor, autocommit=True)
-        sql = """INSERT INTO 'datalog' ('useragent', 'similarity', 'student_question', 'dataset_question', 'answer') VALUES ('test', 0.444, 'test', 'test', 'test')"""
-        #cursor.execute(sql, ('test', 0.444, 'test', 'test', 'test'))
-        connection.cursor.execute(sql)
-        connection.commit()
-        connection.close()
+        try:
+            with connection.cursor() as cursor:
+                sql = """INSERT INTO 'datalog' ('useragent', 'similarity', 'student_question', 'dataset_question', 'answer') VALUES ('test', 0.444, 'test', 'test', 'test')"""
+                #cursor.execute(sql, ('test', 0.444, 'test', 'test', 'test'))
+                cursor.execute(sql)
+            connection.commit()
+        finally:
+            connection.close()
 
         if result[i][1] < 0.6:
             return '입력한 질문에 대한 가장 유사한 질문의 유사도가 {:0.1f}%라서 60% 미만이라 엉뚱한 소리를 할 것 같으니 결과를 출력하지 않을게요. 질문을 더 구체적으로 써 주세요.'.format(result[i][1] * 100)
