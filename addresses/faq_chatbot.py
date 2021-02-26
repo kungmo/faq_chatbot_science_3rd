@@ -89,12 +89,11 @@ def faq_answer(input, useragent):
         connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor, autocommit=True)
         try:
             with connection.cursor() as cursor:
-                sql = """INSERT INTO 'datalog' ('useragent', 'similarity', 'student_question', 'dataset_question', 'answer') VALUES ('test', 0.444, 'test', 'test', 'test')"""
+                sql = """INSERT INTO 'datalog' (useragent, similarity, student_question, dataset_question, answer) VALUES ('test', 0.444, 'test', 'test', 'test')"""
                 #cursor.execute(sql, ('test', 0.444, 'test', 'test', 'test'))
                 cursor.execute(sql)
             connection.commit()
         finally:
-            connection.commit()
             connection.close()
 
         if result[i][1] < 0.6:
