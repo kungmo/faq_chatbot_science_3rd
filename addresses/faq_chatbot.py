@@ -93,7 +93,7 @@ def faq_answer(input, useragent):
         val = ('test', 0.444, 'test', 'test', 'test')
         #cur.execute(sql, val)
         #sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES ("테스트", 0.432, "테스트", "테스트", "테스트")"""
-        sql = "INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES (%s, %f, %s, %s, %s)"
+        sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES (%s, %f, %s, %s, %s)"""
         cur.execute(sql, val)
         conn.commit()
         conn.close()
