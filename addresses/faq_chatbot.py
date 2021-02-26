@@ -90,7 +90,7 @@ def faq_answer(input, useragent):
         with connection:
             with connection.cursor() as cursor:
                 # create new record
-                sql = "INSERT INTO 'datalog' ('useragent', 'similarity', 'student_question', 'dataset_question', 'answer') VALUES ('test', 0.444, 'test', 'test', 'test')"
+                sql = """INSERT INTO 'datalog' ('useragent', 'similarity', 'student_question', 'dataset_question', 'answer') VALUES ('test', 0.444, 'test', 'test', 'test')"""
                 #cursor.execute(sql, ('test', 0.444, 'test', 'test', 'test'))
                 cursor.execute(sql)
             connection.commit()
