@@ -4,7 +4,7 @@ from gensim.models.doc2vec import TaggedDocument
 import pandas as pd
 import openpyxl
 import datetime
-import mariadb
+import pymysql
 
 # 모델 불러오기
 d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
