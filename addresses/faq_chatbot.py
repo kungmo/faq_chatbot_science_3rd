@@ -94,6 +94,7 @@ def faq_answer(input, useragent):
                 cursor.execute(sql)
             connection.commit()
         finally:
+            connection.commit()
             connection.close()
 
         if result[i][1] < 0.6:
