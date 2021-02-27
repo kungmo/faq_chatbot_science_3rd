@@ -56,7 +56,7 @@ tagged_questions = [TaggedDocument(d, [int(c)]) for d, c in index_questions]
 
 
 # FAQ 답변
-def faq_answer(input, useragent):
+def faq_answer(input, useragent, user_ip_address):
     if len(input) < 6:
         return '질문이 너무 짧아요. 좀 더 구체적으로 질문 부탁해요.'
     else:
@@ -93,7 +93,7 @@ def faq_answer(input, useragent):
                 cursor.execute(sql)
             connection.commit()
             connection.close()
-
+            print(user_ip_address)
             if result[i][1] < 0.6:
                 return '입력한 질문에 대한 가장 유사한 질문의 유사도가 {:0.1f}%라서 60% 미만이라 엉뚱한 소리를 할 것 같으니 결과를 출력하지 않을게요. 질문을 더 구체적으로 써 주세요.'.format(result[i][1] * 100)
             else:

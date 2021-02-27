@@ -9,6 +9,13 @@ from django.contrib.auth import authenticate
 import json
 from .faq_chatbot import faq_answer
 
+def get_client_ip(request):
+    x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
+    if x_forwarded_for:
+        ip = x_forwarded_for.split(',')[0]
+    else:
+        ip = request.META.get('REMOTE_ADDR')
+    return ip
 
 # Create your views here.
 @csrf_exempt
@@ -95,7 +102,8 @@ def chat_test(request):
     if request.method == 'POST':
         input1 = request.POST['input1']
         useragent1 = request.POST['useragent1']
-        response = faq_answer(input1, useragent1)
+        user_ip_address1 = get_client_ip(request)
+        response = faq_answer(input1, useragent1, user_ip_address1)
         try:
             output = dict()
             output['response'] = response
