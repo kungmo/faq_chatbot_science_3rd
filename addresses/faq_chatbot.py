@@ -2,8 +2,8 @@ import os
 from gensim.models import doc2vec
 from gensim.models.doc2vec import TaggedDocument
 import pandas as pd
-import openpyxl
-import datetime
+#import openpyxl
+#import datetime
 import pymysql.cursors
 
 # 모델 불러오기
