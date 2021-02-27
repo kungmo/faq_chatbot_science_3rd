@@ -92,15 +92,14 @@ def faq_answer(input, useragent):
                 try:
                     sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer)
                              VALUES ('test2', %f, 'test2', 'test2', 'test2')"""
-                    data = (0.59559828042984)
+                    data = (0.595598280429)
+		    print(cursor.execute(sql, data)
                     print('sql 통과')
                 except:
                     print('sql 오류남')
                 #cursor.execute(sql, ('test', 0.444, 'test', 'test', 'test'))
                 try:
                     cursor.execute(sql, data)
-                    print(sql, data)
-                    print(cursor.execute(sql, data))
                     print('execute 통과')
                 except:
                     print('execute 오류남')
