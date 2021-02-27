@@ -9,6 +9,7 @@ from django.contrib.auth import authenticate
 import json
 from .faq_chatbot import faq_answer
 
+# 장고에서 제공하는 사용자 IP 획득 함수
 def get_client_ip(request):
     x_forwarded_for = request.META.get('HTTP_X_FORWARDED_FOR')
     if x_forwarded_for:
@@ -96,7 +97,7 @@ def app_login(request):
             print("실패")
             return JsonResponse({'code': '1001', 'msg': '로그인실패입니다.'}, status=200)
 
-
+# 0.0.0.0:8000/chat_test 내부 테스트용
 @csrf_exempt
 def chat_test(request):
     if request.method == 'POST':
@@ -115,7 +116,7 @@ def chat_test(request):
     else:
         return render(request, 'addresses/chat_test.html')
 
-
+# 0.0.0.0/chat_service 웹 사이트 배포용
 @csrf_exempt
 def chat_service(request):
     if request.method == 'POST':
