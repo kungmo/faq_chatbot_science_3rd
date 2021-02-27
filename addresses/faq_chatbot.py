@@ -63,7 +63,7 @@ def faq_answer(input, useragent):
         # 테스트하는 문장도 같은 전처리를 해준다.
         tokened_test_string = tokenize_mecab_noun(input)
 
-        topn = 1  # 가장 유사한 질문 한 개까지만
+        topn = 2  # 가장 유사한 질문 한 개까지만
         test_vector = d2v_faqs.infer_vector(tokened_test_string)
         result = d2v_faqs.docvecs.most_similar([test_vector], topn=topn)
 
@@ -75,30 +75,31 @@ def faq_answer(input, useragent):
             #    #print(j)
             #    print("\t질문 {} | 답글순서 {} | 문장 번호: {} | {}".format(i + 1, j + 1, result[i][0], df2['답변'][result[i][0]][j]))
 
-        # 시각과 사용 운영체제, 입출력 데이터 엑셀로 저장 (20210227부 데이터베이스에 저장. 엑셀은 데이터 양이 많아지면 저장만 5초 이상 걸리는 문제가 생겼음)
-        #now = datetime.datetime.now()
-        #nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
-        #load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx', data_only=True)
-        #load_ws = load_wb['Sheet']
-        #time_and_input_output = [nowDatetime, useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
-        # 질문이 입력된 시각, 유사도, 질문 내용, 가장 유사한 질문, 답변을 저장
-        #load_ws.append(time_and_input_output)  # 엑셀 파일에 차곡차곡 누가기록
-        #load_wb.save('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx')
+            # 시각과 사용 운영체제, 입출력 데이터 엑셀로 저장 (20210227부 데이터베이스에 저장. 엑셀은 데이터 양이 많아지면 저장만 5초 이상 걸리는 문제가 생겼음)
+            #now = datetime.datetime.now()
+            #nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
+            #load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx', data_only=True)
+            #load_ws = load_wb['Sheet']
+            #time_and_input_output = [nowDatetime, useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]]]
+            # 질문이 입력된 시각, 유사도, 질문 내용, 가장 유사한 질문, 답변을 저장
+            #load_ws.append(time_and_input_output)  # 엑셀 파일에 차곡차곡 누가기록
+            #load_wb.save('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx')
 
-        # 질문 입력 시 정보를 데이터베이스에 저장
-        connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor, autocommit=True)
-        try:
-            with connection.cursor() as cursor:
-                sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer)
-                         VALUES ('%s', '%f', '%s', '%s', '%s')"""%(useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
-                cursor.execute(sql)
-            connection.commit()
-        finally:
-            connection.close()
+            # 질문 입력 시 정보를 데이터베이스에 저장
+            connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
+            try:
+                with connection.cursor() as cursor:
+                    sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer)
+                             VALUES ('%s', '%f', '%s', '%s', '%s')"""%(useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
+                    cursor.execute(sql)
+                connection.commit()
+            finally:
+                connection.close()
 
-        if result[i][1] < 0.6:
-            return '입력한 질문에 대한 가장 유사한 질문의 유사도가 {:0.1f}%라서 60% 미만이라 엉뚱한 소리를 할 것 같으니 결과를 출력하지 않을게요. 질문을 더 구체적으로 써 주세요.'.format(result[i][1] * 100)
-        else:
-            return '입력한 질문과의 유사도: {:0.1f}%<br/><br/>질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '<br/><br/>답변: ' + df2['답변'][result[i][0]]
+            if result[i][1] < 0.6:
+                return '입력한 질문에 대한 가장 유사한 질문의 유사도가 {:0.1f}%라서 60% 미만이라 엉뚱한 소리를 할 것 같으니 결과를 출력하지 않을게요. 질문을 더 구체적으로 써 주세요.'.format(result[i][1] * 100)
+                break
+            else:
+                return '입력한 질문과의 유사도: {:0.1f}%<br/><br/>질문: '.format(result[i][1] * 100) + df2['질문'][result[i][0]] + '<br/><br/>답변: ' + df2['답변'][result[i][0]]
 
 print('챗봇 불러오기 완료')
