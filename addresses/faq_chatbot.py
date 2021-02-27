@@ -91,7 +91,7 @@ def faq_answer(input, useragent):
             with connection.cursor() as cursor:
                 try:
                     sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer)
-                             VALUES ('test', 0.444, 'test', 'test', 'test')"""
+                             VALUES ('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15', 0.59559828042984, '(테스트) 아이스크림 녹는 건 왜 화학변화 아닌가', '한개에 아이스크림이 다른 두가지에 맛과 색이 있어요.그런데 녹았는데 그 두가지가 혼합되어서 나왔어요. 그럼 이건 화학변화에요?아니면 물질변화에요?', '반가워요^^물리 변화입니다.성질이 바뀐 것이 아니라색을 가진 작은 입자들이 서로 섞이면서멀리서보는 우리 눈에는 합친 색으로 보였기 때문입니다.')"""
                     print('sql 통과')
                 except:
                     print('sql 오류남')
