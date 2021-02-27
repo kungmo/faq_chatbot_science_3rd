@@ -89,7 +89,7 @@ def faq_answer(input, useragent, client_ip):
             connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
             with connection.cursor() as cursor:
                 sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer, client_ip)
-                         VALUES ('%s', '%f', '%s', '%s', '%s', '%d')"""%(useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]], client_ip)
+                         VALUES ('%s', '%f', '%s', '%s', '%s', '%s')"""%(useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]], client_ip)
                 cursor.execute(sql)
             connection.commit()
             connection.close()
