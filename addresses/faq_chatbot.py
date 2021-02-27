@@ -87,8 +87,8 @@ def faq_answer(input, useragent):
 
         # 데이터베이스에 저장
         connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor, autocommit=True)
-        print('i='%f)%(i)
-        print('result[i][1]=%f')%(result[i][1])
+        print('i=%d'%(i))
+        print('result[i][1]=%f'%(result[i][1]))
         try:
             with connection.cursor() as cursor:
                 try:
