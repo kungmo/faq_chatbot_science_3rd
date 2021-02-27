@@ -75,7 +75,7 @@ def faq_answer(input, useragent):
             #    #print(j)
             #    print("\t질문 {} | 답글순서 {} | 문장 번호: {} | {}".format(i + 1, j + 1, result[i][0], df2['답변'][result[i][0]][j]))
 
-        # 시각과 사용 운영체제, 입출력 데이터 엑셀로 저장
+        # 시각과 사용 운영체제, 입출력 데이터 엑셀로 저장 (20210227부 데이터베이스에 저장. 엑셀은 데이터 양이 많아지면 저장만 5초 이상 걸리는 문제가 생겼음)
         #now = datetime.datetime.now()
         #nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S')
         #load_wb = openpyxl.load_workbook('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx', data_only=True)
@@ -85,7 +85,7 @@ def faq_answer(input, useragent):
         #load_ws.append(time_and_input_output)  # 엑셀 파일에 차곡차곡 누가기록
         #load_wb.save('/home/ubuntu/faq_chatbot_science_3rd/data/datalog.xlsx')
 
-        # 데이터베이스에 저장
+        # 질문 입력 시 정보를 데이터베이스에 저장
         connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor, autocommit=True)
         try:
             with connection.cursor() as cursor:
