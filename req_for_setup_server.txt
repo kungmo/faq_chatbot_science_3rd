@@ -11,4 +11,4 @@ scipy
 xlrd
 gunicorn
 nginx
-psycopg2-binary
+pymysql
