@@ -89,7 +89,8 @@ def faq_answer(input, useragent):
         connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor, autocommit=True)
         try:
             with connection.cursor() as cursor:
-                sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES (%s, %f, %s, %s, %s)"""%('test3', 0.888, 'test3', 'test3', 'test3')
+                sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer)
+                         VALUES ('test3', 0.888, 'test3', 'test3', 'test3')"""
                 print('useragent=%s' % (useragent))
                 print('result[i][1]=%f' % (result[i][1]))
                 print('sql 통과')
