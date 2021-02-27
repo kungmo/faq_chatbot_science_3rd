@@ -68,6 +68,7 @@ def faq_answer(input, useragent):
         result = d2v_faqs.docvecs.most_similar([test_vector], topn=topn)
 
         for i in range(topn):
+            print('i=%d')%(i)
             print("유사질문 {}위 | 유사도: {:0.3f} | 문장 번호: {} | {}".format(i + 1, result[i][1], result[i][0], df2['질문'][result[i][0]]))
             # print("\t질문 {} | 문장 번호: {} | {}".format(i + 1, result[i][0], df2['답변'][result[i][0]]))
             # print(len(df2['답변'][result[i][0]]))
