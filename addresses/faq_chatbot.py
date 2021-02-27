@@ -90,7 +90,7 @@ def faq_answer(input, useragent):
         try:
             with connection.cursor() as cursor:
                 sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer)
-                         VALUES ('%s', '%f', 'test3', 'test3', 'test3')"""%(useragent, result[i][1])
+                         VALUES ('%s', '%f', '%s', '%s', '%s')"""%(useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
                 print('useragent=%s' % (useragent))
                 print('result[i][1]=%f' % (result[i][1]))
                 print('sql 통과')
