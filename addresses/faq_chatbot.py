@@ -90,7 +90,7 @@ def faq_answer(input, useragent):
         try:
             with connection.cursor() as cursor:
                 try:
-                    sql = """INSERT INTO 'datalog' (useragent, similarity, student_question, dataset_question, answer) VALUES ('test', 0.444, 'test', 'test', 'test')"""
+                    sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer) VALUES ('test', 0.444, 'test', 'test', 'test')"""
                     print('sql 통과')
                 except:
                     print('sql 오류남')
