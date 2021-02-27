@@ -91,20 +91,8 @@ def faq_answer(input, useragent):
             with connection.cursor() as cursor:
                 sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer)
                          VALUES ('%s', '%f', '%s', '%s', '%s')"""%(useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
-                print('useragent=%s' % (useragent))
-                print('result[i][1]=%f' % (result[i][1]))
-                print('sql 통과')
-                #cursor.execute(sql, ('test', 0.444, 'test', 'test', 'test'))
-                try:
-                    cursor.execute(sql)
-                    print('execute 통과')
-                except:
-                    print('execute 오류남')
-            try:
-                connection.commit()
-                print('commit 통과')
-            except:
-                print('commit 오류남')
+                cursor.execute(sql)
+            connection.commit()
         finally:
             connection.close()
 
