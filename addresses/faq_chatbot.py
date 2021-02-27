@@ -63,7 +63,7 @@ def faq_answer(input, useragent):
         # 테스트하는 문장도 같은 전처리를 해준다.
         tokened_test_string = tokenize_mecab_noun(input)
 
-        topn = 2  # 가장 유사한 질문 한 개까지만
+        topn = 3  # 가장 유사한 질문 한 개까지만
         test_vector = d2v_faqs.infer_vector(tokened_test_string)
         result = d2v_faqs.docvecs.most_similar([test_vector], topn=topn)
 
@@ -87,14 +87,12 @@ def faq_answer(input, useragent):
 
             # 질문 입력 시 정보를 데이터베이스에 저장
             connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor)
-            try:
-                with connection.cursor() as cursor:
-                    sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer)
-                             VALUES ('%s', '%f', '%s', '%s', '%s')"""%(useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
-                    cursor.execute(sql)
-                connection.commit()
-            finally:
-                connection.close()
+            with connection.cursor() as cursor:
+                sql = """INSERT INTO datalog (useragent, similarity, student_question, dataset_question, answer)
+                         VALUES ('%s', '%f', '%s', '%s', '%s')"""%(useragent, result[i][1], input, df2['질문'][result[i][0]], df2['답변'][result[i][0]])
+                cursor.execute(sql)
+            connection.commit()
+            connection.close()
 
             if result[i][1] < 0.6:
                 return '입력한 질문에 대한 가장 유사한 질문의 유사도가 {:0.1f}%라서 60% 미만이라 엉뚱한 소리를 할 것 같으니 결과를 출력하지 않을게요. 질문을 더 구체적으로 써 주세요.'.format(result[i][1] * 100)
