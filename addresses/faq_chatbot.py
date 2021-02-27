@@ -89,10 +89,19 @@ def faq_answer(input, useragent):
         connection = pymysql.connect(host='localhost', user='test', password='3014', db='chatbot_datalog', charset='utf8mb4', cursorclass=pymysql.cursors.DictCursor, autocommit=True)
         try:
             with connection.cursor() as cursor:
-                sql = """INSERT INTO 'datalog' (useragent, similarity, student_question, dataset_question, answer) VALUES ('test', 0.444, 'test', 'test', 'test')"""
+                try:
+                    sql = """INSERT INTO 'datalog' (useragent, similarity, student_question, dataset_question, answer) VALUES ('test', 0.444, 'test', 'test', 'test')"""
+                except:
+                    print('sql 오류남')
                 #cursor.execute(sql, ('test', 0.444, 'test', 'test', 'test'))
-                cursor.execute(sql)
-            connection.commit()
+                try:
+                    cursor.execute(sql)
+                except:
+                    print('execute 오류남')
+            try:
+                connection.commit()
+            except:
+                print('commit 오류남')
         finally:
             connection.close()
 
