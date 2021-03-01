@@ -42,6 +42,7 @@
     });
     $('#close_chat_btn').on('click', function(){
         $('.chat_header').hide().empty();
+        $('.chat_content').height(96vh);
     });
     function send(){
         $('#divbox').append('<div class="msg_box send"><span>'+$('#input1').val()+'<span></div>');
