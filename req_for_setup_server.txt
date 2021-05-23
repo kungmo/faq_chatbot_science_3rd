@@ -1,4 +1,4 @@
-beautifulsoup4
+beautifulsoup4==4.6.0
 Django
 djangorestframework==3.11.0
 gensim
@@ -10,5 +10,4 @@ pandas
 scipy
 xlrd
 gunicorn
-nginx
 pymysql
