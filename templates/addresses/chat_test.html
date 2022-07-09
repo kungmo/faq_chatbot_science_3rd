@@ -209,13 +209,14 @@ msgerForm.addEventListener("submit", event => {
   sendMessage(msgText)
 });
 
+// 로컬에서 테스트 하려면 url에 있는 140.238.19.16을 localhost로 변경해야 함
 function sendMessage(msg){
     {# 유저 에이전트 정보 폼에 등록 #}
     var useragent1 = window.navigator.userAgent;
     document.getElementById('useragent1').value = useragent1.toString()
     {# 데이터(메시지 / 유저에이전트 값) 전송 #}
     $.ajax({
-        url: 'http://localhost:8000/chat_test/',
+        url: 'http://140.238.19.16:8000/chat_test/',
         type: 'post',
         dataType: 'json',
         data: $('form').serialize(),
