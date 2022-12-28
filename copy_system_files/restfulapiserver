@@ -1,15 +1,28 @@
 server {
-        listen 80;
-        server_name 140.238.19.16;
+	listen 80;
+	server_name sciencechat.kro.kr;
+	rewrite        ^ https://$server_name$request_uri? permanent;
+}
 
-        location /favicon.ico { access_log off; log_not_found off; }
+server {
+	listen 443 ssl;
+	server_name sciencechat.kro.kr;
 
-        location /static {
-                alias /home/ubuntu/faq_chatbot_science_3rd/static;
-        }
+	ssl_certificate "/home/ubuntu/certificate.crt";
+	ssl_certificate_key "/home/ubuntu/private.key";
+        ssl_session_cache shared:SSL:1m;
+        ssl_session_timeout  10m;
+        ssl_ciphers HIGH:!aNULL:!MD5;
+        ssl_prefer_server_ciphers on;
+	
+	location /favicon.ico { access_log off; log_not_found off; }
 
-        location / {
-                include proxy_params;
-                proxy_pass http://unix:/tmp/gunicorn.sock;
-        }
+	location /static {
+		alias /home/ubuntu/faq_chatbot_science_3rd/static;
+	}
+	
+	location / {
+		include proxy_params;
+		proxy_pass http://unix:/tmp/gunicorn.sock;
+	}
 }

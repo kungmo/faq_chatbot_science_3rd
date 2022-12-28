@@ -215,7 +215,7 @@ function sendMessage(msg){
     document.getElementById('useragent1').value = useragent1.toString()
     {# 데이터(메시지 / 유저에이전트 값) 전송 #}
     $.ajax({
-        url: 'http://140.238.19.16/chat_service/',
+        url: 'https://sciencechat.kro.kr/chat_service/',
         type: 'post',
         dataType: 'json',
         data: $('form').serialize(),
