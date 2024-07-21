@@ -1,13 +1,12 @@
 import os
-from gensim.models import doc2vec
-from gensim.models.doc2vec import TaggedDocument
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 import pandas as pd
 #import openpyxl
 #import datetime
 import pymysql.cursors
 
 # 모델 불러오기
-d2v_faqs = doc2vec.Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
+d2v_faqs = Doc2Vec.load(os.path.join('./model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model'))
 
 # 질문-답변 파일 불러오기
 df2 = pd.read_excel('./data/df2_20220709_edited.xlsx')

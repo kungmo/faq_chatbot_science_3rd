@@ -1,0 +1,2420 @@
+[
+  {
+    "sha": "d51cd2450342ad77272db88b89057c4150d1400f",
+    "date": "2020-07-09T06:43:46+00:00",
+    "message": "first commit",
+    "changes": "commit d51cd2450342ad77272db88b89057c4150d1400f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jul 9 06:43:46 2020 +0000\n\n    first commit\n\nA\t.gitignore\nA\t.idea/.gitignore\nA\t.idea/codeStyles/Project.xml\nA\t.idea/dataSources.xml\nA\t.idea/dbnavigator.xml\nA\t.idea/inspectionProfiles/profiles_settings.xml\nA\t.idea/misc.xml\nA\t.idea/modules.xml\nA\t.idea/restfulapiserver.iml\nA\t.idea/vcs.xml\nA\tREADME.md\nA\taddresses/__init__.py\nA\taddresses/__pycache__/__init__.cpython-38.pyc\nA\taddresses/__pycache__/admin.cpython-38.pyc\nA\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nA\taddresses/__pycache__/models.cpython-38.pyc\nA\taddresses/__pycache__/serializers.cpython-38.pyc\nA\taddresses/__pycache__/views.cpython-38.pyc\nA\taddresses/admin.py\nA\taddresses/apps.py\nA\taddresses/faq_chatbot.py\nA\taddresses/migrations/0001_initial.py\nA\taddresses/migrations/__init__.py\nA\taddresses/migrations/__pycache__/0001_initial.cpython-38.pyc\nA\taddresses/migrations/__pycache__/__init__.cpython-38.pyc\nA\taddresses/models.py\nA\taddresses/serializers.py\nA\taddresses/tests.py\nA\taddresses/views.py\nA\td2v_faqs_size200_min5_epoch20_jokes.model\nA\tdata/df2_20200705_edited.xlsx\nA\tdata/total.csv\nA\tdb.sqlite3\nA\tjokes.csv\nA\tmanage.py\nA\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nA\tmodel/d2v_faqs_size200_min5_epoch20_naver_physics_qna.model\nA\tnaver_qna_charbot.py\nA\tnohup.out\nA\trestfulapiserver/__init__.py\nA\trestfulapiserver/__pycache__/__init__.cpython-38.pyc\nA\trestfulapiserver/__pycache__/settings.cpython-38.pyc\nA\trestfulapiserver/__pycache__/urls.cpython-38.pyc\nA\trestfulapiserver/__pycache__/wsgi.cpython-38.pyc\nA\trestfulapiserver/settings.py\nA\trestfulapiserver/urls.py\nA\trestfulapiserver/wsgi.py\nA\trun_background.sh\nA\tstatic/jquery-3.2.1.min.js\nA\tstatic/keybot.png\nA\ttemplates/addresses/chat_test.html\nA\ttemplates/addresses/chat_web.html\nA\ttemplates/addresses/login.html"
+  },
+  {
+    "sha": "debcaf3425f7908651ee99490cda2d685bada796",
+    "date": "2020-07-10T05:53:25+00:00",
+    "message": "requirements.txt 추가",
+    "changes": "commit debcaf3425f7908651ee99490cda2d685bada796\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Jul 10 05:53:25 2020 +0000\n\n    requirements.txt 추가\n\nM\tnohup.out\nA\trequirements.txt"
+  },
+  {
+    "sha": "ebf54dc78ceff02b66f59284ad366a652bb3595c",
+    "date": "2020-07-12T13:36:37+09:00",
+    "message": "유사도 업데이트 테스트",
+    "changes": "commit ebf54dc78ceff02b66f59284ad366a652bb3595c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 13:36:37 2020 +0900\n\n    유사도 업데이트 테스트\n\nM\t.idea/misc.xml\nM\t.idea/restfulapiserver.iml\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "1d0e6ea616b17d1f83ae62ab5a8d2eaf556cf939",
+    "date": "2020-07-12T13:56:16+09:00",
+    "message": "엑셀 로그 업데이트 테스트 1",
+    "changes": "commit 1d0e6ea616b17d1f83ae62ab5a8d2eaf556cf939\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 13:56:16 2020 +0900\n\n    엑셀 로그 업데이트 테스트 1\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "3a42e7b288de5aca409c3f73456b3f756cf23819",
+    "date": "2020-07-12T13:59:50+09:00",
+    "message": "엑셀 로그 업데이트 테스트 1",
+    "changes": "commit 3a42e7b288de5aca409c3f73456b3f756cf23819\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 13:59:50 2020 +0900\n\n    엑셀 로그 업데이트 테스트 1\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "bd6f10f8cbcedee97b6d279ba4de5aaddfc03116",
+    "date": "2020-07-12T14:03:30+09:00",
+    "message": "엑셀 로그 업데이트 테스트 2",
+    "changes": "commit bd6f10f8cbcedee97b6d279ba4de5aaddfc03116\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 14:03:30 2020 +0900\n\n    엑셀 로그 업데이트 테스트 2\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "5b6ec51d1ddfbe3052128dfa6bc1a8e25407d927",
+    "date": "2020-07-12T05:07:21+00:00",
+    "message": "datalog.xlsx 사용 테스트 1",
+    "changes": "commit 5b6ec51d1ddfbe3052128dfa6bc1a8e25407d927\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 05:07:21 2020 +0000\n\n    datalog.xlsx 사용 테스트 1\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nA\tdatalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "fb2fa67e7656796fe11e47bb6c71b7c944277e9d",
+    "date": "2020-07-12T05:09:15+00:00",
+    "message": "Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd",
+    "changes": "commit fb2fa67e7656796fe11e47bb6c71b7c944277e9d\nMerge: 5b6ec51 bd6f10f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 05:09:15 2020 +0000\n\n    Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd"
+  },
+  {
+    "sha": "39e6992f20299cfcab17bbc05dff6ff6f109a912",
+    "date": "2020-07-12T14:19:25+09:00",
+    "message": "엑셀 로그 업데이트 테스트 2",
+    "changes": "commit 39e6992f20299cfcab17bbc05dff6ff6f109a912\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 14:19:25 2020 +0900\n\n    엑셀 로그 업데이트 테스트 2\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "542eb1efb2ad8967d37af60110c539ae50ce8de5",
+    "date": "2020-07-12T14:20:00+09:00",
+    "message": "Merge remote-tracking branch 'origin/master'",
+    "changes": "commit 542eb1efb2ad8967d37af60110c539ae50ce8de5\nMerge: 39e6992 fb2fa67\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 14:20:00 2020 +0900\n\n    Merge remote-tracking branch 'origin/master'"
+  },
+  {
+    "sha": "6912577cc0f30a479f2b9a92101f853e9e6960ff",
+    "date": "2020-07-12T14:26:41+09:00",
+    "message": "엑셀 로그 업데이트 테스트 3",
+    "changes": "commit 6912577cc0f30a479f2b9a92101f853e9e6960ff\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 14:26:41 2020 +0900\n\n    엑셀 로그 업데이트 테스트 3\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "d4621347acea046d0ee58c33ab2487c2753440e3",
+    "date": "2020-07-12T05:33:44+00:00",
+    "message": "datalog 테스트 4",
+    "changes": "commit d4621347acea046d0ee58c33ab2487c2753440e3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 05:33:44 2020 +0000\n\n    datalog 테스트 4\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nR050\tdatalog.xlsx\tdata/datalog.xlsx"
+  },
+  {
+    "sha": "2c905059d64c5c9cdbec56d94fc19c22da6fe901",
+    "date": "2020-07-12T14:35:35+09:00",
+    "message": "엑셀 로그 업데이트 테스트 5",
+    "changes": "commit 2c905059d64c5c9cdbec56d94fc19c22da6fe901\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 14:35:35 2020 +0900\n\n    엑셀 로그 업데이트 테스트 5\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "a8adaa563be8184516bae30eb4513af0cc74ad0b",
+    "date": "2020-07-12T05:37:16+00:00",
+    "message": "datalog 테스트 5",
+    "changes": "commit a8adaa563be8184516bae30eb4513af0cc74ad0b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 05:37:16 2020 +0000\n\n    datalog 테스트 5\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx"
+  },
+  {
+    "sha": "a92a2eba17536c2069184ba72fb9af329c31bb09",
+    "date": "2020-07-12T05:41:13+00:00",
+    "message": "datalog 테스트 6 백그라운드 실행",
+    "changes": "commit a92a2eba17536c2069184ba72fb9af329c31bb09\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 05:41:13 2020 +0000\n\n    datalog 테스트 6 백그라운드 실행\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "e1623921b4df04446fd15f987f135cf5e8aa774c",
+    "date": "2020-07-12T05:43:54+00:00",
+    "message": "datalog 테스트 6 백그라운드 실행",
+    "changes": "commit e1623921b4df04446fd15f987f135cf5e8aa774c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 05:43:54 2020 +0000\n\n    datalog 테스트 6 백그라운드 실행\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "d929b9bf75a1e8076933ee95d00667c74c25a660",
+    "date": "2020-07-12T14:50:19+09:00",
+    "message": "챗봇 화면 업데이트 1 (설명 추가)",
+    "changes": "commit d929b9bf75a1e8076933ee95d00667c74c25a660\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 14:50:19 2020 +0900\n\n    챗봇 화면 업데이트 1 (설명 추가)\n\nM\tdata/datalog.xlsx\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "a954911f5d1367c35af3fcfbf7197fac64387caf",
+    "date": "2020-07-12T14:53:02+09:00",
+    "message": "챗봇 화면 업데이트 1 (설명 추가)",
+    "changes": "commit a954911f5d1367c35af3fcfbf7197fac64387caf\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 14:53:02 2020 +0900\n\n    챗봇 화면 업데이트 1 (설명 추가)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "cede5a47e7fbe585e3869643f7babe5a6e7b3c0d",
+    "date": "2020-07-12T05:54:02+00:00",
+    "message": "datalog 작동 테스트 1",
+    "changes": "commit cede5a47e7fbe585e3869643f7babe5a6e7b3c0d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 05:54:02 2020 +0000\n\n    datalog 작동 테스트 1\n\nM\tdata/datalog.xlsx"
+  },
+  {
+    "sha": "9d0ab03a2ced2a9e980b87ce1f13f274e9d14c50",
+    "date": "2020-07-12T06:00:03+00:00",
+    "message": "datalog.xlsx 백그라운드 테스트 2",
+    "changes": "commit 9d0ab03a2ced2a9e980b87ce1f13f274e9d14c50\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 06:00:03 2020 +0000\n\n    datalog.xlsx 백그라운드 테스트 2\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "1530b6ab992ee44c42a3306e753401648a213872",
+    "date": "2020-07-12T18:11:33+09:00",
+    "message": "데이터를 추가하여 모델 업데이트 20200712",
+    "changes": "commit 1530b6ab992ee44c42a3306e753401648a213872\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 18:11:33 2020 +0900\n\n    데이터를 추가하여 모델 업데이트 20200712\n\nM\taddresses/faq_chatbot.py\nA\tdata/chromedriver.exe\nD\tdata/df2_20200705_edited.xlsx\nA\tdata/df2_20200712_edited.xlsx\nA\tdata/ebs_crawler_chrome.py\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "52c4422bb778b63ddf9882d15de178bfae4659a5",
+    "date": "2020-07-12T09:16:16+00:00",
+    "message": "모델(20200712) 업데이트 후 구동 테스트",
+    "changes": "commit 52c4422bb778b63ddf9882d15de178bfae4659a5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 12 09:16:16 2020 +0000\n\n    모델(20200712) 업데이트 후 구동 테스트\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx"
+  },
+  {
+    "sha": "1da6e8ca0b4cf10570c8444b8e8a346e3a4b5217",
+    "date": "2020-07-13T04:12:46+00:00",
+    "message": "채팅 화면 크기 조정",
+    "changes": "commit 1da6e8ca0b4cf10570c8444b8e8a346e3a4b5217\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 13 04:12:46 2020 +0000\n\n    채팅 화면 크기 조정\n\nM\tdata/datalog.xlsx\nM\tnohup.out\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "4530690c407d36987479abca5406ed0e1faad6d7",
+    "date": "2020-07-13T04:40:15+00:00",
+    "message": "챗봇 구동 실제 1",
+    "changes": "commit 4530690c407d36987479abca5406ed0e1faad6d7\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 13 04:40:15 2020 +0000\n\n    챗봇 구동 실제 1\n\nM\tdata/datalog.xlsx\nA\t\"data/datalog_\\352\\260\\234\\354\\213\\234.txt\"\nM\tnohup.out"
+  },
+  {
+    "sha": "3d45ddec7f86dfe5d83955a8ce7472a68993592b",
+    "date": "2020-07-13T05:13:38+00:00",
+    "message": "챗봇 실제 운영 2",
+    "changes": "commit 3d45ddec7f86dfe5d83955a8ce7472a68993592b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 13 05:13:38 2020 +0000\n\n    챗봇 실제 운영 2\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "d4112ad0e1461b4c7979c38d7db79c35382b5fe0",
+    "date": "2020-07-13T14:19:58+09:00",
+    "message": "Update README.md",
+    "changes": "commit d4112ad0e1461b4c7979c38d7db79c35382b5fe0\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 13 14:19:58 2020 +0900\n\n    Update README.md\n\nM\tREADME.md"
+  },
+  {
+    "sha": "e258123c51dc07a649333e1682c7d18e935c670a",
+    "date": "2020-07-13T07:02:04+00:00",
+    "message": "챗봇 실제 운영 2",
+    "changes": "commit e258123c51dc07a649333e1682c7d18e935c670a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 13 07:02:04 2020 +0000\n\n    챗봇 실제 운영 2\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "187e1a33b490084f33d6674003915e3483f2251d",
+    "date": "2020-07-13T07:03:50+00:00",
+    "message": "Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd",
+    "changes": "commit 187e1a33b490084f33d6674003915e3483f2251d\nMerge: e258123 d4112ad\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 13 07:03:50 2020 +0000\n\n    Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd"
+  },
+  {
+    "sha": "ebf29e2e0343d92b2fdc8f826da85440b2b5bc92",
+    "date": "2020-07-13T07:04:14+00:00",
+    "message": "챗봇 실제 운영 2",
+    "changes": "commit ebf29e2e0343d92b2fdc8f826da85440b2b5bc92\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 13 07:04:14 2020 +0000\n\n    챗봇 실제 운영 2\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "993a1d7baa172ce8e7d8a01a7263b2ce7429cdcc",
+    "date": "2020-07-13T07:05:09+00:00",
+    "message": "챗봇 실제 운영 2",
+    "changes": "commit 993a1d7baa172ce8e7d8a01a7263b2ce7429cdcc\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 13 07:05:09 2020 +0000\n\n    챗봇 실제 운영 2\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "ebb9f9ad2d30fd082de1d1a78b8df3ace5574aa1",
+    "date": "2020-07-13T12:44:41+00:00",
+    "message": "챗봇 실제 운영 2",
+    "changes": "commit ebb9f9ad2d30fd082de1d1a78b8df3ace5574aa1\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 13 12:44:41 2020 +0000\n\n    챗봇 실제 운영 2\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "d94d001f155058570cc3d80591e9189e219d3544",
+    "date": "2020-07-15T01:00:08+00:00",
+    "message": "챗봇 실제 운영 3일차",
+    "changes": "commit d94d001f155058570cc3d80591e9189e219d3544\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Jul 15 01:00:08 2020 +0000\n\n    챗봇 실제 운영 3일차\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "b405cb85672b541458b5fee22189eebeeda8e9ff",
+    "date": "2020-07-15T07:33:36+00:00",
+    "message": "챗봇 실제 운영 3",
+    "changes": "commit b405cb85672b541458b5fee22189eebeeda8e9ff\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Jul 15 07:33:36 2020 +0000\n\n    챗봇 실제 운영 3\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "b38461a9578ed9000cfff1eb8a1e360674a81e84",
+    "date": "2020-07-17T06:18:02+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit b38461a9578ed9000cfff1eb8a1e360674a81e84\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Jul 17 06:18:02 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "d80caa329c3f03c7233fb16a1e4fe64136703ddb",
+    "date": "2020-07-19T07:21:10+00:00",
+    "message": "챗봇 실제 운영 3",
+    "changes": "commit d80caa329c3f03c7233fb16a1e4fe64136703ddb\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 07:21:10 2020 +0000\n\n    챗봇 실제 운영 3\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "9214b70fdf75ed6f073ec0192d2f23f1380f7a6a",
+    "date": "2020-07-19T18:27:03+09:00",
+    "message": "데이터를 추가하여 모델 업데이트 20200719",
+    "changes": "commit 9214b70fdf75ed6f073ec0192d2f23f1380f7a6a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 18:27:03 2020 +0900\n\n    데이터를 추가하여 모델 업데이트 20200719\n\nM\taddresses/faq_chatbot.py\nA\tdata/df2_20200719_edited.xlsx\nM\tdata/ebs_crawler_chrome.py\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "e10a5fbbdf287b7955f0b0b1c2b392664cc5fde3",
+    "date": "2020-07-19T18:29:19+09:00",
+    "message": "데이터를 추가하여 모델 업데이트 20200719",
+    "changes": "commit e10a5fbbdf287b7955f0b0b1c2b392664cc5fde3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 18:29:19 2020 +0900\n\n    데이터를 추가하여 모델 업데이트 20200719\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "49c905aa87791aaf5b8a325d8ebcb9351849f426",
+    "date": "2020-07-19T18:35:14+09:00",
+    "message": "데이터를 추가하여 모델 업데이트 20200719",
+    "changes": "commit 49c905aa87791aaf5b8a325d8ebcb9351849f426\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 18:35:14 2020 +0900\n\n    데이터를 추가하여 모델 업데이트 20200719\n\nM\taddresses/faq_chatbot.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "f705c99bb6372441134b3c9234c2f51b03f29346",
+    "date": "2020-07-19T18:37:34+09:00",
+    "message": "데이터를 추가하여 모델 업데이트 20200719",
+    "changes": "commit f705c99bb6372441134b3c9234c2f51b03f29346\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 18:37:34 2020 +0900\n\n    데이터를 추가하여 모델 업데이트 20200719\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "6d631aafb82a4f66b36b74ade66bb5a7c176d80e",
+    "date": "2020-07-19T09:43:47+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit 6d631aafb82a4f66b36b74ade66bb5a7c176d80e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 09:43:47 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "1692320e9c600344a7434dd858ca053a2223ff88",
+    "date": "2020-07-19T19:01:17+09:00",
+    "message": "데이터를 추가하여 모델 업데이트 20200719",
+    "changes": "commit 1692320e9c600344a7434dd858ca053a2223ff88\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 19:01:17 2020 +0900\n\n    데이터를 추가하여 모델 업데이트 20200719\n\nM\tdata/df2_20200719_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "4763bddb075e68a15b954f1d94cdc2c1028ae357",
+    "date": "2020-07-19T19:02:41+09:00",
+    "message": "Merge remote-tracking branch 'origin/master'",
+    "changes": "commit 4763bddb075e68a15b954f1d94cdc2c1028ae357\nMerge: 1692320 6d631aa\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 19:02:41 2020 +0900\n\n    Merge remote-tracking branch 'origin/master'"
+  },
+  {
+    "sha": "093a97578cfca89b8b4a82b883f11b7af15039ed",
+    "date": "2020-07-19T10:04:30+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit 093a97578cfca89b8b4a82b883f11b7af15039ed\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 10:04:30 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "260f66139a25ffa9705295df8a777098bd3dd639",
+    "date": "2020-07-19T10:23:53+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit 260f66139a25ffa9705295df8a777098bd3dd639\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 10:23:53 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "b0ded48246a9b1a6cd7c59f341b553bb9fec2678",
+    "date": "2020-07-19T23:58:58+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit b0ded48246a9b1a6cd7c59f341b553bb9fec2678\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 19 23:58:58 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "680b9bc7bfbd52e3af0a7127bc69c90284f867b5",
+    "date": "2020-07-21T11:36:52+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit 680b9bc7bfbd52e3af0a7127bc69c90284f867b5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Jul 21 11:36:52 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "c45913565cf0a04325556123438f6237c7311e85",
+    "date": "2020-07-21T12:42:05+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit c45913565cf0a04325556123438f6237c7311e85\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Jul 21 12:42:05 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "54c85af438e71299082b124635eb35a9f4912f7d",
+    "date": "2020-07-21T23:05:42+09:00",
+    "message": "챗봇 업데이트 20200721 밤",
+    "changes": "commit 54c85af438e71299082b124635eb35a9f4912f7d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Jul 21 23:05:42 2020 +0900\n\n    챗봇 업데이트 20200721 밤\n\nM\taddresses/faq_chatbot.py\nM\tdata/df2_20200719_edited.xlsx\nA\tdata/df2_20200722_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "4fc069aeb72729bb691a2eb288872322a9b0497b",
+    "date": "2020-07-23T10:58:25+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit 4fc069aeb72729bb691a2eb288872322a9b0497b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jul 23 10:58:25 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nA\t\"data/df2_20200722_\\354\\213\\234\\354\\240\\220.txt\"\nM\tnohup.out"
+  },
+  {
+    "sha": "a640acadb09452d544d3b5b410e3f71c7fa0c3fc",
+    "date": "2020-07-23T12:52:28+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit a640acadb09452d544d3b5b410e3f71c7fa0c3fc\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jul 23 12:52:28 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "ea10852c49577eb1a004cae5ef6323a7d44ac052",
+    "date": "2020-07-23T23:31:58+09:00",
+    "message": "챗봇 업데이트 20200723 밤",
+    "changes": "commit ea10852c49577eb1a004cae5ef6323a7d44ac052\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jul 23 23:31:58 2020 +0900\n\n    챗봇 업데이트 20200723 밤\n\nM\taddresses/faq_chatbot.py\nM\t\"data/datalog_\\352\\260\\234\\354\\213\\234.txt\"\nA\tdata/df2_20200724_edited.xlsx"
+  },
+  {
+    "sha": "b85adf83a76ae260a0c68545a6d6112c4e11d8f4",
+    "date": "2020-07-23T23:37:00+09:00",
+    "message": "챗봇 업데이트 20200723 밤",
+    "changes": "commit b85adf83a76ae260a0c68545a6d6112c4e11d8f4\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jul 23 23:37:00 2020 +0900\n\n    챗봇 업데이트 20200723 밤\n\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "86f831d2c1e7df1bfcd5eb0ddd616771b88adf96",
+    "date": "2020-07-23T23:39:56+09:00",
+    "message": "챗봇 업데이트 20200723 밤",
+    "changes": "commit 86f831d2c1e7df1bfcd5eb0ddd616771b88adf96\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jul 23 23:39:56 2020 +0900\n\n    챗봇 업데이트 20200723 밤\n\nM\taddresses/faq_chatbot.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "06a25268983a8d914659e31ef456edcce978d23f",
+    "date": "2020-07-23T23:42:48+09:00",
+    "message": "챗봇 업데이트 20200723 밤",
+    "changes": "commit 06a25268983a8d914659e31ef456edcce978d23f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jul 23 23:42:48 2020 +0900\n\n    챗봇 업데이트 20200723 밤\n\nM\t\"data/datalog_\\352\\260\\234\\354\\213\\234.txt\""
+  },
+  {
+    "sha": "f8fbd590322da8dd16cbaf012ffa102acc7133db",
+    "date": "2020-07-23T23:51:11+09:00",
+    "message": "챗봇 업데이트 20200723 밤",
+    "changes": "commit f8fbd590322da8dd16cbaf012ffa102acc7133db\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jul 23 23:51:11 2020 +0900\n\n    챗봇 업데이트 20200723 밤\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "d8ada88f1722dae4e1e283ffa57d55012c1b6d5c",
+    "date": "2020-07-24T01:36:37+00:00",
+    "message": "챗봇 업데이트 5",
+    "changes": "commit d8ada88f1722dae4e1e283ffa57d55012c1b6d5c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Jul 24 01:36:37 2020 +0000\n\n    챗봇 업데이트 5\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nA\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "e6c20a05f9e947abf12eadfc76dfe1056d7852cc",
+    "date": "2020-07-25T11:18:13+00:00",
+    "message": "챗봇 실제 운영 4",
+    "changes": "commit e6c20a05f9e947abf12eadfc76dfe1056d7852cc\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jul 25 11:18:13 2020 +0000\n\n    챗봇 실제 운영 4\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "659ca1e6e1c7da152b4faa6af9c41604b47fa831",
+    "date": "2020-07-25T23:41:22+09:00",
+    "message": "챗봇 업데이트 20200725 밤",
+    "changes": "commit 659ca1e6e1c7da152b4faa6af9c41604b47fa831\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jul 25 23:41:22 2020 +0900\n\n    챗봇 업데이트 20200725 밤\n\nM\taddresses/faq_chatbot.py\nM\t\"data/datalog_\\352\\260\\234\\354\\213\\234.txt\"\nA\tdata/df2_20200726_edited.xlsx\nA\tdata/~$df2_20200726_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "f28a2b7e1eb99d1eef9ebc898a9924a5e84ce3b9",
+    "date": "2020-07-25T23:42:06+09:00",
+    "message": "챗봇 업데이트 20200725 밤",
+    "changes": "commit f28a2b7e1eb99d1eef9ebc898a9924a5e84ce3b9\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jul 25 23:42:06 2020 +0900\n\n    챗봇 업데이트 20200725 밤\n\nM\tdata/df2_20200726_edited.xlsx\nD\tdata/~$df2_20200726_edited.xlsx"
+  },
+  {
+    "sha": "1b642916dc46d2a5d64a72cfcb53293fecde6dee",
+    "date": "2020-07-25T14:51:33+00:00",
+    "message": "챗봇 업데이트 6",
+    "changes": "commit 1b642916dc46d2a5d64a72cfcb53293fecde6dee\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jul 25 14:51:33 2020 +0000\n\n    챗봇 업데이트 6\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "a2b6d81ddd3c1653e837a9a55b0452686e4e3510",
+    "date": "2020-07-25T14:59:22+00:00",
+    "message": "챗봇 업데이트 6",
+    "changes": "commit a2b6d81ddd3c1653e837a9a55b0452686e4e3510\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jul 25 14:59:22 2020 +0000\n\n    챗봇 업데이트 6\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "96b04e91c431bff3ee25a91e6cb164325e7b74ed",
+    "date": "2020-07-26T01:01:34+00:00",
+    "message": "챗봇 업데이트 6",
+    "changes": "commit 96b04e91c431bff3ee25a91e6cb164325e7b74ed\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 26 01:01:34 2020 +0000\n\n    챗봇 업데이트 6\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "b8836d90d073fb925e2720dbed0dff1b65449fc6",
+    "date": "2020-07-26T23:42:45+00:00",
+    "message": "챗봇 업데이트 6",
+    "changes": "commit b8836d90d073fb925e2720dbed0dff1b65449fc6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jul 26 23:42:45 2020 +0000\n\n    챗봇 업데이트 6\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "ac7f1a23e782e48fb25655d93a503b2ad7acd215",
+    "date": "2020-07-27T07:34:28+00:00",
+    "message": "챗봇 업데이트 6",
+    "changes": "commit ac7f1a23e782e48fb25655d93a503b2ad7acd215\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 27 07:34:28 2020 +0000\n\n    챗봇 업데이트 6\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "aba3d361a382d6ff856b550f9fd356edd3d88b11",
+    "date": "2020-07-27T13:46:45+00:00",
+    "message": "챗봇 업데이트 6",
+    "changes": "commit aba3d361a382d6ff856b550f9fd356edd3d88b11\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jul 27 13:46:45 2020 +0000\n\n    챗봇 업데이트 6\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "2bf024daa2a10495bf2e22829546d39ebc24a1b6",
+    "date": "2020-07-29T02:02:22+00:00",
+    "message": "챗봇 업데이트 6",
+    "changes": "commit 2bf024daa2a10495bf2e22829546d39ebc24a1b6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Jul 29 02:02:22 2020 +0000\n\n    챗봇 업데이트 6\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "a0c611b1df4d0b9483d5418940646ec6b4b96e88",
+    "date": "2020-07-29T02:02:52+00:00",
+    "message": "챗봇 업데이트 7 (기말고사 종료)",
+    "changes": "commit a0c611b1df4d0b9483d5418940646ec6b4b96e88\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Jul 29 02:02:52 2020 +0000\n\n    챗봇 업데이트 7 (기말고사 종료)\n\nM\tgit_update.sh"
+  },
+  {
+    "sha": "97c960c32346e6637f897dd342cd8d3048f99758",
+    "date": "2020-07-30T05:41:42+00:00",
+    "message": "챗봇 업데이트 7 (기말고사 종료)",
+    "changes": "commit 97c960c32346e6637f897dd342cd8d3048f99758\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jul 30 05:41:42 2020 +0000\n\n    챗봇 업데이트 7 (기말고사 종료)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "a4a81b1ec61919e20c71b550fc0014a7c46d18f8",
+    "date": "2020-08-02T12:32:01+00:00",
+    "message": "챗봇 업데이트 7 (기말고사 종료)",
+    "changes": "commit a4a81b1ec61919e20c71b550fc0014a7c46d18f8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Aug 2 12:32:01 2020 +0000\n\n    챗봇 업데이트 7 (기말고사 종료)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "8938337b22ef5b9d46d105290bc89becf3b31215",
+    "date": "2020-08-05T05:50:28+00:00",
+    "message": "챗봇 업데이트 7 (기말고사 종료)",
+    "changes": "commit 8938337b22ef5b9d46d105290bc89becf3b31215\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Aug 5 05:50:28 2020 +0000\n\n    챗봇 업데이트 7 (기말고사 종료)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "0868483e53e1096c2c8fa0677e830e549e9fa173",
+    "date": "2020-08-13T12:12:48+00:00",
+    "message": "챗봇 업데이트 7 (기말고사 종료)",
+    "changes": "commit 0868483e53e1096c2c8fa0677e830e549e9fa173\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Aug 13 12:12:48 2020 +0000\n\n    챗봇 업데이트 7 (기말고사 종료)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "698c826bb63e2d39eb92eb369d7da410fdaca79c",
+    "date": "2020-08-21T13:25:02+00:00",
+    "message": "챗봇 업데이트 7 (기말고사 종료)",
+    "changes": "commit 698c826bb63e2d39eb92eb369d7da410fdaca79c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Aug 21 13:25:02 2020 +0000\n\n    챗봇 업데이트 7 (기말고사 종료)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "30bd8bebacd3c240e28ccdff2cc8dc683d1d9cd4",
+    "date": "2020-08-28T04:52:47+00:00",
+    "message": "챗봇 업데이트 8 (개학 직전 파이썬 requirements.txt 추가)",
+    "changes": "commit 30bd8bebacd3c240e28ccdff2cc8dc683d1d9cd4\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Aug 28 04:52:47 2020 +0000\n\n    챗봇 업데이트 8 (개학 직전 파이썬 requirements.txt 추가)\n\nM\tgit_update.sh\nM\tnohup.out\nM\trequirements.txt"
+  },
+  {
+    "sha": "f39326a97c989b552f7d2c5611f86f0c77aff60b",
+    "date": "2020-08-28T11:51:25+00:00",
+    "message": "챗봇 업데이트 8 (개학 직전 파이썬 requirements.txt 추가)",
+    "changes": "commit f39326a97c989b552f7d2c5611f86f0c77aff60b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Aug 28 11:51:25 2020 +0000\n\n    챗봇 업데이트 8 (개학 직전 파이썬 requirements.txt 추가)\n\nM\tnohup.out\nA\treq_for_setup_server.txt"
+  },
+  {
+    "sha": "7742e81535068a6e1ed9a56b8a7b10d6693612e3",
+    "date": "2020-08-28T20:52:51+09:00",
+    "message": "데이터를 추가하여 모델 업데이트 20200719",
+    "changes": "commit 7742e81535068a6e1ed9a56b8a7b10d6693612e3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Aug 28 20:52:51 2020 +0900\n\n    데이터를 추가하여 모델 업데이트 20200719\n\nD\trequirements.txt\nA\trequirements_for_setup.txt\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "4fcb6d201c8fc34df3799145bd2baf57b60df09c",
+    "date": "2020-08-28T20:55:20+09:00",
+    "message": "방학 전 챗봇 업데이트 (req_for_setup_server.txt 추가) 20200828",
+    "changes": "commit 4fcb6d201c8fc34df3799145bd2baf57b60df09c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Aug 28 20:55:20 2020 +0900\n\n    방학 전 챗봇 업데이트 (req_for_setup_server.txt 추가) 20200828\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "77952a356dc08385ebdb38bd60e25db2354b80af",
+    "date": "2020-08-28T20:56:10+09:00",
+    "message": "Merge remote-tracking branch 'origin/master' into master",
+    "changes": "commit 77952a356dc08385ebdb38bd60e25db2354b80af\nMerge: 4fcb6d2 f39326a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Aug 28 20:56:10 2020 +0900\n\n    Merge remote-tracking branch 'origin/master' into master"
+  },
+  {
+    "sha": "40d812327c9542181a78c29eab2afd1281f43c1e",
+    "date": "2020-08-29T05:24:17+00:00",
+    "message": "챗봇 업데이트 8 (개학 직전 파이썬 req_for_setup_server.txt 추가)",
+    "changes": "commit 40d812327c9542181a78c29eab2afd1281f43c1e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Aug 29 05:24:17 2020 +0000\n\n    챗봇 업데이트 8 (개학 직전 파이썬 req_for_setup_server.txt 추가)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out\nM\treq_for_setup_server.txt"
+  },
+  {
+    "sha": "52d6b004a7f0f23571b8b97bbd87dd562c016e21",
+    "date": "2020-08-29T05:24:54+00:00",
+    "message": "Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd",
+    "changes": "commit 52d6b004a7f0f23571b8b97bbd87dd562c016e21\nMerge: 40d8123 77952a3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Aug 29 05:24:54 2020 +0000\n\n    Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd"
+  },
+  {
+    "sha": "48646e281c6e1d05bf2ae94c820382164861ad4a",
+    "date": "2020-08-29T05:26:41+00:00",
+    "message": "챗봇 업데이트 8 (개학 직전 파이썬 req_for_setup_server.txt 추가)",
+    "changes": "commit 48646e281c6e1d05bf2ae94c820382164861ad4a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Aug 29 05:26:41 2020 +0000\n\n    챗봇 업데이트 8 (개학 직전 파이썬 req_for_setup_server.txt 추가)\n\nM\trequirements_for_setup.txt"
+  },
+  {
+    "sha": "0c8ebc75cf85fc083807d45a9e2a9e979e2443b8",
+    "date": "2020-08-30T14:27:46+09:00",
+    "message": "20200830 ebs 데이터 수집",
+    "changes": "commit 0c8ebc75cf85fc083807d45a9e2a9e979e2443b8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Aug 30 14:27:46 2020 +0900\n\n    20200830 ebs 데이터 수집\n\nA\tdata/df2_20200830.xlsx\nM\tdata/ebs_crawler_chrome.py\nM\treq_for_setup_server.txt\nD\trequirements_for_setup.txt"
+  },
+  {
+    "sha": "3570646e6fa29a92d4c69c56103b913aedce7f1e",
+    "date": "2020-08-31T14:30:30+09:00",
+    "message": "방학 전 챗봇 업데이트 (데이터 4263개) 20200831",
+    "changes": "commit 3570646e6fa29a92d4c69c56103b913aedce7f1e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Aug 31 14:30:30 2020 +0900\n\n    방학 전 챗봇 업데이트 (데이터 4263개) 20200831\n\nA\tdata/df2_20200830_edited.xlsx\nA\tdata/nnp.csv\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\treq_for_setup_server.txt\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "1835161c4b14a5da3ed37b94548348e2406b31e9",
+    "date": "2020-08-31T15:04:42+09:00",
+    "message": "방학 전 챗봇 업데이트 (데이터 4263개) 20200831",
+    "changes": "commit 1835161c4b14a5da3ed37b94548348e2406b31e9\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Aug 31 15:04:42 2020 +0900\n\n    방학 전 챗봇 업데이트 (데이터 4263개) 20200831\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "741f187e3cb02c25400b31b197bd7893069babc5",
+    "date": "2020-08-31T15:08:24+09:00",
+    "message": "방학 전 챗봇 업데이트 (데이터 4263개) 20200831",
+    "changes": "commit 741f187e3cb02c25400b31b197bd7893069babc5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Aug 31 15:08:24 2020 +0900\n\n    방학 전 챗봇 업데이트 (데이터 4263개) 20200831\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "c6b9f025f02044c0e8fe333e5ca316f1e47be145",
+    "date": "2020-08-31T22:41:30+09:00",
+    "message": "방학 전 챗봇 업데이트 (데이터 4272개) 20200831",
+    "changes": "commit c6b9f025f02044c0e8fe333e5ca316f1e47be145\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Aug 31 22:41:30 2020 +0900\n\n    방학 전 챗봇 업데이트 (데이터 4272개) 20200831\n\nM\tdata/df2_20200830_edited.xlsx\nM\tdata/nnp.csv\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "2c395dcb207418f6caee5daea5aef0430c96e4e4",
+    "date": "2020-08-31T22:43:14+09:00",
+    "message": "방학 전 챗봇 업데이트 (데이터 4272개) 20200831",
+    "changes": "commit 2c395dcb207418f6caee5daea5aef0430c96e4e4\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Aug 31 22:43:14 2020 +0900\n\n    방학 전 챗봇 업데이트 (데이터 4272개) 20200831\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "6c31288883225b5f3b79ccd0cbbefabf54969bd5",
+    "date": "2020-08-31T22:43:59+09:00",
+    "message": "방학 전 챗봇 업데이트 (데이터 4272개, faq_chatbot.py에 동사와 형용사 추가함) 20200831",
+    "changes": "commit 6c31288883225b5f3b79ccd0cbbefabf54969bd5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Aug 31 22:43:59 2020 +0900\n\n    방학 전 챗봇 업데이트 (데이터 4272개, faq_chatbot.py에 동사와 형용사 추가함) 20200831\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "55cb1688012eabec9215063f407b3083a6fd4ae2",
+    "date": "2020-09-02T09:16:24+09:00",
+    "message": "방학 전 챗봇 업데이트 (데이터 4272개, 웹페이지 제목 업데이트) 20200902",
+    "changes": "commit 55cb1688012eabec9215063f407b3083a6fd4ae2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 2 09:16:24 2020 +0900\n\n    방학 전 챗봇 업데이트 (데이터 4272개, 웹페이지 제목 업데이트) 20200902\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "b184d42c4c6871e8f5de5f331f5819d24bc4b1ee",
+    "date": "2020-09-02T09:21:17+09:00",
+    "message": "방학 전 챗봇 업데이트 (데이터 4272개, 웹페이지 제목 업데이트) 20200902",
+    "changes": "commit b184d42c4c6871e8f5de5f331f5819d24bc4b1ee\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 2 09:21:17 2020 +0900\n\n    방학 전 챗봇 업데이트 (데이터 4272개, 웹페이지 제목 업데이트) 20200902\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "0a16098054bc2577ff907fbee57c49754826f994",
+    "date": "2020-09-02T09:47:15+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit 0a16098054bc2577ff907fbee57c49754826f994\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 2 09:47:15 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out\nA\tnohup_20200831.out\nM\trun_background.sh"
+  },
+  {
+    "sha": "f7b2f41371f672a1d46eab3b2c2409900275c160",
+    "date": "2020-09-02T09:52:52+09:00",
+    "message": "방학 전 챗봇 업데이트 (settings.py에서 장고 시간대 변경) 20200902",
+    "changes": "commit f7b2f41371f672a1d46eab3b2c2409900275c160\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 2 09:52:52 2020 +0900\n\n    방학 전 챗봇 업데이트 (settings.py에서 장고 시간대 변경) 20200902\n\nM\trestfulapiserver/settings.py"
+  },
+  {
+    "sha": "c406d46cdfbeae875d3b61ff49c7143d77d6d251",
+    "date": "2020-09-02T09:53:32+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit c406d46cdfbeae875d3b61ff49c7143d77d6d251\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 2 09:53:32 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\tnohup.out\nM\trestfulapiserver/__pycache__/settings.cpython-38.pyc"
+  },
+  {
+    "sha": "c15cd0734a843dcb0cb516a84b3fae49a9136f75",
+    "date": "2020-09-02T09:56:34+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit c15cd0734a843dcb0cb516a84b3fae49a9136f75\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 2 09:56:34 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "093b9fddb0c6e8d598ee52a5f14f166b7a0fb631",
+    "date": "2020-09-02T10:12:50+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit 093b9fddb0c6e8d598ee52a5f14f166b7a0fb631\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 2 10:12:50 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\tnohup.out"
+  },
+  {
+    "sha": "46034fc5254f0ae5c431020d3e3a76e87d7561ad",
+    "date": "2020-09-02T14:36:04+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit 46034fc5254f0ae5c431020d3e3a76e87d7561ad\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 2 14:36:04 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "9844748787a2812198944aec6e3a6fc47a50f267",
+    "date": "2020-09-02T21:56:34+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit 9844748787a2812198944aec6e3a6fc47a50f267\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 2 21:56:34 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "d288ee098d1fc07a880bdca5253746a24d99f995",
+    "date": "2020-09-03T10:12:55+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit d288ee098d1fc07a880bdca5253746a24d99f995\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 3 10:12:55 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "03d3a165e795345d7f29f32b711a8de340daa0b8",
+    "date": "2020-09-03T14:39:41+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit 03d3a165e795345d7f29f32b711a8de340daa0b8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 3 14:39:41 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "59c304248554420ec9f42bdd7f4a26acf18cae2e",
+    "date": "2020-09-03T15:36:22+09:00",
+    "message": "챗봇 업데이트 10 20200903",
+    "changes": "commit 59c304248554420ec9f42bdd7f4a26acf18cae2e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 3 15:36:22 2020 +0900\n\n    챗봇 업데이트 10 20200903\n\nA\t\"data/df2_20200830_edited (\\352\\270\\260\\354\\241\\264).xlsx\"\nM\tdata/df2_20200830_edited.xlsx\nM\tdata/nnp.csv\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "0de00e020e0f6845552e7ec1c3a6ff4fad871c1f",
+    "date": "2020-09-04T09:50:12+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit 0de00e020e0f6845552e7ec1c3a6ff4fad871c1f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Sep 4 09:50:12 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "dc9d925f230c3035567a109a4ca8ff4709a6bdd3",
+    "date": "2020-09-04T16:34:13+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)",
+    "changes": "commit dc9d925f230c3035567a109a4ca8ff4709a6bdd3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Sep 4 16:34:13 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200902)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "e578a2d97012803e8c4cbd15246fb0f5a3d3d713",
+    "date": "2020-09-04T16:34:35+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200904)",
+    "changes": "commit e578a2d97012803e8c4cbd15246fb0f5a3d3d713\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Sep 4 16:34:35 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200904)\n\nM\tgit_update.sh"
+  },
+  {
+    "sha": "036e8cc366489decd99da3ff987c4ffe7e2da8d7",
+    "date": "2020-09-04T16:39:15+09:00",
+    "message": "챗봇 업데이트 10 (챗봇 공지사항 개인정보 수집 없다고 수정) 20200904",
+    "changes": "commit 036e8cc366489decd99da3ff987c4ffe7e2da8d7\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Sep 4 16:39:15 2020 +0900\n\n    챗봇 업데이트 10 (챗봇 공지사항 개인정보 수집 없다고 수정) 20200904\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "a2805412e799496d21f1416c054a2f1758d9fbb4",
+    "date": "2020-09-04T16:40:08+09:00",
+    "message": "챗봇 업데이트 10 (챗봇 공지사항 개인정보 수집 없다고 수정) 20200904",
+    "changes": "commit a2805412e799496d21f1416c054a2f1758d9fbb4\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Sep 4 16:40:08 2020 +0900\n\n    챗봇 업데이트 10 (챗봇 공지사항 개인정보 수집 없다고 수정) 20200904\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "255bfaf00cee617820b6e24918c277c41e3a46c5",
+    "date": "2020-09-04T16:41:43+09:00",
+    "message": "챗봇 업데이트 10 (챗봇 공지사항 개인정보 수집 없다고 수정) 20200904",
+    "changes": "commit 255bfaf00cee617820b6e24918c277c41e3a46c5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Sep 4 16:41:43 2020 +0900\n\n    챗봇 업데이트 10 (챗봇 공지사항 개인정보 수집 없다고 수정) 20200904\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "76d58d1df60c7587b9f963ed5cd3848a436d2daa",
+    "date": "2020-09-04T17:51:30+09:00",
+    "message": "챗봇 업데이트 10 (챗봇 공지사항 개인정보 수집 없다고 수정) 20200904",
+    "changes": "commit 76d58d1df60c7587b9f963ed5cd3848a436d2daa\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Sep 4 17:51:30 2020 +0900\n\n    챗봇 업데이트 10 (챗봇 공지사항 개인정보 수집 없다고 수정) 20200904\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "2481e620bea77e34e5eefccc5dcc1ba84525e707",
+    "date": "2020-09-05T08:44:57+09:00",
+    "message": "챗봇 업데이트 10 (favicon 업데이트) 20200905",
+    "changes": "commit 2481e620bea77e34e5eefccc5dcc1ba84525e707\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Sep 5 08:44:57 2020 +0900\n\n    챗봇 업데이트 10 (favicon 업데이트) 20200905\n\nM\ttemplates/addresses/chat_test.html\nA\ttemplates/addresses/favicon.ico"
+  },
+  {
+    "sha": "1b37ab6e8418b5391963f92e0eda1ec294666b10",
+    "date": "2020-09-05T08:54:14+09:00",
+    "message": "챗봇 업데이트 9 (개학 후 챗봇 개시 20200904)",
+    "changes": "commit 1b37ab6e8418b5391963f92e0eda1ec294666b10\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Sep 5 08:54:14 2020 +0900\n\n    챗봇 업데이트 9 (개학 후 챗봇 개시 20200904)\n\nM\tdata/datalog.xlsx\nM\tnohup.out\nA\topen_port_8000.sh"
+  },
+  {
+    "sha": "8d4fb0ba350370c7547b11436b34c58c89fb6ded",
+    "date": "2020-09-05T08:54:51+09:00",
+    "message": "챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200905)",
+    "changes": "commit 8d4fb0ba350370c7547b11436b34c58c89fb6ded\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Sep 5 08:54:51 2020 +0900\n\n    챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200905)\n\nM\tgit_update.sh"
+  },
+  {
+    "sha": "fbdb60f235ba00155b43017655e5214e7bd19b72",
+    "date": "2020-09-05T09:07:38+09:00",
+    "message": "챗봇 업데이트 10 (favicon 업데이트) 20200905",
+    "changes": "commit fbdb60f235ba00155b43017655e5214e7bd19b72\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Sep 5 09:07:38 2020 +0900\n\n    챗봇 업데이트 10 (favicon 업데이트) 20200905\n\nA\tfavicon.ico"
+  },
+  {
+    "sha": "35e3c53866aca65a506d1cfe9b3a8c562101d82b",
+    "date": "2020-09-06T18:50:49+09:00",
+    "message": "챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200906)",
+    "changes": "commit 35e3c53866aca65a506d1cfe9b3a8c562101d82b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Sep 6 18:50:49 2020 +0900\n\n    챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200906)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "09a469410dc62bfc3196d47eabb253f1b734d08b",
+    "date": "2020-09-07T08:45:19+09:00",
+    "message": "챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200907)",
+    "changes": "commit 09a469410dc62bfc3196d47eabb253f1b734d08b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 7 08:45:19 2020 +0900\n\n    챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200907)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "32d32809b61d34df6e668a85b2701cb63463e686",
+    "date": "2020-09-07T16:02:40+09:00",
+    "message": "챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200907)",
+    "changes": "commit 32d32809b61d34df6e668a85b2701cb63463e686\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 7 16:02:40 2020 +0900\n\n    챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200907)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "9a2c36a42003a948dbc1405eb9af503c6c784701",
+    "date": "2020-09-07T16:14:48+09:00",
+    "message": "챗봇 업데이트 10 (질문 몇 개 업데이트(별로 안 들어와서)) 20200907",
+    "changes": "commit 9a2c36a42003a948dbc1405eb9af503c6c784701\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 7 16:14:48 2020 +0900\n\n    챗봇 업데이트 10 (질문 몇 개 업데이트(별로 안 들어와서)) 20200907\n\nM\t\"data/df2_20200830_edited (\\352\\270\\260\\354\\241\\264).xlsx\"\nM\tdata/df2_20200830_edited.xlsx\nM\tdata/nnp.csv\nM\trestfulapiserver/settings.py"
+  },
+  {
+    "sha": "981aca14bb9a17068153f3379e03eb06ea444a4c",
+    "date": "2020-09-07T16:26:53+09:00",
+    "message": "챗봇 업데이트 10 (질문 몇 개 업데이트(별로 안 들어와서)) 20200907",
+    "changes": "commit 981aca14bb9a17068153f3379e03eb06ea444a4c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 7 16:26:53 2020 +0900\n\n    챗봇 업데이트 10 (질문 몇 개 업데이트(별로 안 들어와서)) 20200907\n\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "12b7484517dc868e5e045cd7ae1a42c33e25e3a5",
+    "date": "2020-09-08T08:39:06+09:00",
+    "message": "챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200908)",
+    "changes": "commit 12b7484517dc868e5e045cd7ae1a42c33e25e3a5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Sep 8 08:39:06 2020 +0900\n\n    챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200908)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out\nM\trestfulapiserver/__pycache__/settings.cpython-38.pyc"
+  },
+  {
+    "sha": "532de3a47d50854d20fb9de4113e328960e4ed47",
+    "date": "2020-09-10T17:21:19+09:00",
+    "message": "챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200910)",
+    "changes": "commit 532de3a47d50854d20fb9de4113e328960e4ed47\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 10 17:21:19 2020 +0900\n\n    챗봇 업데이트 10 (개학 후 챗봇 데이터 로그 업데이트 20200910)\n\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "3578ce2aee94400c65236532ab9624440b681191",
+    "date": "2020-09-10T17:32:10+09:00",
+    "message": "챗봇 업데이트 10 (문자로 들어온 질문 업데이트. 엑셀 파일만.) 20200910",
+    "changes": "commit 3578ce2aee94400c65236532ab9624440b681191\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 10 17:32:10 2020 +0900\n\n    챗봇 업데이트 10 (문자로 들어온 질문 업데이트. 엑셀 파일만.) 20200910\n\nM\tdata/df2_20200830_edited.xlsx"
+  },
+  {
+    "sha": "b3a864d961fd0cc62bdf127d99d67cd9e7d9754c",
+    "date": "2020-09-16T09:54:44+09:00",
+    "message": "챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916",
+    "changes": "commit b3a864d961fd0cc62bdf127d99d67cd9e7d9754c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 09:54:44 2020 +0900\n\n    챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916\n\nM\tdata/chromedriver.exe\nM\t\"data/df2_20200830_edited (\\352\\270\\260\\354\\241\\264).xlsx\"\nM\tdata/df2_20200830_edited.xlsx\nA\t\"data/df2_20200916_EBS_\\353\\263\\264\\354\\266\\251.xlsx\"\nM\tdata/ebs_crawler_chrome.py\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "5630feaa4f4a7ec7e471999ceafaa1a2f40e0d8f",
+    "date": "2020-09-16T09:57:59+09:00",
+    "message": "챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916",
+    "changes": "commit 5630feaa4f4a7ec7e471999ceafaa1a2f40e0d8f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 09:57:59 2020 +0900\n\n    챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "20afcde7080f1d68d065eca264dd18d32aec02be",
+    "date": "2020-09-16T10:07:41+09:00",
+    "message": "챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916",
+    "changes": "commit 20afcde7080f1d68d065eca264dd18d32aec02be\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 10:07:41 2020 +0900\n\n    챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "a6f25ea1af6375fbff44b770005d1e8a4737ea3c",
+    "date": "2020-09-16T10:11:11+09:00",
+    "message": "챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916",
+    "changes": "commit a6f25ea1af6375fbff44b770005d1e8a4737ea3c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 10:11:11 2020 +0900\n\n    챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "d554494971942fbae83fb6333c8211b72d257773",
+    "date": "2020-09-16T10:22:43+09:00",
+    "message": "챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916",
+    "changes": "commit d554494971942fbae83fb6333c8211b72d257773\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 10:22:43 2020 +0900\n\n    챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "bcd97a94b3572de02ba54f037db81361ff7016d6",
+    "date": "2020-09-16T10:35:05+09:00",
+    "message": "챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916",
+    "changes": "commit bcd97a94b3572de02ba54f037db81361ff7016d6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 10:35:05 2020 +0900\n\n    챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "5e1ec899fa8f25e110c5fee8930d58673713cfc3",
+    "date": "2020-09-16T10:37:40+09:00",
+    "message": "챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916",
+    "changes": "commit 5e1ec899fa8f25e110c5fee8930d58673713cfc3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 10:37:40 2020 +0900\n\n    챗봇 업데이트 10 (EBS 데이터 240개 추가) 20200916\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "e6793635ea54161b403e01dfc469c876e472b130",
+    "date": "2020-09-16T10:55:19+09:00",
+    "message": "챗봇 업데이트 11 (입력 안 되는 버그 수정 중) 20200916",
+    "changes": "commit e6793635ea54161b403e01dfc469c876e472b130\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 10:55:19 2020 +0900\n\n    챗봇 업데이트 11 (입력 안 되는 버그 수정 중) 20200916\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "1d83e26080058c1452e6ef045c3c91be5d5d84b2",
+    "date": "2020-09-16T10:57:45+09:00",
+    "message": "챗봇 업데이트 11 (입력 안 되는 버그 수정 중) 20200916",
+    "changes": "commit 1d83e26080058c1452e6ef045c3c91be5d5d84b2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 10:57:45 2020 +0900\n\n    챗봇 업데이트 11 (입력 안 되는 버그 수정 중) 20200916\n\nM\taddresses/faq_chatbot.py\nM\trestfulapiserver/settings.py"
+  },
+  {
+    "sha": "f338689f75b69e727cb4be8cbb26df3766d46710",
+    "date": "2020-09-16T11:03:18+09:00",
+    "message": "챗봇 업데이트 11 (입력 안 되는 버그 수정 중) 20200916",
+    "changes": "commit f338689f75b69e727cb4be8cbb26df3766d46710\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 11:03:18 2020 +0900\n\n    챗봇 업데이트 11 (입력 안 되는 버그 수정 중) 20200916\n\nM\trestfulapiserver/settings.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "b7445812ec5643a0834de861c3fc8f73abe9919a",
+    "date": "2020-09-16T11:06:22+09:00",
+    "message": "챗봇 업데이트 11 (입출력 버그 수정 중 - 서버에서 20200916)",
+    "changes": "commit b7445812ec5643a0834de861c3fc8f73abe9919a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 11:06:22 2020 +0900\n\n    챗봇 업데이트 11 (입출력 버그 수정 중 - 서버에서 20200916)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tgit_update.sh\nM\tnohup.out\nM\trestfulapiserver/__pycache__/settings.cpython-38.pyc"
+  },
+  {
+    "sha": "963c36db2ff149223a075bba1b34d6f02635c25b",
+    "date": "2020-09-16T11:08:36+09:00",
+    "message": "챗봇 업데이트 11 (입력 안 되는 버그 수정 중, 노트북에서) 20200916",
+    "changes": "commit 963c36db2ff149223a075bba1b34d6f02635c25b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 11:08:36 2020 +0900\n\n    챗봇 업데이트 11 (입력 안 되는 버그 수정 중, 노트북에서) 20200916\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "92cafb8b473e18f2af731818e1b4deef7756c649",
+    "date": "2020-09-16T11:15:36+09:00",
+    "message": "챗봇 업데이트 11 (입출력 버그 수정 중 - 서버에서 20200916)",
+    "changes": "commit 92cafb8b473e18f2af731818e1b4deef7756c649\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 11:15:36 2020 +0900\n\n    챗봇 업데이트 11 (입출력 버그 수정 중 - 서버에서 20200916)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tnohup.out"
+  },
+  {
+    "sha": "a7644197d426fb2e11370d62226044840f833885",
+    "date": "2020-09-16T11:21:50+09:00",
+    "message": "챗봇 업데이트 11 (입력 안 되는 버그 수정 중, 노트북에서) 20200916",
+    "changes": "commit a7644197d426fb2e11370d62226044840f833885\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 11:21:50 2020 +0900\n\n    챗봇 업데이트 11 (입력 안 되는 버그 수정 중, 노트북에서) 20200916\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "1aab85202c695b0bb7d3a96acf1b47963ed01469",
+    "date": "2020-09-16T11:27:18+09:00",
+    "message": "챗봇 업데이트 11 (입력 안 되는 버그 수정 완료) 20200916",
+    "changes": "commit 1aab85202c695b0bb7d3a96acf1b47963ed01469\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 11:27:18 2020 +0900\n\n    챗봇 업데이트 11 (입력 안 되는 버그 수정 완료) 20200916\n\nM\taddresses/faq_chatbot.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "55180a61d9c61ad01f0970a7bc8be6811d862130",
+    "date": "2020-09-16T11:34:41+09:00",
+    "message": "챗봇 업데이트 11 (입출력 버그 고친 후 챗봇 운영 datalog.xlsx 업데이트 20200916)",
+    "changes": "commit 55180a61d9c61ad01f0970a7bc8be6811d862130\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 11:34:41 2020 +0900\n\n    챗봇 업데이트 11 (입출력 버그 고친 후 챗봇 운영 datalog.xlsx 업데이트 20200916)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "72d1e46ed54cf8262c693282415f04b2699132ce",
+    "date": "2020-09-16T12:39:34+09:00",
+    "message": "챗봇 업데이트 11 (입출력 버그 고친 후 챗봇 운영 datalog.xlsx 업데이트 20200916)",
+    "changes": "commit 72d1e46ed54cf8262c693282415f04b2699132ce\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 12:39:34 2020 +0900\n\n    챗봇 업데이트 11 (입출력 버그 고친 후 챗봇 운영 datalog.xlsx 업데이트 20200916)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "a8bd28758ffaeabafed73064464e702187189958",
+    "date": "2020-09-16T13:27:13+09:00",
+    "message": "챗봇 업데이트 11 (입출력 버그 고친 후 챗봇 운영 datalog.xlsx 업데이트 20200916)",
+    "changes": "commit a8bd28758ffaeabafed73064464e702187189958\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 13:27:13 2020 +0900\n\n    챗봇 업데이트 11 (입출력 버그 고친 후 챗봇 운영 datalog.xlsx 업데이트 20200916)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "079ceef873626c26aaf3dc0bdb6337e954acbccd",
+    "date": "2020-09-16T13:49:34+09:00",
+    "message": "챗봇 업데이트 11 (입출력 버그 고친 후 챗봇 운영 datalog.xlsx 업데이트 20200916)",
+    "changes": "commit 079ceef873626c26aaf3dc0bdb6337e954acbccd\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Sep 16 13:49:34 2020 +0900\n\n    챗봇 업데이트 11 (입출력 버그 고친 후 챗봇 운영 datalog.xlsx 업데이트 20200916)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "e5cf804237d245aa797935baad465577439c898d",
+    "date": "2020-09-17T10:26:33+09:00",
+    "message": "챗봇 업데이트 11 (챗봇 운영 datalog.xlsx 업데이트 20200917)",
+    "changes": "commit e5cf804237d245aa797935baad465577439c898d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 17 10:26:33 2020 +0900\n\n    챗봇 업데이트 11 (챗봇 운영 datalog.xlsx 업데이트 20200917)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "556198e58ec88cff6b412f59dcc4b8a0054c7445",
+    "date": "2020-09-17T16:43:52+09:00",
+    "message": "챗봇 업데이트 11 (챗봇 운영 datalog.xlsx 업데이트 20200917)",
+    "changes": "commit 556198e58ec88cff6b412f59dcc4b8a0054c7445\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 17 16:43:52 2020 +0900\n\n    챗봇 업데이트 11 (챗봇 운영 datalog.xlsx 업데이트 20200917)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "921609b3969c9c9969546127cc8657dacdc05e8f",
+    "date": "2020-09-17T16:48:34+09:00",
+    "message": "챗봇 업데이트 12 (EBS 데이터 대폭 손봄. 자질구레한 문구 전부 정리.) 20200917",
+    "changes": "commit 921609b3969c9c9969546127cc8657dacdc05e8f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 17 16:48:34 2020 +0900\n\n    챗봇 업데이트 12 (EBS 데이터 대폭 손봄. 자질구레한 문구 전부 정리.) 20200917\n\nM\taddresses/faq_chatbot.py\nA\t\"data/EBS \\354\\247\\210\\353\\254\\270 \\354\\240\\225\\353\\246\\254.xlsx\"\nM\tdata/datalog.xlsx\nD\t\"data/df2_20200830_edited (\\352\\270\\260\\354\\241\\264).xlsx\"\nD\tdata/df2_20200830_edited.xlsx\nA\t\"data/df2_20200917_edited (\\353\\260\\261\\354\\227\\205).xlsx\"\nA\tdata/df2_20200917_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\tnohup.out"
+  },
+  {
+    "sha": "97a71b007e0944e9e9a78500ea6b45d24bc9e0b4",
+    "date": "2020-09-17T16:49:53+09:00",
+    "message": "Merge remote-tracking branch 'origin/master' into master\n\n# Conflicts:\n#\tdata/datalog.xlsx\n#\tnohup.out",
+    "changes": "commit 97a71b007e0944e9e9a78500ea6b45d24bc9e0b4\nMerge: 921609b 556198e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 17 16:49:53 2020 +0900\n\n    Merge remote-tracking branch 'origin/master' into master\n    \n    # Conflicts:\n    #       data/datalog.xlsx\n    #       nohup.out"
+  },
+  {
+    "sha": "971dcc8d0d10d1d4248bf4397db2054396accec1",
+    "date": "2020-09-17T16:53:12+09:00",
+    "message": "챗봇 업데이트 12 (EBS 데이터 대폭 손봄. 자질구레한 문구 전부 정리.) 20200917",
+    "changes": "commit 971dcc8d0d10d1d4248bf4397db2054396accec1\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 17 16:53:12 2020 +0900\n\n    챗봇 업데이트 12 (EBS 데이터 대폭 손봄. 자질구레한 문구 전부 정리.) 20200917\n\nD\t\"data/EBS \\354\\247\\210\\353\\254\\270 \\354\\240\\225\\353\\246\\254.xlsx\""
+  },
+  {
+    "sha": "7dff51685241f1d1805a9720e6b11732004a9378",
+    "date": "2020-09-17T16:55:04+09:00",
+    "message": "챗봇 업데이트 12 (EBS 데이터 대폭 손봄. 자질구레한 문구 전부 정리.) 20200917",
+    "changes": "commit 7dff51685241f1d1805a9720e6b11732004a9378\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Sep 17 16:55:04 2020 +0900\n\n    챗봇 업데이트 12 (EBS 데이터 대폭 손봄. 자질구레한 문구 전부 정리.) 20200917\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "4a83d46425397a1fdf29916ddc1732317682c27a",
+    "date": "2020-09-20T16:34:30+09:00",
+    "message": "챗봇 업데이트 12 (챗봇 운영 datalog.xlsx 업데이트 20200920)",
+    "changes": "commit 4a83d46425397a1fdf29916ddc1732317682c27a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Sep 20 16:34:30 2020 +0900\n\n    챗봇 업데이트 12 (챗봇 운영 datalog.xlsx 업데이트 20200920)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "ced1777615c557934ed8fc8c6521fc239bafebbd",
+    "date": "2020-09-22T18:44:58+09:00",
+    "message": "챗봇 업데이트 12 (챗봇 운영 datalog.xlsx 업데이트 20200920)",
+    "changes": "commit ced1777615c557934ed8fc8c6521fc239bafebbd\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Sep 22 18:44:58 2020 +0900\n\n    챗봇 업데이트 12 (챗봇 운영 datalog.xlsx 업데이트 20200920)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "2c14c34a84e44b901ff42d8f5d9249a44eec27f3",
+    "date": "2020-09-28T08:36:11+09:00",
+    "message": "챗봇 업데이트 12 (챗봇 운영 datalog.xlsx 업데이트 20200928)",
+    "changes": "commit 2c14c34a84e44b901ff42d8f5d9249a44eec27f3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 28 08:36:11 2020 +0900\n\n    챗봇 업데이트 12 (챗봇 운영 datalog.xlsx 업데이트 20200928)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "ca08b280042d4239fada7238a2ea693dc1c28501",
+    "date": "2020-09-28T09:22:08+09:00",
+    "message": "챗봇 업데이트 13 (tokenize 할 때 대명사 추가, 질문 40개 추가) 20200928",
+    "changes": "commit ca08b280042d4239fada7238a2ea693dc1c28501\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 28 09:22:08 2020 +0900\n\n    챗봇 업데이트 13 (tokenize 할 때 대명사 추가, 질문 40개 추가) 20200928\n\nM\taddresses/faq_chatbot.py\nM\tdata/datalog.xlsx\nM\t\"data/df2_20200917_edited (\\353\\260\\261\\354\\227\\205).xlsx\"\nM\tdata/df2_20200917_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "0fbb01688b880a6c326cccb8b7e9755aa873935d",
+    "date": "2020-09-28T09:23:47+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200928)",
+    "changes": "commit 0fbb01688b880a6c326cccb8b7e9755aa873935d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 28 09:23:47 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200928)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "28fd47080415dc241997e3059855b2f9fcd05d6d",
+    "date": "2020-09-28T09:24:26+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200928)",
+    "changes": "commit 28fd47080415dc241997e3059855b2f9fcd05d6d\nMerge: 0fbb016 ca08b28\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 28 09:24:26 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200928)"
+  },
+  {
+    "sha": "7912673397ce67623bc0fe93e5d97e9736216d51",
+    "date": "2020-09-28T10:04:06+09:00",
+    "message": "챗봇 업데이트 13 (대면수업 1주일 동안 들어온 질문 110개 또 추가) 20200928",
+    "changes": "commit 7912673397ce67623bc0fe93e5d97e9736216d51\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 28 10:04:06 2020 +0900\n\n    챗봇 업데이트 13 (대면수업 1주일 동안 들어온 질문 110개 또 추가) 20200928\n\nM\t\"data/df2_20200917_edited (\\353\\260\\261\\354\\227\\205).xlsx\"\nM\tdata/df2_20200917_edited.xlsx"
+  },
+  {
+    "sha": "70ebbd11a534a8125e65f1245b77e8dad0d369d4",
+    "date": "2020-09-28T10:07:51+09:00",
+    "message": "챗봇 업데이트 13 (대면수업 1주일 동안 들어온 질문 110개 또 추가) 20200928",
+    "changes": "commit 70ebbd11a534a8125e65f1245b77e8dad0d369d4\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 28 10:07:51 2020 +0900\n\n    챗봇 업데이트 13 (대면수업 1주일 동안 들어온 질문 110개 또 추가) 20200928\n\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "d6e88c083ba952f3893560340a7a9a61fd64af1e",
+    "date": "2020-09-28T10:08:26+09:00",
+    "message": "챗봇 업데이트 13 (대면수업 1주일 동안 들어온 질문 110개 또 추가) 20200928",
+    "changes": "commit d6e88c083ba952f3893560340a7a9a61fd64af1e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 28 10:08:26 2020 +0900\n\n    챗봇 업데이트 13 (대면수업 1주일 동안 들어온 질문 110개 또 추가) 20200928\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "2c470a75d530a1ecbf71837a14f62ee59f01873d",
+    "date": "2020-09-28T11:09:12+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200928)",
+    "changes": "commit 2c470a75d530a1ecbf71837a14f62ee59f01873d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Sep 28 11:09:12 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200928)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "448edd0cdd94c6e0f132680f1febb4081164398e",
+    "date": "2020-09-29T08:44:03+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200929)",
+    "changes": "commit 448edd0cdd94c6e0f132680f1febb4081164398e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Sep 29 08:44:03 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200929)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "f09d8219a7a06ce510f4533bdcd69431510e1431",
+    "date": "2020-09-29T10:04:16+09:00",
+    "message": "챗봇 업데이트 13 (질문 100개와 EBS 질문 150개 추가) 20200929",
+    "changes": "commit f09d8219a7a06ce510f4533bdcd69431510e1431\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Sep 29 10:04:16 2020 +0900\n\n    챗봇 업데이트 13 (질문 100개와 EBS 질문 150개 추가) 20200929\n\nM\taddresses/faq_chatbot.py\nM\t\"data/df2_20200917_edited (\\353\\260\\261\\354\\227\\205).xlsx\"\nM\tdata/df2_20200917_edited.xlsx\nA\t\"data/df2_20200929_EBS_\\353\\263\\264\\354\\266\\251.xlsx\"\nM\tdata/ebs_crawler_chrome.py\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\trestfulapiserver/urls.py\nR100\tfavicon.ico\tstatic/favicon.ico\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "8489aca75565efc19f74c957c7e72f16f22c4618",
+    "date": "2020-09-29T10:08:55+09:00",
+    "message": "챗봇 업데이트 13 (favicon.ico 없애기) 20200929",
+    "changes": "commit 8489aca75565efc19f74c957c7e72f16f22c4618\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Sep 29 10:08:55 2020 +0900\n\n    챗봇 업데이트 13 (favicon.ico 없애기) 20200929\n\nM\trestfulapiserver/urls.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "0fd88fe7a758906f6448572a6e468102ee4d9200",
+    "date": "2020-09-29T10:59:29+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200929)",
+    "changes": "commit 0fd88fe7a758906f6448572a6e468102ee4d9200\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Sep 29 10:59:29 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20200929)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tnohup.out\nM\trestfulapiserver/__pycache__/urls.cpython-38.pyc"
+  },
+  {
+    "sha": "e82d9ba11018f5b886b33364c3256aad02b7232d",
+    "date": "2020-10-04T20:23:08+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201004)",
+    "changes": "commit e82d9ba11018f5b886b33364c3256aad02b7232d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Oct 4 20:23:08 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201004)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "be2e4e62700024f9469c29c352a83d54b32e9729",
+    "date": "2020-10-04T22:24:50+09:00",
+    "message": "챗봇 업데이트 20201004 (추석 연휴 때 들어온 질문 125개 추가)",
+    "changes": "commit be2e4e62700024f9469c29c352a83d54b32e9729\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Oct 4 22:24:50 2020 +0900\n\n    챗봇 업데이트 20201004 (추석 연휴 때 들어온 질문 125개 추가)\n\nM\t\"data/datalog_\\352\\260\\234\\354\\213\\234.txt\"\nM\tdata/df2_20200917_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nA\ttelegram_bot.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "6fc0dcbc7e707fed2cec2d9099c2082d1a87b8e6",
+    "date": "2020-10-04T23:40:48+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201004)",
+    "changes": "commit 6fc0dcbc7e707fed2cec2d9099c2082d1a87b8e6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Oct 4 23:40:48 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201004)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "21ad770a0dcbb05293903a6358ee06dd33a8bff8",
+    "date": "2020-10-05T13:46:21+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201005)",
+    "changes": "commit 21ad770a0dcbb05293903a6358ee06dd33a8bff8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Oct 5 13:46:21 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201005)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "401d97cd16807eb651b76d40d044341a431d2278",
+    "date": "2020-10-05T14:29:56+09:00",
+    "message": "챗봇 업데이트 13 (추석 때 들어온 질문 15개 추가) 20201005",
+    "changes": "commit 401d97cd16807eb651b76d40d044341a431d2278\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Oct 5 14:29:56 2020 +0900\n\n    챗봇 업데이트 13 (추석 때 들어온 질문 15개 추가) 20201005\n\nM\t\"data/df2_20200917_edited (\\353\\260\\261\\354\\227\\205).xlsx\"\nM\tdata/df2_20200917_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "f596974941197927cd5b5521c7f255f9a1cb3aee",
+    "date": "2020-10-06T11:38:02+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201006)",
+    "changes": "commit f596974941197927cd5b5521c7f255f9a1cb3aee\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Oct 6 11:38:02 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201006)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "43d2d95a48c821d4b37974024f6674bc6e902d95",
+    "date": "2020-10-06T15:01:29+09:00",
+    "message": "챗봇 업데이트 13 (어제 들어온 질문 20개 추가) 20201006",
+    "changes": "commit 43d2d95a48c821d4b37974024f6674bc6e902d95\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Oct 6 15:01:29 2020 +0900\n\n    챗봇 업데이트 13 (어제 들어온 질문 20개 추가) 20201006\n\nM\tdata/datalog.xlsx\nM\t\"data/df2_20200917_edited (\\353\\260\\261\\354\\227\\205).xlsx\"\nM\tdata/df2_20200917_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "ed934786e948d893828b94be1c9933cc10d0ebd4",
+    "date": "2020-10-07T08:25:26+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201007 - 중간고사 날)",
+    "changes": "commit ed934786e948d893828b94be1c9933cc10d0ebd4\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Oct 7 08:25:26 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201007 - 중간고사 날)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "029b1be192de87d5ad19ba1549da9eee01e17745",
+    "date": "2020-10-08T08:43:57+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201008)",
+    "changes": "commit 029b1be192de87d5ad19ba1549da9eee01e17745\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Oct 8 08:43:57 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201008)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "922f1d90687f3dd11bffa06bf105e35b11f67970",
+    "date": "2020-10-13T13:43:26+09:00",
+    "message": "챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201013)",
+    "changes": "commit 922f1d90687f3dd11bffa06bf105e35b11f67970\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Oct 13 13:43:26 2020 +0900\n\n    챗봇 업데이트 13 (챗봇 운영 datalog.xlsx 업데이트 20201013)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "63619b9644a5395f17ee62989a04f0ad42344cc6",
+    "date": "2020-11-24T18:23:45+09:00",
+    "message": "챗봇 업데이트 14 (챗봇 운영 datalog.xlsx 업데이트 20201124x)",
+    "changes": "commit 63619b9644a5395f17ee62989a04f0ad42344cc6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Nov 24 18:23:45 2020 +0900\n\n    챗봇 업데이트 14 (챗봇 운영 datalog.xlsx 업데이트 20201124x)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "359e5ed5e121fd9dc2673738b4dae7b088ea81ea",
+    "date": "2021-01-22T23:20:57+09:00",
+    "message": "파이썬 requirements.txt 업데이트, 텔레그램 봇 삭제",
+    "changes": "commit 359e5ed5e121fd9dc2673738b4dae7b088ea81ea\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Jan 22 23:20:57 2021 +0900\n\n    파이썬 requirements.txt 업데이트, 텔레그램 봇 삭제\n\nM\treq_for_setup_server.txt\nD\ttelegram_bot.py"
+  },
+  {
+    "sha": "0ab0a80e0ce82309a0703412c52a2b56592cc832",
+    "date": "2021-01-24T20:25:37+09:00",
+    "message": "테스트 중 20210124",
+    "changes": "commit 0ab0a80e0ce82309a0703412c52a2b56592cc832\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 24 20:25:37 2021 +0900\n\n    테스트 중 20210124\n\nM\tmanage.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "4dd005d66a55f29619f67f02622d05088ed3d440",
+    "date": "2021-01-24T23:54:15+09:00",
+    "message": "테스트 중 20210124 (chat_test.html에서 css 정리)",
+    "changes": "commit 4dd005d66a55f29619f67f02622d05088ed3d440\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 24 23:54:15 2021 +0900\n\n    테스트 중 20210124 (chat_test.html에서 css 정리)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "1152810bc8a7ce9daad53918226bc9dc51314669",
+    "date": "2021-01-25T11:03:03+09:00",
+    "message": "챗봇 업데이트 15 (그냥 업로드 테스트 20210125)",
+    "changes": "commit 1152810bc8a7ce9daad53918226bc9dc51314669\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Jan 25 11:03:03 2021 +0900\n\n    챗봇 업데이트 15 (그냥 업로드 테스트 20210125)\n\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "476acfcc743d6b5f14e4ce261614c98344355cf3",
+    "date": "2021-01-30T16:18:38+09:00",
+    "message": "테스트 중 20210130 (chat_wrap ID 만들어서 없애는 거 테스트)",
+    "changes": "commit 476acfcc743d6b5f14e4ce261614c98344355cf3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 16:18:38 2021 +0900\n\n    테스트 중 20210130 (chat_wrap ID 만들어서 없애는 거 테스트)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "055649ef8fcfcaa802ac315e76fa2206f097b7e9",
+    "date": "2021-01-30T16:22:51+09:00",
+    "message": "테스트 중 20210130 (chat_wrap ID 만들어서 없애는 거 테스 2)",
+    "changes": "commit 055649ef8fcfcaa802ac315e76fa2206f097b7e9\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 16:22:51 2021 +0900\n\n    테스트 중 20210130 (chat_wrap ID 만들어서 없애는 거 테스 2)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "b5d15bce053c8631864ddcae430bf8c9b7fca9ab",
+    "date": "2021-01-30T16:38:22+09:00",
+    "message": "테스트 중 20210130 (답변 개행 <br/>)",
+    "changes": "commit b5d15bce053c8631864ddcae430bf8c9b7fca9ab\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 16:38:22 2021 +0900\n\n    테스트 중 20210130 (답변 개행 <br/>)\n\nM\taddresses/faq_chatbot.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "7f1eebd7b133465a6eb1c453397637205a35e712",
+    "date": "2021-01-30T17:01:52+09:00",
+    "message": "테스트 중 20210130 (답변 개행 2 <br/>)",
+    "changes": "commit 7f1eebd7b133465a6eb1c453397637205a35e712\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 17:01:52 2021 +0900\n\n    테스트 중 20210130 (답변 개행 2 <br/>)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "5eb70c5b979568893074b189c7e9a830bde4f834",
+    "date": "2021-01-30T17:07:38+09:00",
+    "message": "테스트 중 20210130 (답변 개행 3 <br/>)",
+    "changes": "commit 5eb70c5b979568893074b189c7e9a830bde4f834\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 17:07:38 2021 +0900\n\n    테스트 중 20210130 (답변 개행 3 <br/>)\n\nM\taddresses/faq_chatbot.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "e2e446bd654ca4a04ca9fb2c7059c671e11903f8",
+    "date": "2021-01-30T19:17:15+09:00",
+    "message": "오타 수정",
+    "changes": "commit e2e446bd654ca4a04ca9fb2c7059c671e11903f8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 19:17:15 2021 +0900\n\n    오타 수정\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "652b8e7b34fb654ea15f715fda6cab72dbf3449b",
+    "date": "2021-01-30T20:08:42+09:00",
+    "message": "테스트 중 20210130 (jquery 구글 CDN으로. 버전도 3.5.1로)",
+    "changes": "commit 652b8e7b34fb654ea15f715fda6cab72dbf3449b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 20:08:42 2021 +0900\n\n    테스트 중 20210130 (jquery 구글 CDN으로. 버전도 3.5.1로)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "ede925a75d1b32f55adcdaaa574bc94378c3c956",
+    "date": "2021-01-30T20:09:05+09:00",
+    "message": "Merge remote-tracking branch 'origin/master'",
+    "changes": "commit ede925a75d1b32f55adcdaaa574bc94378c3c956\nMerge: 652b8e7 e2e446b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 20:09:05 2021 +0900\n\n    Merge remote-tracking branch 'origin/master'\n\nMM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "465f54015fc5923bbfd1cb7562f7e17668b0f075",
+    "date": "2021-01-30T20:47:58+09:00",
+    "message": "테스트 중 20210130 (chat_test.html 51번째 줄 <!-- --> 제거",
+    "changes": "commit 465f54015fc5923bbfd1cb7562f7e17668b0f075\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 20:47:58 2021 +0900\n\n    테스트 중 20210130 (chat_test.html 51번째 줄 <!-- --> 제거\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "9da78b0c72a627b7fba6cea5d76ebf9b18592ed1",
+    "date": "2021-01-30T20:48:24+09:00",
+    "message": "Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd",
+    "changes": "commit 9da78b0c72a627b7fba6cea5d76ebf9b18592ed1\nMerge: 465f540 ede925a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jan 30 20:48:24 2021 +0900\n\n    Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd\n\nMM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "43ed0004abd299163262952932ab2675c8aaa7c3",
+    "date": "2021-01-31T21:09:38+09:00",
+    "message": "챗봇 업데이트 15 (favicon.ico 테스트 20210131)",
+    "changes": "commit 43ed0004abd299163262952932ab2675c8aaa7c3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 21:09:38 2021 +0900\n\n    챗봇 업데이트 15 (favicon.ico 테스트 20210131)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "20fbd33c0f31da2e114ca5bf3ee1f1ee003534e6",
+    "date": "2021-01-31T21:44:12+09:00",
+    "message": "챗봇 업데이트 15 (favicon.ico 작동함. 불필요한 favicon.ico 파일 제거. 20210131)",
+    "changes": "commit 20fbd33c0f31da2e114ca5bf3ee1f1ee003534e6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 21:44:12 2021 +0900\n\n    챗봇 업데이트 15 (favicon.ico 작동함. 불필요한 favicon.ico 파일 제거. 20210131)\n\nD\ttemplates/addresses/favicon.ico"
+  },
+  {
+    "sha": "43bd4f244513fee0ee4e39610ed1550ea3de2354",
+    "date": "2021-01-31T21:47:01+09:00",
+    "message": "챗봇 업데이트 15 (settings.py 디버그 모드 FALSE로 변경 20210131)",
+    "changes": "commit 43bd4f244513fee0ee4e39610ed1550ea3de2354\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 21:47:01 2021 +0900\n\n    챗봇 업데이트 15 (settings.py 디버그 모드 FALSE로 변경 20210131)\n\nM\trestfulapiserver/settings.py"
+  },
+  {
+    "sha": "94dc11376dc1a74c557aa11061e6b790b89142ba",
+    "date": "2021-01-31T21:57:00+09:00",
+    "message": "챗봇 업데이트 15 (favicon.ico 오타수정 20210131)",
+    "changes": "commit 94dc11376dc1a74c557aa11061e6b790b89142ba\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 21:57:00 2021 +0900\n\n    챗봇 업데이트 15 (favicon.ico 오타수정 20210131)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "43701f6fca01470ae0f132c50dff0609b99f3445",
+    "date": "2021-01-31T22:14:48+09:00",
+    "message": "챗봇 업데이트 16 (user-agent 추가하기 테스트 1 20210131)",
+    "changes": "commit 43701f6fca01470ae0f132c50dff0609b99f3445\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 22:14:48 2021 +0900\n\n    챗봇 업데이트 16 (user-agent 추가하기 테스트 1 20210131)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "1cd78914d84cec83a5ac98fed6536e7e9e49c5c4",
+    "date": "2021-01-31T22:27:04+09:00",
+    "message": "챗봇 업데이트 16 (user-agent 추가하기 테스트 2 link 태그 종료 수정 20210131)",
+    "changes": "commit 1cd78914d84cec83a5ac98fed6536e7e9e49c5c4\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 22:27:04 2021 +0900\n\n    챗봇 업데이트 16 (user-agent 추가하기 테스트 2 link 태그 종료 수정 20210131)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "7d32a75bbb5dc0158a9b976463c6c650edffc6ac",
+    "date": "2021-01-31T22:32:24+09:00",
+    "message": "챗봇 업데이트 16 (user-agent 추가하기 테스트 3 link 태그 종료 수정 20210131)",
+    "changes": "commit 7d32a75bbb5dc0158a9b976463c6c650edffc6ac\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 22:32:24 2021 +0900\n\n    챗봇 업데이트 16 (user-agent 추가하기 테스트 3 link 태그 종료 수정 20210131)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "f419d8b672d6b1fcf41fd454f28685d85a9ecc3c",
+    "date": "2021-01-31T22:36:40+09:00",
+    "message": "챗봇 업데이트 16 (user-agent 추가하기 테스트 4 20210131)",
+    "changes": "commit f419d8b672d6b1fcf41fd454f28685d85a9ecc3c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 22:36:40 2021 +0900\n\n    챗봇 업데이트 16 (user-agent 추가하기 테스트 4 20210131)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "e2804448a117358118a56538758a823abf8e7af9",
+    "date": "2021-01-31T22:44:19+09:00",
+    "message": "챗봇 업데이트 16 (favicon.ico 테스트 20210131)",
+    "changes": "commit e2804448a117358118a56538758a823abf8e7af9\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 22:44:19 2021 +0900\n\n    챗봇 업데이트 16 (favicon.ico 테스트 20210131)\n\nM\trestfulapiserver/urls.py"
+  },
+  {
+    "sha": "9994b4f689ef75a14db39fd9dbcce3ed7662d6c3",
+    "date": "2021-01-31T22:50:05+09:00",
+    "message": "챗봇 업데이트 16 (favicon.ico 테스트 20210131)",
+    "changes": "commit 9994b4f689ef75a14db39fd9dbcce3ed7662d6c3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 22:50:05 2021 +0900\n\n    챗봇 업데이트 16 (favicon.ico 테스트 20210131)\n\nM\trestfulapiserver/urls.py"
+  },
+  {
+    "sha": "a4c447439327b0929321294e33c9e245dbb6c915",
+    "date": "2021-01-31T22:51:54+09:00",
+    "message": "챗봇 업데이트 16 (favicon.ico 테스트 20210131)",
+    "changes": "commit a4c447439327b0929321294e33c9e245dbb6c915\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 22:51:54 2021 +0900\n\n    챗봇 업데이트 16 (favicon.ico 테스트 20210131)\n\nM\trestfulapiserver/urls.py"
+  },
+  {
+    "sha": "b208013f9aa01390edc192d5aaf6e73699b1b10e",
+    "date": "2021-01-31T23:20:52+09:00",
+    "message": "챗봇 업데이트 16 (useragent 기록하기 테스트 1 20210131)",
+    "changes": "commit b208013f9aa01390edc192d5aaf6e73699b1b10e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 23:20:52 2021 +0900\n\n    챗봇 업데이트 16 (useragent 기록하기 테스트 1 20210131)\n\nM\taddresses/faq_chatbot.py\nM\taddresses/views.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "dc1445af25cabc957e6e481872973fbb756c25bd",
+    "date": "2021-01-31T23:25:30+09:00",
+    "message": "챗봇 업데이트 16 (useragent 기록하기 테스트 1 실패 원상복구 20210131)",
+    "changes": "commit dc1445af25cabc957e6e481872973fbb756c25bd\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 23:25:30 2021 +0900\n\n    챗봇 업데이트 16 (useragent 기록하기 테스트 1 실패 원상복구 20210131)\n\nM\taddresses/faq_chatbot.py\nM\taddresses/views.py"
+  },
+  {
+    "sha": "bd1b31cb7529f8838b230a35618a62735c8e53d0",
+    "date": "2021-01-31T23:29:51+09:00",
+    "message": "챗봇 업데이트 16 (그냥 업로드 테스트 20210125)",
+    "changes": "commit bd1b31cb7529f8838b230a35618a62735c8e53d0\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 23:29:51 2021 +0900\n\n    챗봇 업데이트 16 (그냥 업로드 테스트 20210125)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\taddresses/__pycache__/views.cpython-38.pyc\nD\tdata/datalog.xlsx\nA\tdata/datalog_20210131.xlsx\nM\tgit_update.sh\nM\tnohup.out\nM\trestfulapiserver/__pycache__/settings.cpython-38.pyc\nM\trestfulapiserver/__pycache__/urls.cpython-38.pyc"
+  },
+  {
+    "sha": "e41f505b899bfba95998781e5d9e1603ebe6df93",
+    "date": "2021-01-31T23:36:09+09:00",
+    "message": "챗봇 업데이트 16 (useragent 기록하기 테스트 1 실패 datalog.xlsx 초기화 20210131)",
+    "changes": "commit e41f505b899bfba95998781e5d9e1603ebe6df93\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 23:36:09 2021 +0900\n\n    챗봇 업데이트 16 (useragent 기록하기 테스트 1 실패 datalog.xlsx 초기화 20210131)\n\nA\tdata/datalog.xlsx"
+  },
+  {
+    "sha": "9d7b25efdb12a702c64d45f7a3b34a180600d23a",
+    "date": "2021-01-31T23:37:54+09:00",
+    "message": "챗봇 업데이트 16 (useragent 기록하기 테스트 1 실패 복구 2 20210131)",
+    "changes": "commit 9d7b25efdb12a702c64d45f7a3b34a180600d23a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 23:37:54 2021 +0900\n\n    챗봇 업데이트 16 (useragent 기록하기 테스트 1 실패 복구 2 20210131)\n\nM\taddresses/views.py"
+  },
+  {
+    "sha": "062b7a6243c229132b7872babbcbccd2cbc81e59",
+    "date": "2021-01-31T23:42:31+09:00",
+    "message": "챗봇 업데이트 16 (그냥 업로드 테스트 20210131)",
+    "changes": "commit 062b7a6243c229132b7872babbcbccd2cbc81e59\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jan 31 23:42:31 2021 +0900\n\n    챗봇 업데이트 16 (그냥 업로드 테스트 20210131)\n\nM\taddresses/__pycache__/views.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tgit_update.sh"
+  },
+  {
+    "sha": "627c5244a3541141ad0194d9c2fff2f913729166",
+    "date": "2021-02-03T11:19:54+09:00",
+    "message": "git ignore 파일 수정",
+    "changes": "commit 627c5244a3541141ad0194d9c2fff2f913729166\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 3 11:19:54 2021 +0900\n\n    git ignore 파일 수정\n\nM\t.gitignore"
+  },
+  {
+    "sha": "ecf6cc22a8ae8d89d3a2cab2ae78c4f446e5ff81",
+    "date": "2021-02-03T11:31:59+09:00",
+    "message": "커밋 테스트",
+    "changes": "commit ecf6cc22a8ae8d89d3a2cab2ae78c4f446e5ff81\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 3 11:31:59 2021 +0900\n\n    커밋 테스트\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "0af0a7313964bcc50c0b0bf12fbd200296ec424c",
+    "date": "2021-02-04T23:19:47+09:00",
+    "message": "챗봇 업데이트 16 (질문 입력하는 곳에 placeholder 설명 넣기 2021204)",
+    "changes": "commit 0af0a7313964bcc50c0b0bf12fbd200296ec424c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Feb 4 23:19:47 2021 +0900\n\n    챗봇 업데이트 16 (질문 입력하는 곳에 placeholder 설명 넣기 2021204)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "5f37cc0a877c485219d7fa7d3e00a1827bd7f604",
+    "date": "2021-02-07T12:36:02+09:00",
+    "message": "챗봇 업데이트 16 (useragent 수집하기 20210207)",
+    "changes": "commit 5f37cc0a877c485219d7fa7d3e00a1827bd7f604\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 12:36:02 2021 +0900\n\n    챗봇 업데이트 16 (useragent 수집하기 20210207)\n\nM\taddresses/faq_chatbot.py\nM\taddresses/views.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "dbe98ec024ad253d789d132211921fbe880f2913",
+    "date": "2021-02-07T12:40:20+09:00",
+    "message": "챗봇 업데이트 16 (그냥 업로드 테스트 20210207)",
+    "changes": "commit dbe98ec024ad253d789d132211921fbe880f2913\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 12:40:20 2021 +0900\n\n    챗봇 업데이트 16 (그냥 업로드 테스트 20210207)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\taddresses/__pycache__/views.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "8b8eb4a280b1389061e2b9f23e6505b28224fbdd",
+    "date": "2021-02-07T12:59:53+09:00",
+    "message": "챗봇 업데이트 16 (useragent 수집하기 다시1 20210207)",
+    "changes": "commit 8b8eb4a280b1389061e2b9f23e6505b28224fbdd\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 12:59:53 2021 +0900\n\n    챗봇 업데이트 16 (useragent 수집하기 다시1 20210207)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "8268949ba001f007b960cc06e4e7e5304651aefa",
+    "date": "2021-02-07T13:01:13+09:00",
+    "message": "챗봇 업데이트 16 (그냥 업로드 테스트 20210207)",
+    "changes": "commit 8268949ba001f007b960cc06e4e7e5304651aefa\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:01:13 2021 +0900\n\n    챗봇 업데이트 16 (그냥 업로드 테스트 20210207)\n\nM\tdata/datalog.xlsx"
+  },
+  {
+    "sha": "0a875f645dde14cb95524508f16ba328d730037e",
+    "date": "2021-02-07T13:05:08+09:00",
+    "message": "챗봇 업데이트 16 (useragent 수집하기 다시2 20210207)",
+    "changes": "commit 0a875f645dde14cb95524508f16ba328d730037e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:05:08 2021 +0900\n\n    챗봇 업데이트 16 (useragent 수집하기 다시2 20210207)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "30b426d5f2ce6ac3e32169179a2692a9e376be9d",
+    "date": "2021-02-07T13:06:22+09:00",
+    "message": "챗봇 업데이트 16 (그냥 업로드 테스트 20210207)",
+    "changes": "commit 30b426d5f2ce6ac3e32169179a2692a9e376be9d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:06:22 2021 +0900\n\n    챗봇 업데이트 16 (그냥 업로드 테스트 20210207)\n\nM\tdata/datalog.xlsx"
+  },
+  {
+    "sha": "cd14fed599ad3e7f9a7b955c8517d2613654783c",
+    "date": "2021-02-07T13:12:13+09:00",
+    "message": "챗봇 업데이트 16 (useragent 수집하기 다시3 20210207)",
+    "changes": "commit cd14fed599ad3e7f9a7b955c8517d2613654783c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:12:13 2021 +0900\n\n    챗봇 업데이트 16 (useragent 수집하기 다시3 20210207)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "9e076684dde1f729a30f9c4a642f77d7e9a21517",
+    "date": "2021-02-07T13:13:28+09:00",
+    "message": "챗봇 업데이트 16 (그냥 업로드 테스트 20210207)",
+    "changes": "commit 9e076684dde1f729a30f9c4a642f77d7e9a21517\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:13:28 2021 +0900\n\n    챗봇 업데이트 16 (그냥 업로드 테스트 20210207)\n\nM\tdata/datalog.xlsx"
+  },
+  {
+    "sha": "07c9c167e28e3c9676a0499f32eb364925fcb4a2",
+    "date": "2021-02-07T13:21:06+09:00",
+    "message": "챗봇 업데이트 16 (useragent 수집하기 다시4 20210207)",
+    "changes": "commit 07c9c167e28e3c9676a0499f32eb364925fcb4a2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:21:06 2021 +0900\n\n    챗봇 업데이트 16 (useragent 수집하기 다시4 20210207)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "9afe8f1f904cdc26fcd3d3c815c014f9ecfb5583",
+    "date": "2021-02-07T13:23:53+09:00",
+    "message": "챗봇 업데이트 16 (useragent 수집하기 다시5 20210207)",
+    "changes": "commit 9afe8f1f904cdc26fcd3d3c815c014f9ecfb5583\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:23:53 2021 +0900\n\n    챗봇 업데이트 16 (useragent 수집하기 다시5 20210207)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "0872a39048d05c0e2a368983ea869d4a2752abb1",
+    "date": "2021-02-07T13:26:27+09:00",
+    "message": "챗봇 업데이트 16 (그냥 업로드 테스트 20210207)",
+    "changes": "commit 0872a39048d05c0e2a368983ea869d4a2752abb1\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:26:27 2021 +0900\n\n    챗봇 업데이트 16 (그냥 업로드 테스트 20210207)\n\nM\tdata/datalog.xlsx"
+  },
+  {
+    "sha": "0b8d24617c5cfa8011ffe9d04f576c20ba1ff7e8",
+    "date": "2021-02-07T13:29:07+09:00",
+    "message": "챗봇 업데이트 16 (useragent 수집하기 성공 20210207)",
+    "changes": "commit 0b8d24617c5cfa8011ffe9d04f576c20ba1ff7e8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:29:07 2021 +0900\n\n    챗봇 업데이트 16 (useragent 수집하기 성공 20210207)\n\nM\tdata/datalog.xlsx\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "b30ca27232c53158d8b6c442d27eb7768ef1e828",
+    "date": "2021-02-07T13:57:19+09:00",
+    "message": "챗봇 업데이트 16 (그냥 업로드 테스트 20210207)",
+    "changes": "commit b30ca27232c53158d8b6c442d27eb7768ef1e828\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 13:57:19 2021 +0900\n\n    챗봇 업데이트 16 (그냥 업로드 테스트 20210207)\n\nM\tdata/datalog.xlsx\nM\tnohup.out"
+  },
+  {
+    "sha": "55207debdaa699ee10b0a6d5fe877b69be88a9f8",
+    "date": "2021-02-07T18:43:53+09:00",
+    "message": "챗봇 업데이트 16 (datalog-20210207.xlsx 넣기 20210207)",
+    "changes": "commit 55207debdaa699ee10b0a6d5fe877b69be88a9f8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 18:43:53 2021 +0900\n\n    챗봇 업데이트 16 (datalog-20210207.xlsx 넣기 20210207)\n\nA\tdata/datalog-20210207.xlsx"
+  },
+  {
+    "sha": "1ae9f06bf4f305e353509c7bac2cf0b4f4069459",
+    "date": "2021-02-07T19:11:46+09:00",
+    "message": "챗봇 업데이트 16 (질문 입력하는 곳에 placeholder 설명 넣기 2021204)",
+    "changes": "commit 1ae9f06bf4f305e353509c7bac2cf0b4f4069459\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 19:11:46 2021 +0900\n\n    챗봇 업데이트 16 (질문 입력하는 곳에 placeholder 설명 넣기 2021204)\n\nM\t.idea/misc.xml\nM\t.idea/restfulapiserver.iml\nA\t\"data/df2_20210207_EBS_\\353\\263\\264\\354\\266\\251.xlsx\"\nA\tdata/df2_20210207_edited.xlsx\nM\tdata/ebs_crawler_chrome.py"
+  },
+  {
+    "sha": "7fb3f44bb4be0f22ef1d93d45725b883275a5424",
+    "date": "2021-02-07T19:12:03+09:00",
+    "message": "Merge remote-tracking branch 'origin/master'",
+    "changes": "commit 7fb3f44bb4be0f22ef1d93d45725b883275a5424\nMerge: 1ae9f06 55207de\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 19:12:03 2021 +0900\n\n    Merge remote-tracking branch 'origin/master'"
+  },
+  {
+    "sha": "04d07396ceb4b69971fca60c603e7d4d7a6c6020",
+    "date": "2021-02-07T20:25:32+09:00",
+    "message": "챗봇 업데이트 17 (EBS 데이터 업데이트 작업 중 20210207)",
+    "changes": "commit 04d07396ceb4b69971fca60c603e7d4d7a6c6020\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 20:25:32 2021 +0900\n\n    챗봇 업데이트 17 (EBS 데이터 업데이트 작업 중 20210207)\n\nM\t\"data/df2_20210207_EBS_\\353\\263\\264\\354\\266\\251.xlsx\""
+  },
+  {
+    "sha": "2779dd2cae4256925e75b969c938495c6c4c5322",
+    "date": "2021-02-07T22:40:45+09:00",
+    "message": "챗봇 업데이트 17 (EBS 데이터 업데이트하여 모델 업데이트 20210207)",
+    "changes": "commit 2779dd2cae4256925e75b969c938495c6c4c5322\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 22:40:45 2021 +0900\n\n    챗봇 업데이트 17 (EBS 데이터 업데이트하여 모델 업데이트 20210207)\n\nM\taddresses/faq_chatbot.py\nM\t\"data/df2_20210207_EBS_\\353\\263\\264\\354\\266\\251.xlsx\"\nM\tdata/df2_20210207_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "d47fc5b5f577bd0535790c47c97831e8644712ef",
+    "date": "2021-02-07T22:46:21+09:00",
+    "message": "챗봇 업데이트 17 (EBS 데이터 업데이트하여 모델 업데이트 20210207)",
+    "changes": "commit d47fc5b5f577bd0535790c47c97831e8644712ef\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 7 22:46:21 2021 +0900\n\n    챗봇 업데이트 17 (EBS 데이터 업데이트하여 모델 업데이트 20210207)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "9ac0ae71d65939e0f14161990cb0aa781c66fe83",
+    "date": "2021-02-14T17:03:58+09:00",
+    "message": "챗봇 업데이트 17 (그냥 업로드 테스트 20210214)",
+    "changes": "commit 9ac0ae71d65939e0f14161990cb0aa781c66fe83\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 14 17:03:58 2021 +0900\n\n    챗봇 업데이트 17 (그냥 업로드 테스트 20210214)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out"
+  },
+  {
+    "sha": "1de3acd2d256d738968518981fb926eedbb9e9ed",
+    "date": "2021-02-14T17:04:46+09:00",
+    "message": "Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd",
+    "changes": "commit 1de3acd2d256d738968518981fb926eedbb9e9ed\nMerge: 9ac0ae7 d47fc5b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 14 17:04:46 2021 +0900\n\n    Merge branch 'master' of https://github.com/kungmo/faq_chatbot_science_3rd"
+  },
+  {
+    "sha": "a42e87ded897ebdd0daf5a5dccf693c02c80cce8",
+    "date": "2021-02-14T20:30:05+09:00",
+    "message": "챗봇 업데이트 17 (다중접속가능 만들기 1 20210214)",
+    "changes": "commit a42e87ded897ebdd0daf5a5dccf693c02c80cce8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 14 20:30:05 2021 +0900\n\n    챗봇 업데이트 17 (다중접속가능 만들기 1 20210214)\n\nM\t.idea/misc.xml\nM\t.idea/restfulapiserver.iml\nM\taddresses/faq_chatbot.py\nA\taddresses/multipleaccess.py\nM\taddresses/views.py"
+  },
+  {
+    "sha": "404e7ea8828b64f9af43d18f6c69ca10614b6dda",
+    "date": "2021-02-14T20:30:26+09:00",
+    "message": "Merge remote-tracking branch 'origin/master'",
+    "changes": "commit 404e7ea8828b64f9af43d18f6c69ca10614b6dda\nMerge: a42e87d 1de3acd\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 14 20:30:26 2021 +0900\n\n    Merge remote-tracking branch 'origin/master'"
+  },
+  {
+    "sha": "857fcd674bd87cb5d4d83c9be51b58418a0d2441",
+    "date": "2021-02-14T22:59:32+09:00",
+    "message": "챗봇 업데이트 17 (다중접속가능 만들기 2 debug = true로 변경 20210214)",
+    "changes": "commit 857fcd674bd87cb5d4d83c9be51b58418a0d2441\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 14 22:59:32 2021 +0900\n\n    챗봇 업데이트 17 (다중접속가능 만들기 2 debug = true로 변경 20210214)\n\nM\taddresses/faq_chatbot.py\nA\taddresses/faq_chatbot_backup20110214.py\nM\treq_for_setup_server.txt\nM\trestfulapiserver/settings.py"
+  },
+  {
+    "sha": "7c34ebdaf5848f304764c5fa14b821e5564383eb",
+    "date": "2021-02-15T21:40:56+09:00",
+    "message": "챗봇 업데이트 17 (favicon.ico 설정 20210215)",
+    "changes": "commit 7c34ebdaf5848f304764c5fa14b821e5564383eb\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Feb 15 21:40:56 2021 +0900\n\n    챗봇 업데이트 17 (favicon.ico 설정 20210215)\n\nM\topen_port_8000.sh\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "8605c2856f11a018016ab40576a331a730e33120",
+    "date": "2021-02-15T21:47:32+09:00",
+    "message": "챗봇 업데이트 17 (favicon.ico 설정 20210215)",
+    "changes": "commit 8605c2856f11a018016ab40576a331a730e33120\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Feb 15 21:47:32 2021 +0900\n\n    챗봇 업데이트 17 (favicon.ico 설정 20210215)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "303116200d25ad04778c91ba4ec8530667e1a83a",
+    "date": "2021-02-15T21:51:10+09:00",
+    "message": "챗봇 업데이트 17 (favicon.ico 설정 20210215)",
+    "changes": "commit 303116200d25ad04778c91ba4ec8530667e1a83a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Feb 15 21:51:10 2021 +0900\n\n    챗봇 업데이트 17 (favicon.ico 설정 20210215)\n\nM\trestfulapiserver/urls.py"
+  },
+  {
+    "sha": "a5f924caa389fa0a33bec31245db7e3b25811e5c",
+    "date": "2021-02-15T21:52:56+09:00",
+    "message": "챗봇 업데이트 17 (favicon.ico 설정 20210215)",
+    "changes": "commit a5f924caa389fa0a33bec31245db7e3b25811e5c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Feb 15 21:52:56 2021 +0900\n\n    챗봇 업데이트 17 (favicon.ico 설정 20210215)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "ce5c04a80a82da3469b655c8073b4f1d7f40d6ca",
+    "date": "2021-02-15T22:05:26+09:00",
+    "message": "챗봇 업데이트 17 (favicon.ico 설정 20210215)",
+    "changes": "commit ce5c04a80a82da3469b655c8073b4f1d7f40d6ca\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Feb 15 22:05:26 2021 +0900\n\n    챗봇 업데이트 17 (favicon.ico 설정 20210215)\n\nM\tdata/df2_20210207_edited.xlsx\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "9270cad741bc7a8f46149f0ec3a344a6c48c1c89",
+    "date": "2021-02-15T22:07:59+09:00",
+    "message": "챗봇 업데이트 17 (favicon.ico 설정 20210215)",
+    "changes": "commit 9270cad741bc7a8f46149f0ec3a344a6c48c1c89\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Feb 15 22:07:59 2021 +0900\n\n    챗봇 업데이트 17 (favicon.ico 설정 20210215)\n\nM\trestfulapiserver/urls.py"
+  },
+  {
+    "sha": "48777f59885bc53579a696ebf4be131abb519205",
+    "date": "2021-02-15T22:16:33+09:00",
+    "message": "챗봇 업데이트 17 (favicon.ico 설정 20210215)",
+    "changes": "commit 48777f59885bc53579a696ebf4be131abb519205\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Feb 15 22:16:33 2021 +0900\n\n    챗봇 업데이트 17 (favicon.ico 설정 20210215)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "1128ffcbc865cc468ae7175e9b6156a8a75ba521",
+    "date": "2021-02-15T22:22:10+09:00",
+    "message": "챗봇 업데이트 17 (favicon.ico 설정 20210215)",
+    "changes": "commit 1128ffcbc865cc468ae7175e9b6156a8a75ba521\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Feb 15 22:22:10 2021 +0900\n\n    챗봇 업데이트 17 (favicon.ico 설정 20210215)\n\nM\trestfulapiserver/urls.py"
+  },
+  {
+    "sha": "fe45a77312fe7debefd8378ad851d4079cd2e6a9",
+    "date": "2021-02-15T23:00:58+09:00",
+    "message": "챗봇 업데이트 17 (경로명에서 네이버 흔적 삭제 20210214)",
+    "changes": "commit fe45a77312fe7debefd8378ad851d4079cd2e6a9\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Feb 15 23:00:58 2021 +0900\n\n    챗봇 업데이트 17 (경로명에서 네이버 흔적 삭제 20210214)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\taddresses/__pycache__/views.cpython-38.pyc\nM\taddresses/faq_chatbot.py\nM\tdata/datalog.xlsx\nM\tgit_update.sh\nM\tnohup.out\nM\trestfulapiserver/__pycache__/settings.cpython-38.pyc\nM\trestfulapiserver/__pycache__/urls.cpython-38.pyc"
+  },
+  {
+    "sha": "2c6ad74079e71fc4407b7e7df8d5246dd1fd5b23",
+    "date": "2021-02-16T21:56:52+09:00",
+    "message": "챗봇 업데이트 17 (경로명에서 네이버 흔적 삭제 20210214)",
+    "changes": "commit 2c6ad74079e71fc4407b7e7df8d5246dd1fd5b23\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Feb 16 21:56:52 2021 +0900\n\n    챗봇 업데이트 17 (경로명에서 네이버 흔적 삭제 20210214)\n\nA\tenvironment_gunicorn.env\nA\trestfulapiserver.service"
+  },
+  {
+    "sha": "e74ddc06bbdafeadc49cb583015f449f4fe8a7a0",
+    "date": "2021-02-16T22:03:17+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn 20210216)",
+    "changes": "commit e74ddc06bbdafeadc49cb583015f449f4fe8a7a0\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Feb 16 22:03:17 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn 20210216)\n\nM\trestfulapiserver.service"
+  },
+  {
+    "sha": "27b41954e8acde7ee3f783d0aaeb94f1d339e870",
+    "date": "2021-02-16T22:38:20+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn 20210216)",
+    "changes": "commit 27b41954e8acde7ee3f783d0aaeb94f1d339e870\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Feb 16 22:38:20 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn 20210216)\n\nA\tconfig/settings/__init__.py\nA\tconfig/settings/base.py\nA\tconfig/settings/local.py\nA\tconfig/settings/prod.py\nA\tconfig/settings/settings.py\nA\tconfig/settings/urls.py\nA\tconfig/settings/wsgi.py"
+  },
+  {
+    "sha": "89fbc35278b4ee41a3a2f4dcd866d02d83990500",
+    "date": "2021-02-16T22:44:10+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가능케 하기 20210216)",
+    "changes": "commit 89fbc35278b4ee41a3a2f4dcd866d02d83990500\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Feb 16 22:44:10 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가능케 하기 20210216)\n\nD\tconfig/settings/__init__.py\nA\tconfig/settings/__pycache__/__init__.cpython-38.pyc\nA\tconfig/settings/__pycache__/base.cpython-38.pyc\nA\tconfig/settings/__pycache__/prod.cpython-38.pyc\nD\tconfig/settings/base.py\nD\tconfig/settings/local.py\nD\tconfig/settings/prod.py\nD\tconfig/settings/urls.py\nD\tconfig/settings/wsgi.py\nR100\trestfulapiserver.service\tcopy_system_files/restfulapiserver.service\nM\tgit_update.sh"
+  },
+  {
+    "sha": "1ef7e6fa16399e01425c2e3efcb3ca2830b5d03d",
+    "date": "2021-02-16T22:45:36+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn 20210216)",
+    "changes": "commit 1ef7e6fa16399e01425c2e3efcb3ca2830b5d03d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Feb 16 22:45:36 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn 20210216)\n\nA\tconfig/settings/__init__.py\nA\tconfig/settings/base.py\nA\tconfig/settings/local.py\nA\tconfig/settings/prod.py\nA\tconfig/settings/urls.py\nA\tconfig/settings/wsgi.py"
+  },
+  {
+    "sha": "631e7a1fce135b3e24e61a07ddc4b63d65d8833f",
+    "date": "2021-02-16T22:53:49+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn 20210216)",
+    "changes": "commit 631e7a1fce135b3e24e61a07ddc4b63d65d8833f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Feb 16 22:53:49 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn 20210216)\n\nD\tconfig/settings/__init__.py\nD\tconfig/settings/base.py\nD\tconfig/settings/local.py\nD\tconfig/settings/prod.py\nD\tconfig/settings/settings.py\nD\tconfig/settings/urls.py\nD\tconfig/settings/wsgi.py\nM\tenvironment_gunicorn.env"
+  },
+  {
+    "sha": "114095c6aa488129b2fa7eb183a0d6e77eba3e6d",
+    "date": "2021-02-17T20:21:05+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn, nginx 20210217)",
+    "changes": "commit 114095c6aa488129b2fa7eb183a0d6e77eba3e6d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 20:21:05 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn, nginx 20210217)\n\nM\taddresses/views.py\nA\tcopy_system_files/restfulapiservice\nM\topen_port_8000.sh\nM\treq_for_setup_server.txt\nM\ttemplates/addresses/chat_web.html"
+  },
+  {
+    "sha": "386dc2a3bfecb2cc9aba60f009ee8ae8df0d5d9b",
+    "date": "2021-02-17T20:22:51+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn, nginx 20210217)",
+    "changes": "commit 386dc2a3bfecb2cc9aba60f009ee8ae8df0d5d9b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 20:22:51 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가능케 하기 gunicorn, nginx 20210217)\n\nM\trestfulapiserver/urls.py"
+  },
+  {
+    "sha": "a28f1b6e6d82d1e3b425516de3dd3d9b20c47ca8",
+    "date": "2021-02-17T21:30:56+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가능케 하기 chat_test, chat_service 분리 20210217)",
+    "changes": "commit a28f1b6e6d82d1e3b425516de3dd3d9b20c47ca8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 21:30:56 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가능케 하기 chat_test, chat_service 분리 20210217)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "baeeee399881676b244904f8800426378d40e9b5",
+    "date": "2021-02-17T21:32:39+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가능케 하기 chat_test, chat_service 분리 20210217)",
+    "changes": "commit baeeee399881676b244904f8800426378d40e9b5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 21:32:39 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가능케 하기 chat_test, chat_service 분리 20210217)\n\nM\taddresses/views.py\nR100\ttemplates/addresses/chat_web.html\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "80ef5e51cfcebc165d13b159658c031902e843c1",
+    "date": "2021-02-17T21:45:35+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)",
+    "changes": "commit 80ef5e51cfcebc165d13b159658c031902e843c1\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 21:45:35 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)\n\nM\taddresses/faq_chatbot.py\nA\tdata/datalog_heavytest.xlsx"
+  },
+  {
+    "sha": "cc587c65c2bd5ee527c5d17f7138dcf5dbce76cc",
+    "date": "2021-02-17T21:47:09+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)",
+    "changes": "commit cc587c65c2bd5ee527c5d17f7138dcf5dbce76cc\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 21:47:09 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "1727971b1569c59c29dcedd591cb904776588262",
+    "date": "2021-02-17T21:54:14+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가혹조건 테스트 20210216)",
+    "changes": "commit 1727971b1569c59c29dcedd591cb904776588262\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 21:54:14 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가혹조건 테스트 20210216)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\taddresses/__pycache__/views.cpython-38.pyc\nM\tdata/datalog.xlsx\nM\tdata/datalog_heavytest.xlsx\nM\tdb.sqlite3\nM\tgit_update.sh\nM\tnohup.out\nM\trestfulapiserver/__pycache__/urls.cpython-38.pyc"
+  },
+  {
+    "sha": "12bdb5444102a3cb9412460a20869c6c3d78256b",
+    "date": "2021-02-17T21:57:43+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)",
+    "changes": "commit 12bdb5444102a3cb9412460a20869c6c3d78256b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 21:57:43 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)\n\nM\tdata/datalog_heavytest.xlsx"
+  },
+  {
+    "sha": "e8d4895a0bc2a97ca53b0b8a13b6a9c32c180cd6",
+    "date": "2021-02-17T21:59:59+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가혹조건 테스트 20210216)",
+    "changes": "commit e8d4895a0bc2a97ca53b0b8a13b6a9c32c180cd6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 21:59:59 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가혹조건 테스트 20210216)\n\nM\tdata/datalog_heavytest.xlsx"
+  },
+  {
+    "sha": "a293d0fef0ae799c0c8a44c01c928ab362224c6b",
+    "date": "2021-02-17T22:05:28+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)",
+    "changes": "commit a293d0fef0ae799c0c8a44c01c928ab362224c6b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 22:05:28 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)\n\nM\taddresses/faq_chatbot.py\nA\tdata/datalog_heavytest backup.xlsx\nM\tdata/datalog_heavytest.xlsx"
+  },
+  {
+    "sha": "ed13137aebb62168ecd588d0e6f6a0d8b106d5e3",
+    "date": "2021-02-17T22:10:46+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가혹조건 테스트 20210216)",
+    "changes": "commit ed13137aebb62168ecd588d0e6f6a0d8b106d5e3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 22:10:46 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가혹조건 테스트 20210216)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc"
+  },
+  {
+    "sha": "eb5ba2b58fbe8f3d6480b3d1e015a938a95d81e1",
+    "date": "2021-02-17T22:12:27+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)",
+    "changes": "commit eb5ba2b58fbe8f3d6480b3d1e015a938a95d81e1\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 22:12:27 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가혹조건 테스트. 임시로 datalog_heavytest.xlsx 사용. 20210217)\n\nM\tdata/datalog_heavytest.xlsx"
+  },
+  {
+    "sha": "c62f1d141f902bfa470c076ca254c0e7db54f12c",
+    "date": "2021-02-17T22:40:01+09:00",
+    "message": "챗봇 업데이트 17 (다중접속 가혹조건 테스트 - 실패. 원상복구함. 20210217)",
+    "changes": "commit c62f1d141f902bfa470c076ca254c0e7db54f12c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 17 22:40:01 2021 +0900\n\n    챗봇 업데이트 17 (다중접속 가혹조건 테스트 - 실패. 원상복구함. 20210217)\n\nM\taddresses/faq_chatbot.py\nD\tdata/datalog_heavytest backup.xlsx"
+  },
+  {
+    "sha": "3d6d64d4509ec3c90a996149a159cd6d1e28cb3f",
+    "date": "2021-02-21T17:50:02+09:00",
+    "message": "챗봇 업데이트 17 (debug=false 20210221)",
+    "changes": "commit 3d6d64d4509ec3c90a996149a159cd6d1e28cb3f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 21 17:50:02 2021 +0900\n\n    챗봇 업데이트 17 (debug=false 20210221)\n\nM\trestfulapiserver/settings.py"
+  },
+  {
+    "sha": "73f072515dab1a68e55d03db50c648c15f8d2500",
+    "date": "2021-02-24T23:17:10+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit 73f072515dab1a68e55d03db50c648c15f8d2500\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:17:10 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "176e5b63f10c9c5b090664bf97747eabc6e6cde9",
+    "date": "2021-02-24T23:22:49+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit 176e5b63f10c9c5b090664bf97747eabc6e6cde9\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:22:49 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "79461be3c7ec0782b40aaa19c1f00b406bd4b86f",
+    "date": "2021-02-24T23:27:44+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit 79461be3c7ec0782b40aaa19c1f00b406bd4b86f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:27:44 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "7a213754d4bfe7d2243fe507a08583aabc204c49",
+    "date": "2021-02-24T23:32:58+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit 7a213754d4bfe7d2243fe507a08583aabc204c49\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:32:58 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "c1a643cd128afa6787479c9d20f9d92cba7f81c4",
+    "date": "2021-02-24T23:33:46+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit c1a643cd128afa6787479c9d20f9d92cba7f81c4\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:33:46 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "d2735e304c5d52973ed8745282f18e070bba81a7",
+    "date": "2021-02-24T23:35:14+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit d2735e304c5d52973ed8745282f18e070bba81a7\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:35:14 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "12f92ceacf76273c0b2dab40f7d735d1efa9b78d",
+    "date": "2021-02-24T23:38:11+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit 12f92ceacf76273c0b2dab40f7d735d1efa9b78d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:38:11 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "b5f9496445b5c01c9cabcbbcec58c542d99ae396",
+    "date": "2021-02-24T23:42:20+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit b5f9496445b5c01c9cabcbbcec58c542d99ae396\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:42:20 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "a4f3a9683b9b5793ab521d64e6eed5884268add3",
+    "date": "2021-02-24T23:49:22+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit a4f3a9683b9b5793ab521d64e6eed5884268add3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:49:22 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "9d4499f200d14efceba79ccb7f6701f7cab28b94",
+    "date": "2021-02-24T23:51:48+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit 9d4499f200d14efceba79ccb7f6701f7cab28b94\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:51:48 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "b14f94782a9f1fc84296e48e80eea6e22905cc8a",
+    "date": "2021-02-24T23:54:10+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit b14f94782a9f1fc84296e48e80eea6e22905cc8a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Feb 24 23:54:10 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "fb29dff65cd57198b568bbb37f6e735b579e18d2",
+    "date": "2021-02-25T00:01:37+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210224)",
+    "changes": "commit fb29dff65cd57198b568bbb37f6e735b579e18d2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Feb 25 00:01:37 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210224)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "a7305f1346d5ed8704baf06a3154dd7e31ee8977",
+    "date": "2021-02-25T23:19:19+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210225)",
+    "changes": "commit a7305f1346d5ed8704baf06a3154dd7e31ee8977\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Feb 25 23:19:19 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210225)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "8160a97653fc4068bcb4739738edc991ebffc2c2",
+    "date": "2021-02-25T23:26:46+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 20210225)",
+    "changes": "commit 8160a97653fc4068bcb4739738edc991ebffc2c2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Feb 25 23:26:46 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 20210225)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "f392d50c995437a5b43a7c73d63c724318b7bf7f",
+    "date": "2021-02-25T23:28:25+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)",
+    "changes": "commit f392d50c995437a5b43a7c73d63c724318b7bf7f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Feb 25 23:28:25 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "1ff9e594761f94529657a3f41c845ca15c679018",
+    "date": "2021-02-25T23:29:55+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)",
+    "changes": "commit 1ff9e594761f94529657a3f41c845ca15c679018\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Feb 25 23:29:55 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "6701cd1743392e203cc533369eb37b11816d8c9b",
+    "date": "2021-02-25T23:32:01+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)",
+    "changes": "commit 6701cd1743392e203cc533369eb37b11816d8c9b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Feb 25 23:32:01 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "6006f6fb464568ad53790952d90f94bd93bfdc9a",
+    "date": "2021-02-25T23:42:07+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)",
+    "changes": "commit 6006f6fb464568ad53790952d90f94bd93bfdc9a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Feb 25 23:42:07 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "7d0639235184b1e820d21d07316eb64b474125f8",
+    "date": "2021-02-25T23:59:44+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)",
+    "changes": "commit 7d0639235184b1e820d21d07316eb64b474125f8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Feb 25 23:59:44 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210225)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "f5e5addfa678ab38cde344d1393c3f6f59a7e51a",
+    "date": "2021-02-26T11:27:31+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit f5e5addfa678ab38cde344d1393c3f6f59a7e51a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 11:27:31 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "d65d96c2d5522c8a3e43470ae313a6dbcfa38f48",
+    "date": "2021-02-26T11:30:16+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit d65d96c2d5522c8a3e43470ae313a6dbcfa38f48\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 11:30:16 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "f75b2cf87a1d3f1c6add26cbf5f9c45982a10e6c",
+    "date": "2021-02-26T11:40:28+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit f75b2cf87a1d3f1c6add26cbf5f9c45982a10e6c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 11:40:28 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "719b7be80794e93371e18c4192f1d033197214e3",
+    "date": "2021-02-26T11:42:08+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 719b7be80794e93371e18c4192f1d033197214e3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 11:42:08 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "99b2630cd678d84691563e3c7697d64b33d8d9cb",
+    "date": "2021-02-26T11:44:56+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 99b2630cd678d84691563e3c7697d64b33d8d9cb\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 11:44:56 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "2e6a88a4a140eeb1e7d28451b26b258534b1215c",
+    "date": "2021-02-26T11:46:26+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 2e6a88a4a140eeb1e7d28451b26b258534b1215c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 11:46:26 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "16b0b1edbc3b3338a091091b781ea4faf68c8352",
+    "date": "2021-02-26T11:48:29+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 16b0b1edbc3b3338a091091b781ea4faf68c8352\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 11:48:29 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "390d244b56a0b632037752a076787b13c9b10164",
+    "date": "2021-02-26T12:07:09+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 390d244b56a0b632037752a076787b13c9b10164\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:07:09 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "e56fcb43bb9646a2f2ef78f535cf19298e096b29",
+    "date": "2021-02-26T12:09:47+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit e56fcb43bb9646a2f2ef78f535cf19298e096b29\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:09:47 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "9e65fe11baabfa2c7dbdcf77cf4be6e3dd9f1706",
+    "date": "2021-02-26T12:12:53+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 9e65fe11baabfa2c7dbdcf77cf4be6e3dd9f1706\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:12:53 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "9779b4bc7ef852e6b80c7bd34aff88976ce762e0",
+    "date": "2021-02-26T12:20:41+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 9779b4bc7ef852e6b80c7bd34aff88976ce762e0\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:20:41 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "db3f7e6d1fa520a2453a416afef803a397b4768d",
+    "date": "2021-02-26T12:26:32+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit db3f7e6d1fa520a2453a416afef803a397b4768d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:26:32 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "7e6a97244065d79bd796b158193ce03c8572da88",
+    "date": "2021-02-26T12:29:23+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 7e6a97244065d79bd796b158193ce03c8572da88\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:29:23 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "17f13edfd4a7e6fa659f0d8ae07064550adfc2cd",
+    "date": "2021-02-26T12:33:07+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 17f13edfd4a7e6fa659f0d8ae07064550adfc2cd\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:33:07 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "c70a530979184b651611d702fe3686cf2d64a1c6",
+    "date": "2021-02-26T12:35:22+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit c70a530979184b651611d702fe3686cf2d64a1c6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:35:22 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "d3f309276beea4d04a105b68342fdad1c53537e7",
+    "date": "2021-02-26T12:37:32+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit d3f309276beea4d04a105b68342fdad1c53537e7\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:37:32 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "cfd1f5ea2e9151a3bb3d26d852ccdd06c1e81d9b",
+    "date": "2021-02-26T12:44:02+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit cfd1f5ea2e9151a3bb3d26d852ccdd06c1e81d9b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:44:02 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "466cae19060f61e1b7de4105ae77b6532490d6ad",
+    "date": "2021-02-26T12:50:42+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 466cae19060f61e1b7de4105ae77b6532490d6ad\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:50:42 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "d9ffbc58c28a4022794a62f70ee6032ecfe3e979",
+    "date": "2021-02-26T12:55:57+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit d9ffbc58c28a4022794a62f70ee6032ecfe3e979\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:55:57 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "7d8a8736756f55efd5bca8e870f45526f658d14e",
+    "date": "2021-02-26T12:58:59+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 7d8a8736756f55efd5bca8e870f45526f658d14e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 12:58:59 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "88092e00b6974eace2c58c28e6d0ac7b44be172d",
+    "date": "2021-02-26T13:00:51+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit 88092e00b6974eace2c58c28e6d0ac7b44be172d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 13:00:51 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "e7b743acb7cc5e44cd090ed2caa4ba578213742f",
+    "date": "2021-02-26T13:04:41+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit e7b743acb7cc5e44cd090ed2caa4ba578213742f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Fri Feb 26 13:04:41 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "2066410c5fd8aa0d33ce61104c09067e352c66ff",
+    "date": "2021-02-27T19:16:37+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 2066410c5fd8aa0d33ce61104c09067e352c66ff\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:16:37 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "85fc0cabb7a39280f21697768855be9b89a74bd2",
+    "date": "2021-02-27T19:19:13+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 85fc0cabb7a39280f21697768855be9b89a74bd2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:19:13 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "e0c2b13754b6b7b4c9c8977b9c790ded6907c0c5",
+    "date": "2021-02-27T19:22:12+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit e0c2b13754b6b7b4c9c8977b9c790ded6907c0c5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:22:12 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "40379b44afaab1ee9bd8b3b754f8a0edd13ebf50",
+    "date": "2021-02-27T19:23:41+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 40379b44afaab1ee9bd8b3b754f8a0edd13ebf50\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:23:41 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "d87eec60b8a81ffa04daba5bae9bee0bf7bd30c6",
+    "date": "2021-02-27T19:32:39+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit d87eec60b8a81ffa04daba5bae9bee0bf7bd30c6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:32:39 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\taddresses/faq_chatbot.py\nM\tdata/datalog.xlsx\nM\tdata/datalog_heavytest.xlsx\nM\tgit_update.sh\nA\tinstall_mariadb.sh\nA\tinstall_mariadb_connecter.sh\nA\tinstall_postgresql.sh\nA\tmariadb_es_repo_setup\nM\treq_for_setup_server.txt\nM\trestfulapiserver/__pycache__/settings.cpython-38.pyc"
+  },
+  {
+    "sha": "acec8b5f545187292ef274e64445c4586ee51537",
+    "date": "2021-02-27T19:37:00+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit acec8b5f545187292ef274e64445c4586ee51537\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:37:00 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py\nA\tdata/~$datalog.xlsx"
+  },
+  {
+    "sha": "b89e9d1d8c3a8b73eb9814997ab98d0836d95f85",
+    "date": "2021-02-27T19:41:20+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 20210227)",
+    "changes": "commit b89e9d1d8c3a8b73eb9814997ab98d0836d95f85\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:41:20 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 20210227)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "f85befeab07d72995fb36906e9c910ef0fbb3342",
+    "date": "2021-02-27T19:48:38+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit f85befeab07d72995fb36906e9c910ef0fbb3342\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:48:38 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "899986a7d2a9bad509c7742b063978f43feb06ce",
+    "date": "2021-02-27T19:50:22+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 899986a7d2a9bad509c7742b063978f43feb06ce\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:50:22 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "ba7ef0b47834c0a2bf22453a209279eb72922cf8",
+    "date": "2021-02-27T19:52:24+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit ba7ef0b47834c0a2bf22453a209279eb72922cf8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:52:24 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "6e61699d41dcf96aa09945e109cd9098608c8eb8",
+    "date": "2021-02-27T19:53:49+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 6e61699d41dcf96aa09945e109cd9098608c8eb8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 19:53:49 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "45796f86d2a5ef486da510c9fe60c0ce4b1d4e5c",
+    "date": "2021-02-27T20:06:36+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 45796f86d2a5ef486da510c9fe60c0ce4b1d4e5c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:06:36 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "b03cba1f7194ae5cfec574d0fccc42d2924a5be2",
+    "date": "2021-02-27T20:13:07+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit b03cba1f7194ae5cfec574d0fccc42d2924a5be2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:13:07 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "78651edb7cf244499cf98f0125b6a5d3522631b0",
+    "date": "2021-02-27T20:14:34+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 78651edb7cf244499cf98f0125b6a5d3522631b0\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:14:34 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "28a7b4f7020d7883184dc116a275a0573dd31797",
+    "date": "2021-02-27T20:17:13+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 28a7b4f7020d7883184dc116a275a0573dd31797\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:17:13 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "ced5f8acf17535a50189fd94dc897d7f2b405a1c",
+    "date": "2021-02-27T20:19:44+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit ced5f8acf17535a50189fd94dc897d7f2b405a1c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:19:44 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "d4b68482a5e41e4dab915dcd1cd5d1b5225f6ebb",
+    "date": "2021-02-27T20:22:30+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit d4b68482a5e41e4dab915dcd1cd5d1b5225f6ebb\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:22:30 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "27133758a9382260cda5edb09c2dfc9b3816b6c0",
+    "date": "2021-02-27T20:23:49+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 27133758a9382260cda5edb09c2dfc9b3816b6c0\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:23:49 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "48b083ba016a3c59d91889e4f26ab48d73955ec0",
+    "date": "2021-02-27T20:25:21+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 48b083ba016a3c59d91889e4f26ab48d73955ec0\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:25:21 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "fac33002b51d52be742c7898ee82d93f7ed26a4b",
+    "date": "2021-02-27T20:27:17+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit fac33002b51d52be742c7898ee82d93f7ed26a4b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:27:17 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "68321bb9da6b88505f373370189278f7bb865216",
+    "date": "2021-02-27T20:28:37+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 68321bb9da6b88505f373370189278f7bb865216\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:28:37 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "d4b0ba6f99eb515f1f7501a973258d462fbd1af2",
+    "date": "2021-02-27T20:34:00+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit d4b0ba6f99eb515f1f7501a973258d462fbd1af2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:34:00 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "718a62d4c7179f3446c78070a66bedda99dd1232",
+    "date": "2021-02-27T20:35:28+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 718a62d4c7179f3446c78070a66bedda99dd1232\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:35:28 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "59e018157f4cb8ac368bd3a78acc753f406ce4c8",
+    "date": "2021-02-27T20:36:29+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 59e018157f4cb8ac368bd3a78acc753f406ce4c8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:36:29 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "35418e979cda4c637b00a28159893b47058366bb",
+    "date": "2021-02-27T20:37:03+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 35418e979cda4c637b00a28159893b47058366bb\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:37:03 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "3fd382f888688fb903ea583c7ce818461e8f335d",
+    "date": "2021-02-27T20:38:17+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)",
+    "changes": "commit 3fd382f888688fb903ea583c7ce818461e8f335d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 20:38:17 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 테스트 중 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "806dc20b7a77f6e4d7e7fbd51bc9fd75eda6a0b9",
+    "date": "2021-02-27T21:06:23+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 성공 20210227)",
+    "changes": "commit 806dc20b7a77f6e4d7e7fbd51bc9fd75eda6a0b9\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 21:06:23 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 성공 20210227)\n\nM\taddresses/faq_chatbot.py\nD\tdata/~$datalog.xlsx"
+  },
+  {
+    "sha": "23e928e8e14e542663eeb9371d3071f948a03fd0",
+    "date": "2021-02-27T21:18:37+09:00",
+    "message": "챗봇 업데이트 18 (mariadb 연동 성공 (불필요한 코드 정리) 20210227)",
+    "changes": "commit 23e928e8e14e542663eeb9371d3071f948a03fd0\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 21:18:37 2021 +0900\n\n    챗봇 업데이트 18 (mariadb 연동 성공 (불필요한 코드 정리) 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "f7c6455609f4a7b81a175964a0547375fc31baed",
+    "date": "2021-02-27T21:28:16+09:00",
+    "message": "챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)",
+    "changes": "commit f7c6455609f4a7b81a175964a0547375fc31baed\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 21:28:16 2021 +0900\n\n    챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "38234aa328daeae2d636fb17a301b9990cc705ce",
+    "date": "2021-02-27T21:33:13+09:00",
+    "message": "챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)",
+    "changes": "commit 38234aa328daeae2d636fb17a301b9990cc705ce\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 21:33:13 2021 +0900\n\n    챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "4294f8d2f57c1c21e8f0516bf365f2da70f55a8c",
+    "date": "2021-02-27T21:34:40+09:00",
+    "message": "챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)",
+    "changes": "commit 4294f8d2f57c1c21e8f0516bf365f2da70f55a8c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 21:34:40 2021 +0900\n\n    챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "c10d20b40e7582f4a833926c01d038ea92137461",
+    "date": "2021-02-27T21:37:14+09:00",
+    "message": "챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)",
+    "changes": "commit c10d20b40e7582f4a833926c01d038ea92137461\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 21:37:14 2021 +0900\n\n    챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "22ca002a27b440b0e8dfc1d314219f5a90e85d3b",
+    "date": "2021-02-27T21:50:09+09:00",
+    "message": "챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)",
+    "changes": "commit 22ca002a27b440b0e8dfc1d314219f5a90e85d3b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 21:50:09 2021 +0900\n\n    챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "c170735060967630ff84256dd74421e9e494e876",
+    "date": "2021-02-27T21:53:56+09:00",
+    "message": "챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)",
+    "changes": "commit c170735060967630ff84256dd74421e9e494e876\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 21:53:56 2021 +0900\n\n    챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "b7ebe2f3c5412dd04bbae196bcc3f37caaf24492",
+    "date": "2021-02-27T22:00:05+09:00",
+    "message": "챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)",
+    "changes": "commit b7ebe2f3c5412dd04bbae196bcc3f37caaf24492\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 22:00:05 2021 +0900\n\n    챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "b098f258366136c5d4bbee320bc36e9aec159698",
+    "date": "2021-02-27T22:10:36+09:00",
+    "message": "챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)",
+    "changes": "commit b098f258366136c5d4bbee320bc36e9aec159698\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 22:10:36 2021 +0900\n\n    챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "d15611305e1b37f26dab3c624cdfe87e79f6c204",
+    "date": "2021-02-27T22:15:14+09:00",
+    "message": "챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 실패. 일단 보류. 20210227)",
+    "changes": "commit d15611305e1b37f26dab3c624cdfe87e79f6c204\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 22:15:14 2021 +0900\n\n    챗봇 업데이트 19 (유사도 2위까지 답변 출력하기 실패. 일단 보류. 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "c580775545cda383290ca1abd54fec7f0dc6a431",
+    "date": "2021-02-27T22:24:58+09:00",
+    "message": "챗봇 업데이트 20 (사용자 ip 알아내기 테스트 20210227)",
+    "changes": "commit c580775545cda383290ca1abd54fec7f0dc6a431\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 22:24:58 2021 +0900\n\n    챗봇 업데이트 20 (사용자 ip 알아내기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py\nM\taddresses/views.py"
+  },
+  {
+    "sha": "4d96fc22c42b7ff5f7dd3ca971ea8b73a9fc8010",
+    "date": "2021-02-27T22:52:56+09:00",
+    "message": "챗봇 업데이트 20 (사용자 ip 알아내기 테스트 20210227)",
+    "changes": "commit 4d96fc22c42b7ff5f7dd3ca971ea8b73a9fc8010\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 22:52:56 2021 +0900\n\n    챗봇 업데이트 20 (사용자 ip 알아내기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py\nM\taddresses/views.py"
+  },
+  {
+    "sha": "5c1e7519b6be61867f715d85401db42c5536ff5e",
+    "date": "2021-02-27T22:55:51+09:00",
+    "message": "챗봇 업데이트 20 (사용자 ip 알아내기 테스트 20210227)",
+    "changes": "commit 5c1e7519b6be61867f715d85401db42c5536ff5e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 22:55:51 2021 +0900\n\n    챗봇 업데이트 20 (사용자 ip 알아내기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "e7c83ca68d4fc5c89fe7d77e27236af573ab8e2d",
+    "date": "2021-02-27T23:08:39+09:00",
+    "message": "챗봇 업데이트 20 (사용자 ip 알아내기 테스트 20210227)",
+    "changes": "commit e7c83ca68d4fc5c89fe7d77e27236af573ab8e2d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 23:08:39 2021 +0900\n\n    챗봇 업데이트 20 (사용자 ip 알아내기 테스트 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "0b77719523ab4cab4dbb778fe689d2e56d454e65",
+    "date": "2021-02-27T23:16:52+09:00",
+    "message": "챗봇 업데이트 20 (사용자 ip 알아내기 가능해짐 20210227)",
+    "changes": "commit 0b77719523ab4cab4dbb778fe689d2e56d454e65\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 23:16:52 2021 +0900\n\n    챗봇 업데이트 20 (사용자 ip 알아내기 가능해짐 20210227)\n\nM\taddresses/views.py"
+  },
+  {
+    "sha": "dec8c3f9969b069ff2c24fb4ea303ea8b5bd01f6",
+    "date": "2021-02-27T23:19:49+09:00",
+    "message": "챗봇 업데이트 20 (사용자 ip 알아내기 가능해짐 20210227)",
+    "changes": "commit dec8c3f9969b069ff2c24fb4ea303ea8b5bd01f6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 23:19:49 2021 +0900\n\n    챗봇 업데이트 20 (사용자 ip 알아내기 가능해짐 20210227)\n\nM\taddresses/faq_chatbot.py"
+  },
+  {
+    "sha": "6a3df15d053984f11ff6c49867409bfbf3050d47",
+    "date": "2021-02-27T23:39:56+09:00",
+    "message": "챗봇 업데이트 20 (사용자 ip 알아내기 가능해짐 20210227)",
+    "changes": "commit 6a3df15d053984f11ff6c49867409bfbf3050d47\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Feb 27 23:39:56 2021 +0900\n\n    챗봇 업데이트 20 (사용자 ip 알아내기 가능해짐 20210227)\n\nM\treq_for_setup_server.txt"
+  },
+  {
+    "sha": "e3bf713eb979369876044939539701249ec7c58f",
+    "date": "2021-02-28T23:00:58+09:00",
+    "message": "챗봇 업데이트 21 (meta viewport 넣음 20210228)",
+    "changes": "commit e3bf713eb979369876044939539701249ec7c58f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 28 23:00:58 2021 +0900\n\n    챗봇 업데이트 21 (meta viewport 넣음 20210228)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "98d2c8e3b8767584208e44962f10ec44c5830ec3",
+    "date": "2021-02-28T23:03:08+09:00",
+    "message": "챗봇 업데이트 21 (meta viewport 넣음 20210228)",
+    "changes": "commit 98d2c8e3b8767584208e44962f10ec44c5830ec3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 28 23:03:08 2021 +0900\n\n    챗봇 업데이트 21 (meta viewport 넣음 20210228)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "aaaba1c015399da2e1df7cb3153780dde6a4cd4e",
+    "date": "2021-02-28T23:24:51+09:00",
+    "message": "챗봇 업데이트 21 (meta viewport 넣음 20210228)",
+    "changes": "commit aaaba1c015399da2e1df7cb3153780dde6a4cd4e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 28 23:24:51 2021 +0900\n\n    챗봇 업데이트 21 (meta viewport 넣음 20210228)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "8721ac74aa5c55900a5fa13548d9c5ff0a4ef25a",
+    "date": "2021-02-28T23:28:43+09:00",
+    "message": "챗봇 업데이트 21 (meta viewport 넣음 20210228)",
+    "changes": "commit 8721ac74aa5c55900a5fa13548d9c5ff0a4ef25a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 28 23:28:43 2021 +0900\n\n    챗봇 업데이트 21 (meta viewport 넣음 20210228)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "c6a315a40f6fa9e7e571c44594a82ea47cb489fd",
+    "date": "2021-02-28T23:32:43+09:00",
+    "message": "챗봇 업데이트 21 (meta viewport 넣음 20210228)",
+    "changes": "commit c6a315a40f6fa9e7e571c44594a82ea47cb489fd\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 28 23:32:43 2021 +0900\n\n    챗봇 업데이트 21 (meta viewport 넣음 20210228)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "362b87daac096df3ecc5f3ca726bf837bedfa777",
+    "date": "2021-02-28T23:37:17+09:00",
+    "message": "챗봇 업데이트 21 (meta viewport 넣음 20210228)",
+    "changes": "commit 362b87daac096df3ecc5f3ca726bf837bedfa777\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 28 23:37:17 2021 +0900\n\n    챗봇 업데이트 21 (meta viewport 넣음 20210228)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "ebebd5daa0dd6cf95af0ac9b81009a13fb852ee2",
+    "date": "2021-02-28T23:48:56+09:00",
+    "message": "챗봇 업데이트 21 (meta viewport 넣음 20210228)",
+    "changes": "commit ebebd5daa0dd6cf95af0ac9b81009a13fb852ee2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 28 23:48:56 2021 +0900\n\n    챗봇 업데이트 21 (meta viewport 넣음 20210228)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "7add2e5bf0b546e98f1add5df6310e59292a3dcb",
+    "date": "2021-02-28T23:53:41+09:00",
+    "message": "챗봇 업데이트 21 (meta viewport 넣음 20210228)",
+    "changes": "commit 7add2e5bf0b546e98f1add5df6310e59292a3dcb\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Feb 28 23:53:41 2021 +0900\n\n    챗봇 업데이트 21 (meta viewport 넣음 20210228)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "ce0672d170821a3c24195310e59f651aec304f04",
+    "date": "2021-03-01T17:23:57+09:00",
+    "message": "챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)",
+    "changes": "commit ce0672d170821a3c24195310e59f651aec304f04\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Mar 1 17:23:57 2021 +0900\n\n    챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "3ef406b471019e96e98b2a0503da28451c4bbb56",
+    "date": "2021-03-01T17:30:02+09:00",
+    "message": "챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)",
+    "changes": "commit 3ef406b471019e96e98b2a0503da28451c4bbb56\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Mar 1 17:30:02 2021 +0900\n\n    챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "c4bc31fea8d095c16e8e6cf7de61303a87587133",
+    "date": "2021-03-01T17:40:11+09:00",
+    "message": "챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)",
+    "changes": "commit c4bc31fea8d095c16e8e6cf7de61303a87587133\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Mar 1 17:40:11 2021 +0900\n\n    챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "c36196362e449bcb73c2acad7cca05f0af281b9f",
+    "date": "2021-03-01T17:45:35+09:00",
+    "message": "챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)",
+    "changes": "commit c36196362e449bcb73c2acad7cca05f0af281b9f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Mar 1 17:45:35 2021 +0900\n\n    챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "4ca15e96d80112ac58da1a780c0d7890319ceabf",
+    "date": "2021-03-01T17:47:02+09:00",
+    "message": "챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)",
+    "changes": "commit 4ca15e96d80112ac58da1a780c0d7890319ceabf\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Mar 1 17:47:02 2021 +0900\n\n    챗봇 업데이트 20 (반응형 웹페이지 테스트 20210301)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "aac8134aa1180eed98ef12c2eea8d522ada0ce7a",
+    "date": "2021-03-01T17:48:45+09:00",
+    "message": "챗봇 업데이트 20 (반응형 웹페이지 얼추 완성함 20210301)",
+    "changes": "commit aac8134aa1180eed98ef12c2eea8d522ada0ce7a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Mar 1 17:48:45 2021 +0900\n\n    챗봇 업데이트 20 (반응형 웹페이지 얼추 완성함 20210301)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "9a8e9e430ec4014d1d0508e8d5ecb431a1ba30f7",
+    "date": "2021-03-01T17:57:01+09:00",
+    "message": "챗봇 업데이트 20 (반응형 웹페이지 얼추 완성함 20210301)",
+    "changes": "commit 9a8e9e430ec4014d1d0508e8d5ecb431a1ba30f7\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Mar 1 17:57:01 2021 +0900\n\n    챗봇 업데이트 20 (반응형 웹페이지 얼추 완성함 20210301)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "bbd36346db70b52fa7cdbfc70e0160f473d0167c",
+    "date": "2021-03-01T18:27:34+09:00",
+    "message": "챗봇 업데이트 20 (반응형 웹페이지 얼추 완성함 20210301)",
+    "changes": "commit bbd36346db70b52fa7cdbfc70e0160f473d0167c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Mar 1 18:27:34 2021 +0900\n\n    챗봇 업데이트 20 (반응형 웹페이지 얼추 완성함 20210301)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "93211fb69cb33717b80eef66ce09a8406651da49",
+    "date": "2021-03-07T19:49:30+09:00",
+    "message": "챗봇 업데이트 22 (개발환경 생김 20210307)",
+    "changes": "commit 93211fb69cb33717b80eef66ce09a8406651da49\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Mar 7 19:49:30 2021 +0900\n\n    챗봇 업데이트 22 (개발환경 생김 20210307)\n\nM\taddresses/faq_chatbot.py\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "3a975f52c63e4bd5cb1cbd9712caec04dcd3d51e",
+    "date": "2021-03-07T20:04:20+09:00",
+    "message": "챗봇 업데이트 22 (개발환경 생김 20210307)",
+    "changes": "commit 3a975f52c63e4bd5cb1cbd9712caec04dcd3d51e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Mar 7 20:04:20 2021 +0900\n\n    챗봇 업데이트 22 (개발환경 생김 20210307)\n\nM\ttemplates/addresses/chat_service.html\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "36177f365700502a73299afa7521db673a95d32c",
+    "date": "2021-03-07T23:35:31+09:00",
+    "message": "챗봇 업데이트 23 (ui 변경 20210307)",
+    "changes": "commit 36177f365700502a73299afa7521db673a95d32c\nAuthor: jongwon <cjw0515@naver.com>\nDate:   Sun Mar 7 23:35:31 2021 +0900\n\n    챗봇 업데이트 23 (ui 변경 20210307)\n\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "be32aa6b10bc50af7d2efaf9303cb2c1b78b5ef6",
+    "date": "2021-03-14T16:24:55+09:00",
+    "message": "챗봇 업데이트 22 (개발환경 생김 20210307)",
+    "changes": "commit be32aa6b10bc50af7d2efaf9303cb2c1b78b5ef6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Mar 14 16:24:55 2021 +0900\n\n    챗봇 업데이트 22 (개발환경 생김 20210307)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "551823531f488b0535b4dc5926e0a662267f11e5",
+    "date": "2021-03-14T22:02:29+09:00",
+    "message": "챗봇 업데이트 23 (질문답변 데이터 업데이트 20210314)",
+    "changes": "commit 551823531f488b0535b4dc5926e0a662267f11e5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Mar 14 22:02:29 2021 +0900\n\n    챗봇 업데이트 23 (질문답변 데이터 업데이트 20210314)\n\nM\taddresses/faq_chatbot.py\nA\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "83d4d0b82642e1aaaa6dcbec220abcee764aa073",
+    "date": "2021-03-23T13:07:50+09:00",
+    "message": "챗봇 업데이트 23 (질문답변 데이터 업데이트 20210323)",
+    "changes": "commit 83d4d0b82642e1aaaa6dcbec220abcee764aa073\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Mar 23 13:07:50 2021 +0900\n\n    챗봇 업데이트 23 (질문답변 데이터 업데이트 20210323)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "190f987c2d27695f5c886b8a961f9fc5188c59b2",
+    "date": "2021-04-05T21:52:24+09:00",
+    "message": "챗봇 업데이트 24 (질문답변 데이터 업데이트 20210405, 토크나이즈 시 일반부사 추가)",
+    "changes": "commit 190f987c2d27695f5c886b8a961f9fc5188c59b2\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Apr 5 21:52:24 2021 +0900\n\n    챗봇 업데이트 24 (질문답변 데이터 업데이트 20210405, 토크나이즈 시 일반부사 추가)\n\nM\taddresses/faq_chatbot.py\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "5eb9401abe502d2d06845a18a0268ccbfe1365ea",
+    "date": "2021-04-05T21:53:06+09:00",
+    "message": "Merge remote-tracking branch 'origin/master'\n\n# Conflicts:\n#\tdata/df2_20210314_edited.xlsx\n#\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model",
+    "changes": "commit 5eb9401abe502d2d06845a18a0268ccbfe1365ea\nMerge: 190f987 83d4d0b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Apr 5 21:53:06 2021 +0900\n\n    Merge remote-tracking branch 'origin/master'\n    \n    # Conflicts:\n    #       data/df2_20210314_edited.xlsx\n    #       model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "d5a2da52e7c84ac52f9a071317bc65d002c6bb0a",
+    "date": "2021-04-05T22:05:21+09:00",
+    "message": "챗봇 업데이트 24 (restart_restfulapiserver.sh 실행파일 추가 업데이트)",
+    "changes": "commit d5a2da52e7c84ac52f9a071317bc65d002c6bb0a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Apr 5 22:05:21 2021 +0900\n\n    챗봇 업데이트 24 (restart_restfulapiserver.sh 실행파일 추가 업데이트)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\taddresses/__pycache__/views.cpython-38.pyc\nM\tgit_update.sh\nA\trestart_restfulapiserver.sh"
+  },
+  {
+    "sha": "31acf9d69bd150e84db8b372be27c79a101a9c2e",
+    "date": "2021-04-26T23:02:23+09:00",
+    "message": "챗봇 업데이트 25 (질문답변 데이터 업데이트 20210426, 지구온난화 글쓰기 관련 내용 120개 업데이트)",
+    "changes": "commit 31acf9d69bd150e84db8b372be27c79a101a9c2e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Apr 26 23:02:23 2021 +0900\n\n    챗봇 업데이트 25 (질문답변 데이터 업데이트 20210426, 지구온난화 글쓰기 관련 내용 120개 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "267cfb3541fd89cef5125e2f201092d5a5e9f8e3",
+    "date": "2021-04-26T23:03:44+09:00",
+    "message": "챗봇 업데이트 25 (질문답변 데이터 업데이트 20210426, 지구온난화 글쓰기 관련 내용 120개 업데이트)",
+    "changes": "commit 267cfb3541fd89cef5125e2f201092d5a5e9f8e3\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon Apr 26 23:03:44 2021 +0900\n\n    챗봇 업데이트 25 (질문답변 데이터 업데이트 20210426, 지구온난화 글쓰기 관련 내용 120개 업데이트)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "eb6630b31f7b21cebee29e1ac58d668ad5dce095",
+    "date": "2021-05-06T11:55:54+09:00",
+    "message": "챗봇 업데이트 26 (수업 중 나온 질문 질문답변 2개만 업데이트)",
+    "changes": "commit eb6630b31f7b21cebee29e1ac58d668ad5dce095\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu May 6 11:55:54 2021 +0900\n\n    챗봇 업데이트 26 (수업 중 나온 질문 질문답변 2개만 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx"
+  },
+  {
+    "sha": "6ef581a18c4a605e412c5fc308beaec6e3040638",
+    "date": "2021-05-23T14:09:29+09:00",
+    "message": "챗봇 업데이트 27 (설치파일 패키지 수정)",
+    "changes": "commit 6ef581a18c4a605e412c5fc308beaec6e3040638\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun May 23 14:09:29 2021 +0900\n\n    챗봇 업데이트 27 (설치파일 패키지 수정)\n\nM\treq_for_setup_server.txt"
+  },
+  {
+    "sha": "2815a57afbdcbe26b4cbbadce5295a2c3ba4116a",
+    "date": "2021-05-23T14:59:30+09:00",
+    "message": "챗봇 업데이트 27 (설치파일 패키지 수정)",
+    "changes": "commit 2815a57afbdcbe26b4cbbadce5295a2c3ba4116a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun May 23 14:59:30 2021 +0900\n\n    챗봇 업데이트 27 (설치파일 패키지 수정)\n\nR056\topen_port_8000.sh\topen_ports.sh"
+  },
+  {
+    "sha": "fe970f0354197ce941fe9633d9b8d6ad2ae51cbe",
+    "date": "2021-05-23T17:12:19+09:00",
+    "message": "챗봇 업데이트 27 (설치파일 패키지 수정)",
+    "changes": "commit fe970f0354197ce941fe9633d9b8d6ad2ae51cbe\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun May 23 17:12:19 2021 +0900\n\n    챗봇 업데이트 27 (설치파일 패키지 수정)\n\nM\treq_for_setup_server.txt\nA\tset_locale.sh\nA\tset_time.sh"
+  },
+  {
+    "sha": "352509fd26e641d4427e6b32bf5bbe2ddf09f982",
+    "date": "2021-05-23T18:25:54+09:00",
+    "message": "챗봇 업데이트 27 (설치파일 패키지 수정)",
+    "changes": "commit 352509fd26e641d4427e6b32bf5bbe2ddf09f982\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun May 23 18:25:54 2021 +0900\n\n    챗봇 업데이트 27 (설치파일 패키지 수정)\n\nR100\tcopy_system_files/restfulapiservice\tcopy_system_files/restfulapiserver\nM\treq_for_setup_server.txt"
+  },
+  {
+    "sha": "c9b51612601a2e3810c17c21f2524f27fa1b993d",
+    "date": "2021-05-23T21:01:14+09:00",
+    "message": "챗봇 업데이트 27 (설치파일 패키지 수정)",
+    "changes": "commit c9b51612601a2e3810c17c21f2524f27fa1b993d\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun May 23 21:01:14 2021 +0900\n\n    챗봇 업데이트 27 (설치파일 패키지 수정)\n\nM\tcopy_system_files/restfulapiserver.service\nM\treq_for_setup_server.txt"
+  },
+  {
+    "sha": "c31d4a0bdb5af7362a92b43a732285a638c957dc",
+    "date": "2021-05-27T09:05:45+09:00",
+    "message": "챗봇 업데이트 27 (설치파일 패키지 수정)",
+    "changes": "commit c31d4a0bdb5af7362a92b43a732285a638c957dc\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu May 27 09:05:45 2021 +0900\n\n    챗봇 업데이트 27 (설치파일 패키지 수정)\n\nM\treq_for_setup_server.txt"
+  },
+  {
+    "sha": "c072e7bb46d84730d8f587072252367fea9b489f",
+    "date": "2021-05-27T09:06:59+09:00",
+    "message": "챗봇 업데이트 27 (설치파일 패키지 수정)",
+    "changes": "commit c072e7bb46d84730d8f587072252367fea9b489f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu May 27 09:06:59 2021 +0900\n\n    챗봇 업데이트 27 (설치파일 패키지 수정)\n\nM\treq_for_setup_server.txt"
+  },
+  {
+    "sha": "dc8d84e45a58f0c1ad2f587ee1d41bccf5499fe0",
+    "date": "2021-05-27T19:19:54+09:00",
+    "message": "챗봇 업데이트 27 (챗봇 업데이트 27 (설치파일 패키지 수정)",
+    "changes": "commit dc8d84e45a58f0c1ad2f587ee1d41bccf5499fe0\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu May 27 19:19:54 2021 +0900\n\n    챗봇 업데이트 27 (챗봇 업데이트 27 (설치파일 패키지 수정)\n\nM\tgit_update.sh\nM\tset_locale.sh"
+  },
+  {
+    "sha": "b922b82d80bcb7b94e2c134a2824ecbe20601e62",
+    "date": "2021-05-31T13:32:19+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210531)",
+    "changes": "commit b922b82d80bcb7b94e2c134a2824ecbe20601e62\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon May 31 13:32:19 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210531)\n\nM\tdata/df2_20210314_edited.xlsx"
+  },
+  {
+    "sha": "f48595bd0f8463773ce5c882fe77bedb9abed7ff",
+    "date": "2021-05-31T13:33:24+09:00",
+    "message": "Merge remote-tracking branch 'origin/master'",
+    "changes": "commit f48595bd0f8463773ce5c882fe77bedb9abed7ff\nMerge: b922b82 dc8d84e\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon May 31 13:33:24 2021 +0900\n\n    Merge remote-tracking branch 'origin/master'"
+  },
+  {
+    "sha": "afb99cc1daa58ef977c88b6d1992a3247265b983",
+    "date": "2021-05-31T16:24:20+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210531, 임베딩 시 일반부사 다시 제외함)",
+    "changes": "commit afb99cc1daa58ef977c88b6d1992a3247265b983\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Mon May 31 16:24:20 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210531, 임베딩 시 일반부사 다시 제외함)\n\nM\taddresses/faq_chatbot.py\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "f2e5c1cc63b0feb77a1da989ad31520e56dfaa75",
+    "date": "2021-06-01T12:11:04+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210601, 시험범위 업데이트)",
+    "changes": "commit f2e5c1cc63b0feb77a1da989ad31520e56dfaa75\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Jun 1 12:11:04 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210601, 시험범위 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "924e79176e8d786eab0f5fc89cbd4d33125e0be1",
+    "date": "2021-06-01T12:12:07+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210601, 시험범위 업데이트)",
+    "changes": "commit 924e79176e8d786eab0f5fc89cbd4d33125e0be1\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Jun 1 12:12:07 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210601, 시험범위 업데이트)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "4bd526ac00b316d46f1f99527c481fde6a00cd7b",
+    "date": "2021-06-02T23:20:55+09:00",
+    "message": "챗봇 업데이트 28 (질문답변 데이터 업데이트 20210602. 질문 50개 업데이트)",
+    "changes": "commit 4bd526ac00b316d46f1f99527c481fde6a00cd7b\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Jun 2 23:20:55 2021 +0900\n\n    챗봇 업데이트 28 (질문답변 데이터 업데이트 20210602. 질문 50개 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "abf7ac441307b3424c16753d29cdff0d28c95b1a",
+    "date": "2021-06-03T09:03:32+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210603, 질문 12개 추가)",
+    "changes": "commit abf7ac441307b3424c16753d29cdff0d28c95b1a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jun 3 09:03:32 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210603, 질문 12개 추가)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "c1cab4017d1ead860e02a6c6d5d5ec1908c35d08",
+    "date": "2021-06-03T09:03:38+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210603, 질문 12개 추가)",
+    "changes": "commit c1cab4017d1ead860e02a6c6d5d5ec1908c35d08\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jun 3 09:03:38 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210603, 질문 12개 추가)\n\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "2c3680e53565274b9304ecf00795a36043cb1763",
+    "date": "2021-06-03T09:07:36+09:00",
+    "message": "챗봇 업데이트 29 (20210603 서버에서 업데이트 다운로드하고 서비스 재실행하는 작업 스크립트화)",
+    "changes": "commit 2c3680e53565274b9304ecf00795a36043cb1763\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jun 3 09:07:36 2021 +0900\n\n    챗봇 업데이트 29 (20210603 서버에서 업데이트 다운로드하고 서비스 재실행하는 작업 스크립트화)\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nA\tdownload_updates.sh\nM\tgit_update.sh\nD\trestart_restfulapiserver.sh"
+  },
+  {
+    "sha": "62f8c95a8c0dee53d16c1bf0c39bc940da8a96d8",
+    "date": "2021-06-03T21:04:35+09:00",
+    "message": "챗봇 업데이트 28 (질문답변 데이터 업데이트 20210602. 질문 50개 업데이트)",
+    "changes": "commit 62f8c95a8c0dee53d16c1bf0c39bc940da8a96d8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jun 3 21:04:35 2021 +0900\n\n    챗봇 업데이트 28 (질문답변 데이터 업데이트 20210602. 질문 50개 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx"
+  },
+  {
+    "sha": "3abb0004af786c24a08ed702d7ced57c6c52fd4f",
+    "date": "2021-06-09T15:38:08+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210609, 시험범위 업데이트)",
+    "changes": "commit 3abb0004af786c24a08ed702d7ced57c6c52fd4f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Jun 9 15:38:08 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210609, 시험범위 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx"
+  },
+  {
+    "sha": "246c1448ea9c901620a1ad574fbee857e8766cba",
+    "date": "2021-06-10T20:45:39+09:00",
+    "message": "챗봇 업데이트 28 (질문 추가 업데이트 20210610)",
+    "changes": "commit 246c1448ea9c901620a1ad574fbee857e8766cba\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jun 10 20:45:39 2021 +0900\n\n    챗봇 업데이트 28 (질문 추가 업데이트 20210610)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "297ee2741a9a359ece679aa2dfde0615d7067aaf",
+    "date": "2021-06-10T20:59:01+09:00",
+    "message": "챗봇 업데이트 28 (질문 추가 업데이트 20210610)",
+    "changes": "commit 297ee2741a9a359ece679aa2dfde0615d7067aaf\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jun 10 20:59:01 2021 +0900\n\n    챗봇 업데이트 28 (질문 추가 업데이트 20210610)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "1bcae7c29f54d17582917e3d10be2c5ca3e1968f",
+    "date": "2021-06-12T20:17:44+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210612, 데이터 업데이트)",
+    "changes": "commit 1bcae7c29f54d17582917e3d10be2c5ca3e1968f\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jun 12 20:17:44 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210612, 데이터 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "86f1f164e811b00b3537def164aba269360ba3d4",
+    "date": "2021-06-12T20:31:16+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210612, 데이터 업데이트)",
+    "changes": "commit 86f1f164e811b00b3537def164aba269360ba3d4\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jun 12 20:31:16 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210612, 데이터 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "e5831146f54bffbc6fdc951fc8343208cbb02be8",
+    "date": "2021-06-13T21:19:13+09:00",
+    "message": "챗봇 업데이트 28 (질문답변 데이터 업데이트 20210613. 질문 업데이트)",
+    "changes": "commit e5831146f54bffbc6fdc951fc8343208cbb02be8\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jun 13 21:19:13 2021 +0900\n\n    챗봇 업데이트 28 (질문답변 데이터 업데이트 20210613. 질문 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "22c6202987a1bc86c8abf00d315c9a346d92e2dc",
+    "date": "2021-06-13T21:20:37+09:00",
+    "message": "Merge remote-tracking branch 'origin/master'\n\n# Conflicts:\n#\tdata/df2_20210314_edited.xlsx\n#\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model",
+    "changes": "commit 22c6202987a1bc86c8abf00d315c9a346d92e2dc\nMerge: e583114 86f1f16\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jun 13 21:20:37 2021 +0900\n\n    Merge remote-tracking branch 'origin/master'\n    \n    # Conflicts:\n    #       data/df2_20210314_edited.xlsx\n    #       model/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "541e0bd732e82247f8737dfd8e37dd86c4c74a78",
+    "date": "2021-06-13T21:26:19+09:00",
+    "message": "챗봇 업데이트 28 (질문답변 데이터 업데이트 20210613. 학생이 카카오톡으로 한 질문 업데이트)",
+    "changes": "commit 541e0bd732e82247f8737dfd8e37dd86c4c74a78\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jun 13 21:26:19 2021 +0900\n\n    챗봇 업데이트 28 (질문답변 데이터 업데이트 20210613. 학생이 카카오톡으로 한 질문 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model"
+  },
+  {
+    "sha": "4564ab7a87369e3eee75cab738892be1f462987c",
+    "date": "2021-06-13T21:48:03+09:00",
+    "message": "챗봇 업데이트 28 (질문답변 데이터 업데이트 20210613. 학생이 카카오톡으로 한 질문 업데이트)",
+    "changes": "commit 4564ab7a87369e3eee75cab738892be1f462987c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jun 13 21:48:03 2021 +0900\n\n    챗봇 업데이트 28 (질문답변 데이터 업데이트 20210613. 학생이 카카오톡으로 한 질문 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "57b593437394387ac2ef02c2daed4574842342e5",
+    "date": "2021-06-17T09:04:12+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210617, 데이터 업데이트)",
+    "changes": "commit 57b593437394387ac2ef02c2daed4574842342e5\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Thu Jun 17 09:04:12 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210617, 데이터 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "531e60ce9304df5adf98cbeee6c6da9ae6b6ac05",
+    "date": "2021-06-20T20:26:43+09:00",
+    "message": "챗봇 업데이트 28 (질문 업데이트 20210620, 데이터 업데이트)",
+    "changes": "commit 531e60ce9304df5adf98cbeee6c6da9ae6b6ac05\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sun Jun 20 20:26:43 2021 +0900\n\n    챗봇 업데이트 28 (질문 업데이트 20210620, 데이터 업데이트)\n\nM\tdata/df2_20210314_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_service.html"
+  },
+  {
+    "sha": "7da0afdab05eba5f2d1f23d2b7093088d388ac06",
+    "date": "2021-08-03T15:47:08+09:00",
+    "message": "챗봇 업데이트 29 (질문-답변 세트 분류작업함 20210803)",
+    "changes": "commit 7da0afdab05eba5f2d1f23d2b7093088d388ac06\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Aug 3 15:47:08 2021 +0900\n\n    챗봇 업데이트 29 (질문-답변 세트 분류작업함 20210803)\n\nM\tdata/df2_20210314_edited.xlsx"
+  },
+  {
+    "sha": "7882ac67c6507769f5626c228d316d04a20f4557",
+    "date": "2021-08-03T15:48:05+09:00",
+    "message": "Merge remote-tracking branch 'origin/master'\n\n# Conflicts:\n#\tdata/df2_20210314_edited.xlsx",
+    "changes": "commit 7882ac67c6507769f5626c228d316d04a20f4557\nMerge: 7da0afd 531e60c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Tue Aug 3 15:48:05 2021 +0900\n\n    Merge remote-tracking branch 'origin/master'\n    \n    # Conflicts:\n    #       data/df2_20210314_edited.xlsx"
+  },
+  {
+    "sha": "ba370432084f39ba4bb68d242e4ee4a418f9f841",
+    "date": "2022-07-09T19:58:16+09:00",
+    "message": "EBS 데이터 1940번까지 손보고 있음. 20220709",
+    "changes": "commit ba370432084f39ba4bb68d242e4ee4a418f9f841\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jul 9 19:58:16 2022 +0900\n\n    EBS 데이터 1940번까지 손보고 있음. 20220709\n\nM\taddresses/faq_chatbot.py\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_service.html\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "77b214f13503e24c2622f2a035f9c1fb2b4a11a6",
+    "date": "2022-07-09T21:26:44+09:00",
+    "message": "EBS 데이터 1940번까지 손보고 있음. 20220709",
+    "changes": "commit 77b214f13503e24c2622f2a035f9c1fb2b4a11a6\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jul 9 21:26:44 2022 +0900\n\n    EBS 데이터 1940번까지 손보고 있음. 20220709\n\nA\t\"data/df2_20210314_edited_\\354\\234\\240\\354\\240\\225\\355\\231\\224\\354\\203\\230\\352\\263\\274\\352\\260\\231\\354\\235\\264.xlsx\"\nA\tdata/df2_20220709_edited.xlsx"
+  },
+  {
+    "sha": "af8efaec0b94f58c155c4cec75a9f1b906b0f26a",
+    "date": "2022-07-09T22:05:20+09:00",
+    "message": "답변에서 작은 따옴표(')가 있을 때 오류나는 것 같아서 없애보고 업데이트. 20220709",
+    "changes": "commit af8efaec0b94f58c155c4cec75a9f1b906b0f26a\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Sat Jul 9 22:05:20 2022 +0900\n\n    답변에서 작은 따옴표(')가 있을 때 오류나는 것 같아서 없애보고 업데이트. 20220709\n\nM\tdata/df2_20220709_edited.xlsx\nM\tmodel/d2v_faqs_size200_min5_epoch20_ebs_science_qna.model\nM\ttemplates/addresses/chat_test.html"
+  },
+  {
+    "sha": "bef6f4e2b8ee1fea3503aa0b6de320e9d2b8709c",
+    "date": "2022-12-28T20:43:45+09:00",
+    "message": "SSL 인증서 받고 https 적용 20221228",
+    "changes": "commit bef6f4e2b8ee1fea3503aa0b6de320e9d2b8709c\nAuthor: kungmo <kungmo@gmail.com>\nDate:   Wed Dec 28 20:43:45 2022 +0900\n\n    SSL 인증서 받고 https 적용 20221228\n\nM\taddresses/__pycache__/faq_chatbot.cpython-38.pyc\nM\tcopy_system_files/restfulapiserver\nM\tcopy_system_files/restfulapiserver.service\nM\tgit_update.sh\nM\ttemplates/addresses/chat_service.html"
+  }
+]

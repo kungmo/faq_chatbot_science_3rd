@@ -1,10 +1,12 @@
-from django.conf.urls import url, include
+from django.conf import settings
+from django.urls import include, re_path
 from addresses import views
 from django.urls import path
+from django.views.generic import TemplateView
 from django.contrib import admin
 from django.contrib.staticfiles.storage import staticfiles_storage
 from django.views.generic.base import RedirectView
-
+from django.views.static import serve
 
 urlpatterns = [
     path('addresses/', views.address_list),
