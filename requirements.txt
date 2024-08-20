@@ -49,7 +49,7 @@ multidict==6.0.4
 multiprocess==0.70.15
 nest-asyncio==1.5.8
 networkx==3.2.1
-nltk==3.8.1
+nltk==3.9
 numpy==1.26.3
 oauthlib==3.2.2
 onnx==1.15.0
